@@ -1,0 +1,2168 @@
+{
+  "timestamp": "2025-01-13T05:39:11.891880",
+  "search_keyword": "lakers",
+  "count": 60,
+  "next_cursor": "NDAwMA==",
+  "markets": [
+    {
+      "condition_id": "0x4b53517d3a94a41d22701e4e45145f3681fa2ba1cf7cc42fc78b2914919d0193",
+      "question_id": "0x6a194fa7b242c625366c6b73200d5891d1cb35b9326a46f30218d9fddf370e0c",
+      "description": "In the upcoming NBA game, scheduled for October 30, 10:30 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Orlando Magic win, the market will resolve to \u201cMagic\u201d.\n\n If the game is not completed by November 6, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Lakers vs. Magic",
+      "market_slug": "nba-lal-orl-2023-10-30",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-10-30T00:00:00Z",
+        "game_start_time": "2023-10-31T02:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "52735565346953457692406555012459260293599328937358301361249195278161346219194",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "61463603431688711081280218360150772498893741192907074490664510104907062227700",
+          "outcome": "Magic",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x342097dfa04f33575a06b0f0a358a027ad02f7228ee32a62729cfc5808207320",
+      "question_id": "0x2bff330911b661e06fc81c0e56c31116a8c0da4bc6f95a74bc19ca2c99bfbdbc",
+      "description": "In the upcoming NBA game, scheduled for October 24, 7:30 PM ET:\n\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by October 31, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Nuggets vs. Lakers",
+      "market_slug": "nba-den-lal-2023-10-24",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-10-24T00:00:00Z",
+        "game_start_time": "2023-10-24T23:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "106744629770015456158555512064080220871528895047622203964026475401263251723189",
+          "outcome": "Nuggets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "53883448108885086855362970721717469675308104325961347461052104602753765297290",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x10131fe96c4719a80e47ac852d70eefddcfb6329e95279cca3702337aa4cdbd2",
+      "question_id": "0xc64222a7b273fea5cb86ed28884c662731d59743a6ec09e29fd1913472dba834",
+      "description": "In the upcoming NBA game, scheduled for October 29, 9:00 PM ET:\n\nIf the Sacramento Kings win, the market will resolve to \u201cKings\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by November 5, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Kings vs. Lakers",
+      "market_slug": "nba-sac-lal-2023-10-29",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-10-29T00:00:00Z",
+        "game_start_time": "2023-10-30T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "78093440184022388213098990806874107238669480124576806647919698318318487534940",
+          "outcome": "Kings",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "87971193770350659157379925379012344723898389418579491582886900680299775153923",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x51333c9402cb5f56d6a8180c991a99a31224851bcf902639f4997fa97677bcbd",
+      "question_id": "0x032f6f6257163c90b4b147c817b82b0a6fcbe5275aeef972a6c8b8270bcb7292",
+      "description": "In the upcoming NBA game, scheduled for October 26, 10:00 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Phoenix Suns win, the market will resolve to \u201cSuns\u201d.\n\n If the game is not completed by November 2, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Lakers vs. Suns",
+      "market_slug": "nba-lal-phx-2023-10-26",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-10-26T00:00:00Z",
+        "game_start_time": "2023-10-27T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "6259743352530943135817041701820709529039815393933154793687111187866814293377",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "21266799824843552875069842622310921961959173198336309734654622838526887392719",
+          "outcome": "Suns",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x49e8b346effe30e4231361191029d706dafda8f813477c05ee0906fe46eac94b",
+      "question_id": "0x6561a4aacf1cd287845f67cc1c19631edc5bb70b78b7f66e06c47c150e50def2",
+      "description": "In the upcoming NBA game, scheduled for May 22 at 8:30 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d.\n\n If the game is not completed by June 30, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Denver Nuggets 2023-05-22",
+      "market_slug": "nba-lal-den-2023-05-22",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-05-22T00:00:00Z",
+        "game_start_time": "2023-05-23T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "45713749150283968990347610644681787401641289858481710851555940270800508890477",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "24829093459681176068404199697888419105406436373845978951114344931138000780442",
+          "outcome": "Nuggets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb65974fc4651d1e165c2a1cd20efeed6670ade76e983352dd4a2e7b46c3f67dd",
+      "question_id": "0xfca977a7165811e99f734c317b9f11a178315dc88933e1bbcc0ebbc6c5753f51",
+      "description": "In the upcoming series scheduled as part of the Conference Finals of the 2023 NBA Playoffs:\n\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the series is not completed by July 31, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "2023 NBA Conference Finals: Denver Nuggets vs. LA Lakers",
+      "market_slug": "2023-nba-conference-finals-denver-nuggets-vs-la-lakers",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-05-27T00:00:00Z",
+        "game_start_time": null
+      },
+      "tokens": [
+        {
+          "token_id": "19886268394299673505678124161384719774855148675628898039700924343297466780296",
+          "outcome": "Nuggets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "90517327721249110329234491832543722549803134282766370591260193268315443727714",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xe6de71525efc3e3536d355cd14d8a80a9dd1b1a6396916ce1993c908ce619cdf",
+      "question_id": "0x718c024ac025915b6e070a151c5d586d6d38dc5aa49bb5d1ab71bfec1bb63299",
+      "description": "In the upcoming series scheduled as part of the Semifinals of the 2023 NBA Playoffs:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\nIf the series is not completed by July 31, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "2023 NBA Conference Semifinals: Los Angeles Lakers vs. Golden State Warriors",
+      "market_slug": "2023-nba-conference-semifinals-los-angeles-lakers-vs-golden-state-warriors",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-05-13T00:00:00Z",
+        "game_start_time": null
+      },
+      "tokens": [
+        {
+          "token_id": "96601312161574472702386797855872751830506695383354386755340982696817189960092",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "89974045989399561830025348228462076003899904086180311747289585911362348689453",
+          "outcome": "Warriors",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x3d92a03c2aaf018aa6bd7ab4fb3d1a9386e5147599010a4994b4d65c0bce319c",
+      "question_id": "0xead3284d8d420b6e462e41221cff1dd9b144f608ea16826d64f3ff19b9692c93",
+      "description": "This market will resolve to \"Yes\" if the Los Angeles Lakers become the 2022-23 NBA Champion. Otherwise, this market will resolve to \"No\".\n\nIf it is determined at any point that it is impossible for the Lakers to be the 2022-23 NBA Champion based on the rules of the NBA (e.g. they're eliminated in the playoffs), this market will immediately resolve to \"No.\"\n\nIf this team is still in contention to become the champion and the champion still isn't determined by October 24, 2023, 11:59:59 PM ET, this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Will the Lakers be the 2022-23 NBA Champion?",
+      "market_slug": "will-the-lakers-be-the-2022-23-nba-champion",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-06-17T00:00:00Z",
+        "game_start_time": null
+      },
+      "tokens": [
+        {
+          "token_id": "31051313997171306988298968584873309536099696579679483531589990119469157103594",
+          "outcome": "Yes",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "102294034707360319897243502907242609727210745685984722807679087645482917419455",
+          "outcome": "No",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x792417905b230696660f3a796327967fecac5bdd104be42008591f4c6bf79a22",
+      "question_id": "0xa43156f349044a63d88e7342a9640cc99e0247e4a7decd31b1748fa959d2ed1d",
+      "description": "In the upcoming NBA game, scheduled for May 12 at 10:00 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\n If the game is not completed by June 30, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Golden State Warriors 2023-05-12",
+      "market_slug": "nba-lal-gs-2023-05-12",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-05-12T00:00:00Z",
+        "game_start_time": "2023-05-13T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "25873558450061065699621746583298587814998286720943422170668659803930069246373",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "103971191037565195748177108438947141470954583871426113117746028767490670037523",
+          "outcome": "Warriors",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb83181e0b374fbf9355dd04c9100a500a74388281a9ff0902c71089c9879e613",
+      "question_id": "0x665bd94d216f8358f9aa6b714a05aa7b2775d0d12563fcfb41a34c3407fcd897",
+      "description": "In the upcoming NBA game, scheduled for May 8 at 10:00 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\n If the game is not completed by June 30, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Golden State Warriors 2023-05-08",
+      "market_slug": "nba-lal-gs-2023-05-08",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-05-08T00:00:00Z",
+        "game_start_time": "2023-05-09T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "106426794592882558461272381546944192387588148835630283251356476410476329863663",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "50304026754280841155540754368980797054513375111161467121772266840844335791789",
+          "outcome": "Warriors",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x1b3e648984871668dc4b1729fc839a5fc835c135b17baf4d8e52779d25b6eb4d",
+      "question_id": "0xd1eed46d68d6d16fe169e10c49211117bdafbe22364ac7fbf3a31d6d2e74dc59",
+      "description": "In the upcoming NBA game, scheduled for May 2 at 10:00 PM ET:\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by June 30, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Golden State Warriors vs. Los Angeles Lakers 2023-05-02",
+      "market_slug": "nba-gs-lal-2023-05-02",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-05-02T00:00:00Z",
+        "game_start_time": "2023-05-03T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "74962594024606362566251286611408564251353952771298657595174563728177089540632",
+          "outcome": "Warriors",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "99057818920482719787832909885141401027194668784626855310577918256793213419812",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x61de43077faf519c0a730aa4b10bcb551e2b2da93a9d50286357b95202f5a775",
+      "question_id": "0x0bf75cd0bd244581658816deac7403f5a1d542581bb64640a21b0bea7bd78c05",
+      "description": "In the upcoming NBA game, scheduled for May 16 at 8:30 PM ET:\n\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by June 30, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Denver Nuggets vs. Los Angeles Lakers 2023-05-16",
+      "market_slug": "nba-den-lal-2023-05-16",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-05-16T00:00:00Z",
+        "game_start_time": "2023-05-17T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "11963373798144634987880536830773771745534462706260174839175842206990918651308",
+          "outcome": "Nuggets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "78453008820006791096922184368055743275742008925925733887428123098036676667537",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xe8deaf738cae6d26cc8c7d8fa5eab9668efbfcbcf303da197938a034610bed22",
+      "question_id": "0x5cadcbb9c7b1e3a4a91a2a867dbcfa4b5554588786a7ce54810faee842b34118",
+      "description": "In the upcoming NBA game, scheduled for May 18 at 8:30 PM ET:\n\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by June 30, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Denver Nuggets vs. Los Angeles Lakers 2023-05-18",
+      "market_slug": "nba-den-lal-2023-05-18",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-05-18T00:00:00Z",
+        "game_start_time": "2023-05-19T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "22388207314289585600728660958090499850509760180160129642446716124369608917978",
+          "outcome": "Nuggets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "58653678574576001843285805100212273271752207199094677486817495586613737274739",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x4bed1c2bf826ff10fd06eccf83fa82988ce56be41b59fca599d42eed643a45c7",
+      "question_id": "0x8bb333c44328e4be13f0017e6e472be1b897b43d60a4d5e223a5c053e6f69c91",
+      "description": "In Response to Trader Inquiry: Date in last sentence is now June 30, 2023 (11:59:59 PM ET).\n\nIn the upcoming NBA game, scheduled for April 28 at 10:30 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\n If the game is not completed by June 30, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Memphis Grizzlies 2023-04-28",
+      "market_slug": "nba-lal-mem-2023-04-28",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-28T00:00:00Z",
+        "game_start_time": "2023-04-29T02:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "44575064944267721057556221404252004918807958692005708792222154002597441107881",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "58186196336497278679519324745130907560517624044072643813090407514922869800885",
+          "outcome": "Grizzlies",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x7c9725f703c32f516906d60b27faf7c9efc6b40d993acc453e1bfa4f838a3a20",
+      "question_id": "0x59a945f459f00175a7ba6eea2c5b1232616dd62347b6f4001e190109029692a8",
+      "description": "In the upcoming NBA game, scheduled for May 6 at 8:30 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\n If the game is not completed by June 30, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Golden State Warriors 2023-05-06",
+      "market_slug": "nba-lal-gs-2023-05-06",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-05-06T00:00:00Z",
+        "game_start_time": "2023-05-07T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "5970238749676783793145113496470449726225973937583216338772741414113967436821",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "21555727909936439503627943130430671250390734833481490964210937737172995259017",
+          "outcome": "Warriors",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x07838a110f504fe6d896479564efbc04594684b89a0a64d8391609d39828646a",
+      "question_id": "0x329e45c68311c8277c772aa5f2bfe51a85c8c8964f613ce6c7eae8f70970c7ab",
+      "description": "In the upcoming NBA game, scheduled for May 4 at 9:00 PM ET:\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by June 30, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Golden State Warriors vs. Los Angeles Lakers 2023-05-04",
+      "market_slug": "nba-gs-lal-2023-05-04",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-05-04T00:00:00Z",
+        "game_start_time": "2023-05-05T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "17180276528873143129295867628662277865560827179200840159051434590243067756918",
+          "outcome": "Warriors",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "78905314377402780807479212752084047334456510044659860156301513760155543764818",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb58c6ce49d529a8747cfa4db2eeb68d22604a37fe276ed346289dd2a3368b63a",
+      "question_id": "0xa784de4ffbabf98f777d7aa4efef6a005e351ae17d0f18e593e03d8fcfb62b6f",
+      "description": "In the upcoming NBA game, scheduled for May 20 at 8:30 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d.\n\n If the game is not completed by June 30, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Denver Nuggets 2023-05-20",
+      "market_slug": "nba-lal-den-2023-05-20",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-05-20T00:00:00Z",
+        "game_start_time": "2023-05-21T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "20796027434264196920811771780759073842835560545638015826318679300828850290750",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "32148885310108261621729056226986816070354856849589182795276834407562194415690",
+          "outcome": "Nuggets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x72c035f07a9388b8526ffdd9c9c52e890fa6a88919d7684630ff5d2d51242570",
+      "question_id": "0x99e7841c3a84997d4e061f77462d2094102ecd36c689bdfbf7204feb44f0f089",
+      "description": "In the upcoming NBA game, scheduled for May 10 at 10:00 PM ET:\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by June 30, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Golden State Warriors vs. Los Angeles Lakers 2023-05-10",
+      "market_slug": "nba-gs-lal-2023-05-10",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-05-10T00:00:00Z",
+        "game_start_time": "2023-05-11T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "31511144903008643313231911816907800871450419230829571145418387468652168202786",
+          "outcome": "Warriors",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "6046631264693501007961310154542593295216710905229638345242947161593252855579",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xc662385dd9abeb1b679818b6481cc85aeae98048f55e99555e0cafc15592b898",
+      "question_id": "0x9e23ab9827370829c873a6254c972d42ec7a89b6494a86c1aad40f179b4d1aa8",
+      "description": "In the upcoming NBA game, scheduled for April 19 at 7:30 PM ET:\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "archNBA: Memphis Grizzlies vs. Los Angeles Lakers 2023-04-19",
+      "market_slug": "archnba-mem-lal-2023-04-19",
+      "status": {
+        "active": false,
+        "closed": false
+      },
+      "timing": {
+        "end_date": "2023-04-19T00:00:00Z",
+        "game_start_time": "2023-04-19T23:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "16458964176146052018811374389309068392378589887380316212180271861265133151595",
+          "outcome": "Grizzlies",
+          "price": 0.5,
+          "winner": false
+        },
+        {
+          "token_id": "89986918969916539775995041207984583230689201858004519501270658531374317767428",
+          "outcome": "Lakers",
+          "price": 0.5,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x7e60badc387bfe4770531a1ee86fcbf19f4f6206033da3e32a8aa7c0d37cfa80",
+      "question_id": "0x925cc9b08de535afa1d8c7137d6958bd03cfd2ecc9148d51d71f1069940abf69",
+      "description": "In the upcoming NBA game, scheduled for April 26 at 7:30 PM ET:\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Memphis Grizzlies vs. Los Angeles Lakers 2023-04-26",
+      "market_slug": "nba-mem-lal-2023-04-26",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-26T00:00:00Z",
+        "game_start_time": "2023-04-26T23:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "114993989602436895405082697554675920467988712243968250891301379754743583867722",
+          "outcome": "Grizzlies",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "28428433015317365946087048218337952278385144750291986636662467233490347055611",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x47ff416a5d9fc659514dccfe287b0f5cfc0e6c1364551de1b92f2ece870bf263",
+      "question_id": "0xc84bf1b31f4f27f06736767a0ed297426932e8fce198c2267e66cdb753fa2660",
+      "description": "In the upcoming NBA game, scheduled for April 11 at 10:00 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Minnesota Timberwolves win, the market will resolve to \u201cTimberwolves\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Minnesota Timberwolves 2023-04-11",
+      "market_slug": "nba-lal-min-2023-04-11",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-11T00:00:00Z",
+        "game_start_time": "2023-04-12T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "28795223608038589096695025801078534534248387347681516069545003112709446662938",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "86424582150226995769027121633305917183225667537308624651119709298653464270972",
+          "outcome": "Timberwolves",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb9fac7cbee4b1359f66b9b72b82131c131bbe66375265a9ffd8775f60546f570",
+      "question_id": "0x1d4e8403caf6d419fa31b90415be4e15f8353be1fbb69ae9a0a7b8267a4f5b13",
+      "description": "In the upcoming NBA game, scheduled for April 22 at 10:00 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Memphis Grizzlies 2023-04-22",
+      "market_slug": "nba-lal-mem-2023-04-22",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-22T00:00:00Z",
+        "game_start_time": "2023-04-23T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "36099367197342609855143435461287577321429747537783476500952692440072821893335",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "93083832279679775037869377101898490989047937567563441146282552404031072072778",
+          "outcome": "Grizzlies",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x3208c8462ceb3d0cbca05474d6dbc6c255baba6f2319cd5abc0565359967cd9c",
+      "question_id": "0xc1c1e85ef415dcd2fb1196e822a48856591bedc4e377dd4908cb5160e95df932",
+      "description": "In the upcoming NBA game, scheduled for April 19, 7:30 PM ET:\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by June 25, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Memphis Grizzlies vs. Los Angeles Lakers 2023-04-19",
+      "market_slug": "nba-mem-lal-2023-04-19",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-19T00:00:00Z",
+        "game_start_time": "2023-04-19T23:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "81684407831253170596082014291521030510805060864811627228677252401287323179372",
+          "outcome": "Grizzlies",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "103372427919432145611371999585290225166524449325253058079274237438813656702820",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x9fde9eb4d3a1045b8bc3029b395e4d1d25cf15fd5ddf51464373a6bb474c5be7",
+      "question_id": "0x1bf2ee1bf6657ba29f525f67f188215e5be70f6bf37154d1c86b66ee9632efb1",
+      "description": "In the upcoming NBA game, scheduled for April 7 at 10:30 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Phoenix Suns win, the market will resolve to \u201cSuns\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Phoenix Suns 2023-04-07",
+      "market_slug": "nba-lal-phx-2023-04-07",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-07T00:00:00Z",
+        "game_start_time": "2023-04-08T02:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "66416963723954136160287503601888626635400129624444157081518429447610046224752",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "75096536798163330792015219588127099599423754274872896555546948552593730221766",
+          "outcome": "Suns",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xedd874965bd2621d1e7f1daa8ca7d7f416b60469a7dc24bbb8cdd18467b79e7c",
+      "question_id": "0x820fef6217e8784079bdf0481f6f90815af4d7c9dd519f3e56a3775e3da2ec47",
+      "description": "In the upcoming NBA game, scheduled for April 16 at 3:00 PM ET:\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Memphis Grizzlies vs. Los Angeles Lakers 2023-04-16",
+      "market_slug": "nba-mem-lal-2023-04-16",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-16T00:00:00Z",
+        "game_start_time": "2023-04-16T19:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "7969346155340367506005862862552936221430868408318223351139968056632908426266",
+          "outcome": "Grizzlies",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "5496753485645642179054680755848320307653372522983681153141555597261199594840",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x67c6796b561e9f643db6ac51cc4a52cc1d91625e42f053f9e0f7cb05047290a0",
+      "question_id": "0x2bcc12bbfa659774def37ec3448042194a4b184ab3de11a6e6cf8c5c9ec755c9",
+      "description": "In the upcoming NBA game, scheduled for April 9 at 3:30 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Utah Jazz win, the market will resolve to \u201cJazz\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Utah Jazz 2023-04-09",
+      "market_slug": "nba-lal-utah-2023-04-09",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-09T00:00:00Z",
+        "game_start_time": "2023-04-09T19:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "15429206739832027312130513989214906650954408758984218690424527858393770012213",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "72103783216227929310061087882166067778688388954039774278193445152389922399126",
+          "outcome": "Jazz",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x9d4d74bc45325b202381d241207e6ea3c0603983510b8b78999ec596ecf5b158",
+      "question_id": "0x65249c36ddebeba0f399e394ed63a4b24089dd0d241cd53c1e259aa3c504020e",
+      "description": "In the upcoming NBA game, scheduled for April 24 at 10:00 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Memphis Grizzlies 2023-04-24",
+      "market_slug": "nba-lal-mem-2023-04-24",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-24T00:00:00Z",
+        "game_start_time": "2023-04-25T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "97986026542822620059151788694120507654222504916947503692945737712700731231628",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "99394007835250179468826938192572407455898591222937726164946832330302828381832",
+          "outcome": "Grizzlies",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xf632086dc60e272fd70cf2005292f4ab9587fa1cba132f49aac8660433a71670",
+      "question_id": "0x91b61b7013e68618c1e4136360c50ed3fefaf213db9571734b8c4738f866c93d",
+      "description": "In the upcoming series scheduled as part of the first round of the 2023 NBA Playoffs:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\nIf the series is not completed by July 31, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "2023 NBA Playoffs: First Round - Los Angeles Lakers vs. Memphis Grizzlies",
+      "market_slug": "2023-nba-playoffs-first-round-los-angeles-lakers-vs-memphis-grizzlies",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-30T00:00:00Z",
+        "game_start_time": null
+      },
+      "tokens": [
+        {
+          "token_id": "108274673810784213851825198746510752815625244393729305885954716672690984701393",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "41884325963563913884654431472378805751051098247997623998925700306738502458476",
+          "outcome": "Grizzlies",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x101570cd9dea032ecf6a5f053f1dc3d1b7eafdb411fa4d5e1934e6a3c330ebb3",
+      "question_id": "0x47c42622c89951817379cb37b30916c385f028fd90fdec1852626b0322c22185",
+      "description": "In the upcoming NBA game, scheduled for March 24 at 10:30 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Oklahoma City Thunder 2023-03-24",
+      "market_slug": "nba-lal-okc-2023-03-24",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-24T00:00:00Z",
+        "game_start_time": "2023-03-25T02:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "107015115232190736088588258151295525563032459571686951349939868112821240690323",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "66185129040305563529268644053093937605683459211060053539516427523956882990541",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x9f9764e9814962cbf5d5475e3b543675f787247912ad077610c9fdeb6c399886",
+      "question_id": "0x1477b7ad003d8bf3978d3d02eb70a538aef1615d29a4395fe7b37c26c5917685",
+      "description": "In the upcoming NBA game, scheduled for March 22 at 10:00 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Phoenix Suns win, the market will resolve to \u201cSuns\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Phoenix Suns 2023-03-22",
+      "market_slug": "nba-lal-phx-2023-03-22",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-22T00:00:00Z",
+        "game_start_time": "2023-03-23T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "68375926124859115760183053218965088798815518352908951136068698587713066903033",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "77292660443878308346749748329319734416571624081454232312933506800722088900801",
+          "outcome": "Suns",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb0ea719250e9122308ffb9f88881174a98d1a696fd11348362578b579719fed5",
+      "question_id": "0x4afe5854cd0e14ac50fc6c9c8c67deeccc882ccc5b76ee0183b814e3cadc3701",
+      "description": "In the upcoming NBA game, scheduled for March 29 at 8:00 PM ET:\n\nIf the Chicago Bulls win, the market will resolve to \u201cBulls\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Chicago Bulls vs. Los Angeles Lakers 2023-03-29",
+      "market_slug": "nba-chi-lal-2023-03-29",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-29T00:00:00Z",
+        "game_start_time": "2023-03-30T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "61093457442122603941819699895693452225960997857381592057547887186532071123531",
+          "outcome": "Bulls",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "65571619607214012193766070468680312800845867417759397155854448117235638597364",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xaa924829053852537c23a9cd0579c1497020aaca95ae8cadfb3d0d1c9f8cc29a",
+      "question_id": "0x6558c59b601d0ebf9b1bb7929298ebc65e56e674d1f9b07ac08c35d2e71f83c0",
+      "description": "In the upcoming NBA game, scheduled for March 31 at 8:00 PM ET:\n\nIf the Minnesota Timberwolves win, the market will resolve to \u201cTimberwolves\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Minnesota Timberwolves vs. Los Angeles Lakers 2023-03-31",
+      "market_slug": "nba-min-lal-2023-03-31",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-31T00:00:00Z",
+        "game_start_time": "2023-04-01T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "4857290889001514092195652112323448566023681039179472176414783653600960947438",
+          "outcome": "Timberwolves",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "87700465297480214107264918588491075434904881644327584851249228870822913897912",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xfb6c0316da961f1fd66fefa0606b82065eefa9e5ee1dbeabae9ab06e53e552de",
+      "question_id": "0x4184b09a163b0c551084a51884565d949747fd0c5ccd6aa7da04f9ea4f369d43",
+      "description": "In the upcoming NBA game, scheduled for April 4 at 9:00 PM ET:\n\nIf the Utah Jazz win, the market will resolve to \u201cJazz\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Utah Jazz vs. Los Angeles Lakers 2023-04-04",
+      "market_slug": "nba-utah-lal-2023-04-04",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-04T00:00:00Z",
+        "game_start_time": "2023-04-05T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "110758661728089413810682825367361418881873683018931331844031743199646207247042",
+          "outcome": "Jazz",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "46997851467819882040522094726265235663426721050970743353744677664343451666917",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xbe093145c65104a218049d1eccbc293bc433294389ecc97471330eda80b5d955",
+      "question_id": "0xe2d791eecc3024518770e4ca4f3abe24d46995412d62a59ed45216912d1c8195",
+      "description": "In the upcoming NBA game, scheduled for March 26 at 3:30 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Chicago Bulls win, the market will resolve to \u201cBulls\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Chicago Bulls 2023-03-26",
+      "market_slug": "nba-lal-chi-2023-03-26",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-26T00:00:00Z",
+        "game_start_time": "2023-03-26T19:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "36292021460418155288499961485881719041415040020612504658750701818316694063753",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "96055826118471235698298401956391870471919471137879615192917042447650265505872",
+          "outcome": "Bulls",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xffadbf2c98063f3b326b6223d055d0e489bf5a32b131e38533f38f3bd9649499",
+      "question_id": "0x0bbd7d34e03a862e93916e60aa4c76ef12bbd11c2ee1fa57c8c800e6cf225670",
+      "description": "In the upcoming NBA game, scheduled for April 5 at 10:00 PM ET:\n\nIf the LA Clippers win, the market will resolve to \u201cClippers\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: LA Clippers vs. Los Angeles Lakers 2023-04-05",
+      "market_slug": "nba-lac-lal-2023-04-05",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-05T00:00:00Z",
+        "game_start_time": "2023-04-06T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "112121379488540700866916216549455030904304015138777486617138058576639731259133",
+          "outcome": "Clippers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "19260038872243475619155530660787815733667817635461362602368845722956577643206",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x083381433bcfa3992584414a0d71eb70b78cd726bc6fdb8f44bdfc5ff7e69521",
+      "question_id": "0x95f25224bc5a56d0132c1fe2a4b8e7d185704419c5006c8fcfde169f97190550",
+      "description": "In the upcoming NBA game, scheduled for April 2 at 7:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. Los Angeles Lakers 2023-04-02",
+      "market_slug": "nba-hou-lal-2023-04-02",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-02T00:00:00Z",
+        "game_start_time": "2023-04-02T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "67010481350308841205223526624662931595606573146233888762413247328379433346336",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "66579746574512173642609952332861742290797410940997305771084452677589094412983",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x0f4c985bf94917ed059e618464bf92ae1b91a24bb058034071ca3e4b834082ff",
+      "question_id": "0x92c26304405d059c9c826be019d1b6b7a7d0f9843db80511448f7d534538c583",
+      "description": "In the upcoming NBA game, scheduled for March 1 at 8:00\u202fPM:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. Los Angeles Lakers 2023-03-01",
+      "market_slug": "nba-okc-lal-2023-03-01",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-01T00:00:00Z",
+        "game_start_time": "2023-03-02T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "27813490804467780067324428192866122768046964301722231779657427982252765072133",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "36415837902910971935359857718184110093355458340220620949139256126361915202717",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x7da65687ab7ba578a15a6efc87277991084e542a0a75d24d9085f0c608815e0d",
+      "question_id": "0x990364f9fc2eaf06f1ddac60f21e4824cb3ff3996902448f974d1bd523860009",
+      "description": "In the upcoming NBA game, scheduled for March 10 at 10:30\u202fPM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Toronto Raptors win, the market will resolve to \u201cRaptors\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Toronto Raptors 2023-03-10",
+      "market_slug": "nba-lal-tor-2023-03-10",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-10T00:00:00Z",
+        "game_start_time": "2023-03-11T03:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "56870261036392406057424905810532455056704522019587237343015382789814913906249",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "70137515675963839092862893473728923371900167158518730898217166634251166205554",
+          "outcome": "Raptors",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x2fe4c09ee476d46052a012210b26ff8a76df7447dc8b030d3ac793a9c2138d37",
+      "question_id": "0x957efe9d6485b912d0c41ca0726f34228f440b58d72fb7fde1460c03fb367d90",
+      "description": "In the upcoming NBA game, scheduled for March 3 at 10:30\u202fPM:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Minnesota Timberwolves win, the market will resolve to \u201cTimberwolves\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Minnesota Timberwolves 2023-03-03",
+      "market_slug": "nba-lal-min-2023-03-03",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-03T00:00:00Z",
+        "game_start_time": "2023-03-04T03:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "55503974590171678395779069316376153468259500800791537005593653669729206600853",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "1139392378162183795339466705642458410511288638376048698957661383560665680607",
+          "outcome": "Timberwolves",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x0894e17cff38d5cb791c6704b302faa70c729816e9995e10cf8142a9eb312165",
+      "question_id": "0xda8d86cc46e092909105074350e296d70b0b2fa7bbc5b4ffa61af19bfb09c723",
+      "description": "In the upcoming NBA game, scheduled for March 15 at 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. Los Angeles Lakers 2023-03-15",
+      "market_slug": "nba-hou-lal-2023-03-15",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-15T00:00:00Z",
+        "game_start_time": "2023-03-16T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "79357128948466012988440225943837111166934639377839586383276163957977238331335",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "97081995782422409337610258606967974348784945476495485350962589518783741419268",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xad6d3b36e1450736867dea17c4e79f3cfe460a67d547319be114b10c8b0f511e",
+      "question_id": "0x92f2db514021b27321b6fead7e73c91c63b7d02efc8181de6500f8bb726db5b2",
+      "description": "In the upcoming NBA game, scheduled for March 19 at 9:30 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Orlando Magic win, the market will resolve to \u201cMagic\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Orlando Magic 2023-03-19",
+      "market_slug": "nba-lal-orl-2023-03-19",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-19T00:00:00Z",
+        "game_start_time": "2023-03-20T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "110739122085605386649884075323369465417001761989915781869771969935832465333061",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "94047916948083884649515599923218452690514597006904797387057489638432059732745",
+          "outcome": "Magic",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x087a8dc58ae6b7a028e5d98b2b7c3e55f625c291ddcfb56082173eb85a5f20f4",
+      "question_id": "0x9a216646ef3f82d0ac749fc4fb70b1edc89ad36870bab2905104b0e238ef6b4c",
+      "description": "In the upcoming NBA game, scheduled for March 7 at 10:00\u202fPM:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Memphis Grizzlies 2023-03-07",
+      "market_slug": "nba-lal-mem-2023-03-07",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-07T00:00:00Z",
+        "game_start_time": "2023-03-08T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "46088624060279656639747247936030371544149734257317830260930494446078256231100",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "70865766083041339762560891678914104744077014948096394797652974165668935005188",
+          "outcome": "Grizzlies",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x88692fa531c0de59d16120f7a101024aa7c0b179af91a90ff75f6e69472998f9",
+      "question_id": "0x71e11bb6ad80bda1e4b0e38b1cd16a04f650070c9be41ab6737feb88e67a4ce8",
+      "description": "In the upcoming NBA game, scheduled for February 26 at 3:30\u202fPM:\n\nIf the Dallas Mavericks win, the market will resolve to \u201cMavericks\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Dallas Mavericks vs. Los Angeles Lakers 2023-02-26",
+      "market_slug": "nba-dal-lal-2023-02-26",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-26T00:00:00Z",
+        "game_start_time": "2023-02-26T20:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "15235375952166296871478864257197658366245628525435188796636061023307878713397",
+          "outcome": "Mavericks",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "26954983072741774712104071296078255924484319967279028398093150163815518428954",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x491e945297cd445eb8c2a424ba37b68df74ec0c539b3dc25bdbc1520262298ba",
+      "question_id": "0x3e08e5df9e1cd5c3e04a4e82f12a8215b0b0277c569bdd20aa655d4ff25f8794",
+      "description": "In the upcoming NBA game, scheduled for March 14 at 8:00 PM ET:\n\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: New Orleans Pelicans vs. Los Angeles Lakers 2023-03-14",
+      "market_slug": "nba-no-lal-2023-03-14",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-14T00:00:00Z",
+        "game_start_time": "2023-03-15T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "55937050536552602373068957034178977595581424867575237968802159867671025054073",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "71815667914347062380715896464928461415447032174865800173089838210964894946933",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb3ff06f30e3a45272aa1fe9d804e38e908d3d9ef42634a048b71b93f84c9cd4f",
+      "question_id": "0x5918fb7b5a2f20f2723ca2202d581ef38e8469611f609ca4d9f201faf482bdfb",
+      "description": "In the upcoming NBA game, scheduled for February 28 at 7:30\u202fPM:\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Memphis Grizzlies vs. Los Angeles Lakers 2023-02-28",
+      "market_slug": "nba-mem-lal-2023-02-28",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-28T00:00:00Z",
+        "game_start_time": "2023-03-01T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "108279794009205472020418057321066464872492380771857470853187258153831788369370",
+          "outcome": "Grizzlies",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "56230782669554265242356507089257851611310136675985893513708531143232701348277",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x16314cffb03b09fe7907e657efecd7e4549d8d7bb5106c60c186255943414158",
+      "question_id": "0x2683bfd80f83f2188292381e6f3afcc081b154fa15dc688e983ee6a3a19a21f3",
+      "description": "In the upcoming NBA game, scheduled for March 5 at 3:30\u202fPM:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Golden State Warriors 2023-03-05",
+      "market_slug": "nba-lal-gs-2023-03-05",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-05T00:00:00Z",
+        "game_start_time": "2023-03-05T20:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "22080181958348687832244066331383939304634033770643131612977127309417706737896",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "13301753732799766245640778340575931488600608486751266942947958301817173311383",
+          "outcome": "Warriors",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xbdfaba6bed5d76efbbca3a0f4c17aa9c2b08e6a8a2d9e20185af3c9ca8d319e1",
+      "question_id": "0x0ed322cff66b9981f7dccb24e18558c32437b18eb5ff6f3928d308fc64cd049e",
+      "description": "In the upcoming NBA game, scheduled for March 17 at 10:30 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Dallas Mavericks win, the market will resolve to \u201cMavericks\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Dallas Mavericks 2023-03-17",
+      "market_slug": "nba-lal-dal-2023-03-17",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-17T00:00:00Z",
+        "game_start_time": "2023-03-18T02:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "62196917139551917535365956318316258810809421027504287771208743611812913988924",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "67179529716426929354640472406174977484602101885905285425882581570220586547855",
+          "outcome": "Mavericks",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x2fde28e6ad1d8b2aa49b499a1112a313884e53822b0d93860dbc377446ef547f",
+      "question_id": "0x0a42672d9122a923259067aade1dc3bf67988f083490c175c9f76d7c5e4a094e",
+      "description": "In the upcoming NBA game, scheduled for March 12 at 9:00\u202fPM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the New York Knicks win, the market will resolve to \u201cKnicks\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. New York Knicks 2023-03-12",
+      "market_slug": "nba-lal-nyk-2023-03-12",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-12T00:00:00Z",
+        "game_start_time": "2023-03-13T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "101488230561608691291900143620575270270553548775983028254877200644165474021818",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "85754868374835476260716471505480688044835870090501239645234382427726941962155",
+          "outcome": "Knicks",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xc4e0dca050424bec2df1c0eb0d362b0dd8e84c7e0c02e5191dd03c1ad3ebabac",
+      "question_id": "0x70cfde7f13a026b061448fcfaee7492971126229934443823023e2f0c1456d07",
+      "description": "In the upcoming NBA game, scheduled for January 30:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Brooklyn Nets win, the market will resolve to \u201cNets\u201d.\n\nIf this game is not completed by February 6, 2023 (11:59:59 PM ET), this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Lakers vs. Nets (01/30/2023)",
+      "market_slug": "nba-lakers-vs-nets-01302023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-01-30T00:00:00Z",
+        "game_start_time": "2023-01-31T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "2541166413605195562405024370140328465229857435112797236162225593142819095945",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "12042587924872055769821870368783032753893556767266421691765240431423532615175",
+          "outcome": "Nets",
+          "price": 1,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x8adac8e898ae5dcbb0badc585dc228c9d52b0e374898318f97fbbba51ff0bc4d",
+      "question_id": "0x93798b71731080b1e1b95e14c2bc303a47ef9e204e73e0ff7081db2b5947e676",
+      "description": "In the upcoming NBA game, scheduled for January 31:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the New York Knicks win, the market will resolve to \u201cKnicks\u201d.\n\nIf this game is not completed by February 7, 2023 (11:59:59 PM ET), this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Lakers vs. Knicks (01/31/2023)",
+      "market_slug": "nba-lakers-vs-knicks-01312023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-01-31T00:00:00Z",
+        "game_start_time": "2023-02-01T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "28406420966965980411563426705005334018922603281158835268061789041481698602141",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "17375224680167563106916535332741800664562727091767605880068588152473086393634",
+          "outcome": "Knicks",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x7b250cd9b696b55cdae7a342e59a136fd5867b4f29709d2836d4f77b2540c2fe",
+      "question_id": "0x0930dfca268e6e12d684b65035db91808414feedd18c84fb8dc2558f5feedfff",
+      "description": "The\u00a0National Basketball Association's (NBA) Sixth Man of the Year Award\u00a0is an annual award given to the league's best performing player for his team coming off the bench as a substitute (thus the name \"sixth man\").\n\nThis market will resolve to \"Yes\" if Russel Westbrook III of the LA Lakers wins the Sixth Man of the Year for the 2022-2023 NBA season. Otherwise, this market will resolve to \"No\".\n\nIf Russell Westbrook is not part of the announced finalists for the award, the market may immediately resolve to \"No.\" If the Sixth Man of the Year Award recipient is not confirmed by December 31, 2023, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from the NBA, however a consensus of credible reporting may also be used.",
+      "category": "N/A",
+      "question": "NBA: Will Russell Westbrook win Sixth Man of the Year?",
+      "market_slug": "nba-will-russell-westbrook-win-sixth-man-of-the-year",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-06-20T00:00:00Z",
+        "game_start_time": null
+      },
+      "tokens": [
+        {
+          "token_id": "14680853027967268418295674471303326801063165846815021651671471191137682435466",
+          "outcome": "Yes",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "107354684711399231941239344394376097482811414391046673466663920676813018157802",
+          "outcome": "No",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x9800dd735f87501eaa372c8a7ab5b213a67e7eb27d9e2212a02abce67969685e",
+      "question_id": "0x4a641964472996c36a1dd1f40a9f6a9e4275a7c1ac15a3dce0c26f60e585daa0",
+      "description": "In the upcoming NBA game, scheduled for February 13:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Portland Trail Blazers win, the market will resolve to \u201cTrail Blazers\u201d.\n\nIf this game is not completed by April 13, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Lakers vs. Trail Blazers (02/13/2023)",
+      "market_slug": "nba-lakers-vs-trail-blazers-02132023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-12T00:00:00Z",
+        "game_start_time": "2023-02-14T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "29930379109459486354683534920039356749508872949868493088411088788445020212318",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "108457442178836684766513308854251083529791417869599154118627684569171037093836",
+          "outcome": "Trail Blazers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb05e7b55ac377e52a1e747e2da419c56654de8531b28111f9d81ace4cb9df391",
+      "question_id": "0xa6c309a57c0bf98a635726df06d706b5544a27d74d1a388781de0c0eb9195db7",
+      "description": "In the upcoming NBA game, scheduled for February 7:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf this game is not completed by April 7, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Thunder vs. Lakers (02/07/2023)",
+      "market_slug": "nba-thunder-vs-lakers-02072023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": null,
+        "game_start_time": "2023-02-08T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "33499095174186646193975386388219995375836830660824271389211031761096030542930",
+          "outcome": "Thunder",
+          "price": 0.9998,
+          "winner": false
+        },
+        {
+          "token_id": "97790483421715085963645937569104518028766922802322376276494517447415575988350",
+          "outcome": "Lakers",
+          "price": 0.0002,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xe1569709ff06d783423cb55da2934a003faaad1b95438cbc7b882b156463bb03",
+      "question_id": "0x279e4ce8847bc556007085edd1d540917c1577bd21fc23db94b154b2d3b64122",
+      "description": "In the upcoming NBA game, scheduled for February 11:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\nIf this game is not completed by April 11, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Lakers vs. Warriors (02/11/2023)",
+      "market_slug": "nba-lakers-vs-warriors-02112023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-10T00:00:00Z",
+        "game_start_time": "2023-02-12T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "65198362755799349988725589735601806265024689107358006824222388579552615226514",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "51131855945192723391640456300090491125075099127122497606061216614145368483402",
+          "outcome": "Warriors",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x8e30ee6bbe58b94fbdab3eee184f3f3c7be1d017c3694c84b6bb0c2f822f3f77",
+      "question_id": "0xec8709e3f9e7654f8d839b8f127e45d72fa148ebd12008de3ec52c755fae7d2f",
+      "description": "In the upcoming NBA game, scheduled for February 4:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n\nIf this game is not completed by April 4, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Lakers vs. Pelicans (02/04/2023)",
+      "market_slug": "nba-lakers-vs-pelicans-02042023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-04T00:00:00Z",
+        "game_start_time": "2023-02-04T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "90773025804727515061192574369130430127570172639567279290514043844242011398450",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "45458267153716045550234270019302292673298399459202969057709380403519935940380",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x64aa7fc8f80c4826391bb14c5d2502e2aa601d3bbc520bbb8124a93bd10712c1",
+      "question_id": "0x090534803e2c42a716538528ed96d7c4b7e12f8f0149429015c0ec0a807c015f",
+      "description": "In the upcoming NBA game, scheduled for February 15:\n\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf this game is not completed by April 15, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Pelicans vs. Lakers (02/15/2023)",
+      "market_slug": "nba-pelicans-vs-lakers-02152023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-12T00:00:00Z",
+        "game_start_time": "2023-02-16T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "12762730256869532503721525343123608234474085154860494286421122188945501314281",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "2907229633391525128186918800731212341461003853436741063791480491064407751541",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x6252e8030bf93d85ef8b6354b1f463ffd27fd1da10755adce4167abaee563621",
+      "question_id": "0x60b006e5bde5297f293c275209b37059f84b2f30582b06fe9bac3ef4d72e0e59",
+      "description": "In the upcoming NBA game, scheduled for February 9:\n\nIf the Milwaukee Bucks win, the market will resolve to \u201cBucks\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf this game is not completed by April 9, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Bucks vs. Lakers (02/09/2023)",
+      "market_slug": "nba-bucks-vs-lakers-02092023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-07T00:00:00Z",
+        "game_start_time": "2023-02-10T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "27564146384290809250159878551077999027405803301377733310402827304466189033077",
+          "outcome": "Bucks",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "28159086305716095520316688285780453361496934489894720579037520569842658771360",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xc0f6fc1ef71052492781bf8f1614cb3e767fd4a71fc2f1dfd1899dbb195fefea",
+      "question_id": "0xde41b7a5c62462d3f833f2e1643247af8b0111ac590af77705dea013b4187ce3",
+      "description": "LeBron James is 36 points away from surpassing Kareem Abdul-Jabbar to claim the National Basketball Association's (NBA's) all time scoring record. The NBA's all-time scoring record list can be viewed here: https://www.nba.com/news/lebron-james-scoring-tracker.\n\nThis market will resolve to \"Yes\" if Lakers player LeBron James breaks the all time NBA record for most points scored (i.e. a total of 38,388 or more) during the Los Angeles Lakers game against the Oklahoma City Thunder on February 7, 2023, 10:00 PM ET. Otherwise, this market will resolve to \"No\".\n\nIf this game starts on February 7 but extends into February 8, and LeBron James beats the record at that point, this market will still resolve to \"Yes\". If this game is postponed to a later date or cancelled, this market will resolve to \"No\". \n\nThe primary resolution source for this market will be official information from the NBA, including live footage from the game, however a consensus of credible reporting may also be used.",
+      "category": "N/A",
+      "question": "Will LeBron break the scoring record during the Feb 7 game vs. OKC?",
+      "market_slug": "will-lebron-break-the-scoring-record-during-the-feb-7-game-vs-okc",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-07T00:00:00Z",
+        "game_start_time": "2023-02-08T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "59807065909300685172612218308381429575745612931150980239075273322751866141474",
+          "outcome": "Yes",
+          "price": 0.9999,
+          "winner": false
+        },
+        {
+          "token_id": "22043269032172386305278451412297528721845400932396410358944191793979985652558",
+          "outcome": "No",
+          "price": 0.0001,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x3960e6ba226b18e349a586703c942d334325f3c026d179a7bcf8a524edaa40f4",
+      "question_id": "0x5ba4abc14e410397f08dc96a4255c54ea49e23cd4a646d6aea57206334865f53",
+      "description": "In the upcoming NBA game, scheduled for February 2:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Indiana Pacers win, the market will resolve to \u201cPacers\u201d.\n\nIf this game is not completed by April 2, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.\n",
+      "category": "N/A",
+      "question": "NBA: Lakers vs. Pacers (02/02/2023)",
+      "market_slug": "nba-lakers-vs-pacers-02022023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-02T00:00:00Z",
+        "game_start_time": "2023-02-03T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "57965156656408802359577770578870325632966587434597313703831843903067339521534",
+          "outcome": "Lakers",
+          "price": 0.0103,
+          "winner": false
+        },
+        {
+          "token_id": "93890034186926678173262422619289397844700156066643024731317888375308177390719",
+          "outcome": "Pacers",
+          "price": 0.9897,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x2a5cf651ddefca0f57f09a3eee5e1ec7372012453deb8aeada73bd0e80710123",
+      "question_id": "0x3b3a0dca81fb783f21e5a53c2322c24f07fd52d79d89b70c3c0eb69f83a9990c",
+      "description": "In the upcoming NBA game, scheduled for February 23 at 10:00\u202fPM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\nIf the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Golden State Warriors 2023-02-23",
+      "market_slug": "nba-lal-gs-2023-02-23",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-22T00:00:00Z",
+        "game_start_time": "2023-02-24T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "57069541293691464872739795149914974745895488382005475601197514215101185779756",
+          "outcome": "Lakers",
+          "price": 0.9693,
+          "winner": false
+        },
+        {
+          "token_id": "53017341016858562276010634790755396812097689160191323369071972156618236395677",
+          "outcome": "Warriors",
+          "price": 0.0307,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    }
+  ]
+}

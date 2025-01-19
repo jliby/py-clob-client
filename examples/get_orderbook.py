@@ -1,12 +1,16 @@
 from py_clob_client.client import ClobClient
+import os
+from dotenv import load_dotenv
+
+load_dotenv("keys.env")
 
 
 def main():
-    host = "http://localhost:8080"
+    host = "https://clob.polymarket.com"
     client = ClobClient(host)
 
     orderbook = client.get_order_book(
-        "71321045679252212594626385532706912750332728571942532289631379312455583992563"
+        "0xd359193612ea7644aa76a6388f2dd96d9866e4a52f2909cc056b9974aa6597c5"
     )
     print("orderbook", orderbook)
 

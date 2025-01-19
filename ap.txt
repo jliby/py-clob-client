@@ -1,0 +1,2165 @@
+Polymarket API Documentation
+==========================
+
+Method: GET
+Path: ,
+Description: If you have more detailed documentation or specific sections that describe the endpoints, please provide that information, and I can help format it accordingly. For now, here is a general structure based on the sections mentioned: ---
+
+---
+
+Method: GET
+Path: /markets
+Description: Description: Retrieves a list of available markets.
+Parameters:
+  - - limit: Maximum number of markets to return.
+  - - offset: Number of markets to skip before starting to return results.
+Response:
+  - - markets: List of market objects.
+  - - id: Unique identifier for the market.
+  - - name: Name of the market.
+  - - status: Current status of the market.
+  - Python Example: 
+
+Python Example:
+```python
+import requests
+response = requests.get("https://api.example.com/markets", params={"limit": 10, "offset": 0})
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /markets/{market_id}
+Description: Description: Retrieves details about a specific market.
+Parameters:
+  - - market_id: Unique identifier for the market.
+Response:
+  - - id: Unique identifier for the market.
+  - - name: Name of the market.
+  - - status: Current status of the market.
+  - - events: List of events associated with the market.
+  - Python Example: 
+
+Python Example:
+```python
+import requests
+market_id = "12345"
+response = requests.get(f"https://api.example.com/markets/{market_id}")
+print(response.json())
+```
+
+---
+
+Method: POST
+Path: /orders
+Description: Description: Places a new order.
+Parameters:
+  - - market_id: Unique identifier for the market.
+  - - side: Order side (buy/sell).
+  - - amount: Amount to buy/sell.
+  - - price: Price per unit.
+Response:
+  - - order_id: Unique identifier for the order.
+  - - status: Current status of the order.
+  - Python Example: 
+
+Python Example:
+```python
+import requests
+order_data = {
+"market_id": "12345",
+"side": "buy",
+"amount": 10,
+"price": 100
+}
+response = requests.post("https://api.example.com/orders", json=order_data)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /trades
+Description: Description: Retrieves a list of trades.
+Parameters:
+  - - market_id: Unique identifier for the market.
+  - - limit: Maximum number of trades to return.
+  - - offset: Number of trades to skip before starting to return results.
+Response:
+  - - trades: List of trade objects.
+  - - id: Unique identifier for the trade.
+  - - market_id: Unique identifier for the market.
+  - - price: Price at which the trade was executed.
+  - - amount: Amount traded.
+  - Python Example: 
+
+Python Example:
+```python
+import requests
+response = requests.get("https://api.example.com/trades", params={"market_id": "12345", "limit": 10, "offset": 0})
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /prices
+Description: Description: Retrieves price information for a specific market.
+Parameters:
+  - - market_id: Unique identifier for the market.
+Response:
+  - - market_id: Unique identifier for the market.
+  - - price: Current price of the market.
+  - Python Example: 
+
+Python Example:
+```python
+import requests
+market_id = "12345"
+response = requests.get(f"https://api.example.com/prices/{market_id}")
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /ban-status/**
+Description: Description: Check the access status of your account. If the endpoint returns `true` for `cert_required`, proof of residence is required. Failure to provide it within 14 days will result in a close-only status. **Parameters:** None explicitly mentioned in the documentation. **Response:** `cert_required`: A boolean value indicating whether certification is required (`true`) or not (`false`). **Python Example:** --- This is the only explicit API endpoint mentioned in the provided documentation text. If there are additional endpoints in other sections of the documentation, they would need to be extracted separately.
+
+Python Example:
+```python
+import requests
+# Example API call to check ban status
+response = requests.get("https://api.polymarket.com/ban-status/")
+data = response.json()
+if data.get("cert_required"):
+print("Certification is required. Please provide proof of residence.")
+else:
+print("No certification required.")
+```
+
+---
+
+Method: POST
+Path: /orders
+Description: **Description:** Create a new order for a specific market. **Parameters:** - `market_id`: The ID of the market for which the order is being created. - `order_type`: The type of order (e.g., limit, market). - `price`: The price at which the order should be executed. - `size`: The size of the order. - `side`: The side of the order (buy or sell). **Response:** - `order_id`: The unique identifier for the created order. - `status`: The status of the order (e.g., pending, filled). **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.polymarket.com/orders"
+data = {
+"market_id": "12345",
+"order_type": "limit",
+"price": "0.50",
+"size": "100",
+"side": "buy"
+}
+response = requests.post(url, json=data)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /orders/{order_id}
+Description: **Description:** Fetch details of a specific order by its ID. **Parameters:** - `order_id`: The unique identifier of the order. **Response:** - `order_id`: The unique identifier for the order. - `market_id`: The ID of the market associated with the order. - `price`: The price at which the order was placed. - `size`: The size of the order. - `side`: The side of the order (buy or sell). - `status`: The current status of the order. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+order_id = "67890"
+url = f"https://api.polymarket.com/orders/{order_id}"
+response = requests.get(url)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /markets
+Description: **Description:** Fetch a list of all available markets. **Parameters:** - None **Response:** - `markets`: A list of market objects, each containing: - `market_id`: The unique identifier for the market. - `market_name`: The name of the market. - `status`: The current status of the market (e.g., open, closed). **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.polymarket.com/markets"
+response = requests.get(url)
+print(response.json())
+```
+
+---
+
+Method: DELETE
+Path: /orders/{order_id}
+Description: **Description:** Cancel a specific order by its ID. **Parameters:** - `order_id`: The unique identifier of the order to be canceled. **Response:** - `order_id`: The unique identifier for the canceled order. - `status`: The status of the order after cancellation (e.g., canceled). **Python Example:** ---
+
+Python Example:
+```python
+import requests
+order_id = "67890"
+url = f"https://api.polymarket.com/orders/{order_id}"
+response = requests.delete(url)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /orderbook/{market_id}
+Description: **Description:** Fetch the order book for a specific market. **Parameters:** - `market_id`: The ID of the market for which the order book is being fetched. **Response:** - `bids`: A list of bid orders, each containing: - `price`: The price of the bid. - `size`: The size of the bid. - `asks`: A list of ask orders, each containing: - `price`: The price of the ask. - `size`: The size of the ask. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+market_id = "12345"
+url = f"https://api.polymarket.com/orderbook/{market_id}"
+response = requests.get(url)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /history/{market_id}
+Description: **Description:** Fetch the trade history for a specific market. **Parameters:** - `market_id`: The ID of the market for which the trade history is being fetched. **Response:** - `trades`: A list of trade objects, each containing: - `trade_id`: The unique identifier for the trade. - `price`: The price at which the trade was executed. - `size`: The size of the trade. - `side`: The side of the trade (buy or sell). - `timestamp`: The timestamp of the trade. **Python Example:** --- These endpoints are inferred based on the functionality described in the documentation. The actual API may have additional or slightly different endpoints.
+
+Python Example:
+```python
+import requests
+market_id = "12345"
+url = f"https://api.polymarket.com/history/{market_id}"
+response = requests.get(url)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /{clob-endpoint}
+Description: Description: Used for all CLOB REST endpoints.
+Parameters:
+  - - clob-endpoint: The specific REST endpoint for CLOB operations.
+  - - wss-channel: The specific WebSocket channel for CLOB operations.
+Response:
+  - Python Example: 
+  - ### WEBSOCKET wss: //ws-subscriptions-clob.polymarket.com/ws/{wss-channel}
+  - Description: Used for all CLOB WebSocket endpoints.
+
+Python Example:
+```python
+# Example of connecting to a CLOB WebSocket channel
+import websockets
+import asyncio
+async def connect():
+uri = "wss://ws-subscriptions-clob.polymarket.com/ws/{wss-channel}"
+async with websockets.connect(uri) as websocket:
+await websocket.send("Your message")
+response = await websocket.recv()
+print(response)
+asyncio.get_event_loop().run_until_complete(connect())
+```
+
+---
+
+Method: POST
+Path: /orders
+Description: Description: Places an order on the CLOB. Requires private key authentication for signing the order.
+Parameters:
+  - - POLY_ADDRESS (Header): The Polygon address associated with the order.
+  - - order_details: The details of the order to be placed.
+Response:
+  - - order_id: The unique identifier for the placed order.
+  - - status: The status of the order placement.
+  - Python Example: 
+
+Python Example:
+```python
+# Example of placing an order
+import requests
+url = "https://clob.polymarket.com/orders"
+headers = {
+"POLY_ADDRESS": "YOUR_POLYGON_ADDRESS"
+}
+data = {
+"order_details": {
+"market_id": "123",
+"side": "buy",
+"price": "100",
+"amount": "10"
+}
+}
+response = requests.post(url, headers=headers, json=data)
+print(response.json())
+```
+
+---
+
+Method: POST
+Path: /api-keys
+Description: Description: Creates or revokes API keys. Requires private key authentication.
+Parameters:
+  - - POLY_ADDRESS (Header): The Polygon address associated with the API key.
+  - - action: The action to perform (e.g., "create" or "revoke").
+Response:
+  - - api_key: The generated API key (if action is "create").
+  - - status: The status of the API key operation.
+  - Python Example: 
+
+Python Example:
+```python
+# Example of creating an API key
+import requests
+url = "https://clob.polymarket.com/api-keys"
+headers = {
+"POLY_ADDRESS": "YOUR_POLYGON_ADDRESS"
+}
+data = {
+"action": "create"
+}
+response = requests.post(url, headers=headers, json=data)
+print(response.json())
+```
+
+---
+
+Method: POST
+Path: /auth/api-key
+Description: Description: This endpoint is used to onboard a user by generating API credentials (key, secret, and passphrase) using the provided signature as a seed. These credentials are used to authenticate API requests to Polymarket's CLOB.
+Parameters:
+  - - **POLY_SIGNATURE**: (Required) CLOB EIP 712 signature.
+  - - **POLY_TIMESTAMP**: (Required) Current UNIX timestamp.
+  - - **POLY_NONCE**: (Required) Nonce. Default is 0.
+Response:
+  - - **key**: UUID identifying the credentials.
+  - - **secret**: Secret string used to generate HMACs (not sent with requests).
+  - - **passphrase**: Secret string sent with each request, used to encrypt/decrypt the secret in the database.
+  - #### Python Example: 
+
+Python Example:
+```python
+import requests
+url = "https://api.polymarket.com/auth/api-key"
+headers = {
+"POLY_SIGNATURE": "your_eip712_signature",
+"POLY_TIMESTAMP": "current_unix_timestamp",
+"POLY_NONCE": "0"
+}
+response = requests.post(url, headers=headers)
+print(response.json())
+```
+
+---
+
+Method: POST
+Path: /auth/api-key
+Description: Create new API key credentials for a user. **Parameters:** - `nonce`: (Optional) Defaults to 0. A unique value to prevent replay attacks. **Response:** - `apiKey`: The newly generated API key. - `secret`: The secret associated with the API key. - `passphrase`: The passphrase associated with the API key. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "{clob-endpoint}/auth/api-key"
+headers = {
+"POLY_API_KEY": "your_api_key",
+"POLY_PASSPHRASE": "your_passphrase"
+}
+response = requests.post(url, headers=headers)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /auth/derive-api-key
+Description: Derive an existing API key for an address and nonce. **Parameters:** - `nonce`: (Optional) Defaults to 0. A unique value to prevent replay attacks. **Response:** - `apiKey`: The derived API key. - `secret`: The secret associated with the derived API key. - `passphrase`: The passphrase associated with the derived API key. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "{clob-endpoint}/auth/derive-api-key"
+headers = {
+"POLY_API_KEY": "your_api_key",
+"POLY_PASSPHRASE": "your_passphrase"
+}
+response = requests.get(url, headers=headers)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /auth/api-keys
+Description: 
+
+---
+
+Method: GET
+Path: all
+Description: **Parameters:** - None **Response:** - `apiKeys`: A list of API keys associated with the Polygon address. **Python Example:**
+
+Python Example:
+```python
+import requests
+url = "{clob-endpoint}/auth/api-keys"
+headers = {
+"POLY_API_KEY": "your_api_key",
+"POLY_PASSPHRASE": "your_passphrase"
+}
+response = requests.get(url, headers=headers)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /auth/api-keys**
+Description: Retrieves a list of API keys associated with the account. **Response:** - `apiKeys`: A list of API key strings. **Python Example:** ---
+
+Python Example:
+```python
+apiKeys = await clobClient.getApiKeys()
+print(apiKeys)
+```
+
+---
+
+Method: DELETE
+Path: /auth/api-key**
+Description: 
+
+---
+
+Method: DELETE
+Path: s
+Description: **Response:** - Returns `"OK"` if the deletion is successful. **Python Example:** ---
+
+Python Example:
+```python
+resp = await clobClient.deleteApiKey()
+print(resp)
+```
+
+---
+
+Method: GET
+Path: /auth/ban-status/cert-required**
+Description: Returns the value of `cert_required` for a given signer address. This indicates whether a certificate is required for the address. **Parameters:** - `address`: The signer address to check. **Response:** - `cert_required`: A boolean value (`true` or `false`). **Python Example:** --- Let me know if you need further assistance!
+
+Python Example:
+```python
+address = "your_signer_address"
+response = await clobClient.getBanStatusCertRequired(address=address)
+print(response)
+```
+
+---
+
+Method: POST
+Path: /order**
+Description: 
+
+---
+
+Method: PUT
+Path: at
+Description: **Parameters:** - `tokenID`: The ID of the token being traded. - `price`: The price at which the order is placed. - `side`: The side of the order (BUY or SELL). **Response:** The response is not explicitly described in the documentation, but it typically includes fields such as: - `orderID`: The unique identifier for the created order. - `status`: The status of the order (e.g., "placed", "filled", "cancelled"). **Python Example:** --- Let me know if you need further assistance!
+
+Python Example:
+```python
+from polymarket.clob_client import Side, OrderType
+# Create a buy order for 100 YES for 0.50c
+order = clob_client.create_order({
+"tokenID": "71321045679252212594626385532706912750332728571942532289631379312455583992563",
+"price": 0.5,
+"side": Side.BUY,
+"size": 100  # Size of the order
+})
+print("Order created:", order)
+```
+
+---
+
+Method: POST
+Path: /order
+Description: Description: This endpoint is used to submit an order to the server. The order can be of different types (e.g., GTC, GTD, FOK) depending on the specified `OrderType`.
+Parameters:
+  - - **order**: The order object containing the following fields:
+  - - `tokenID`: The ID of the token being traded.
+  - - `price`: The price at which the order is placed.
+  - - `side`: The side of the order (e.g., BUY or SELL).
+  - - `size`: The size of the order.
+  - - `feeRateBps`: The fee rate in basis points.
+  - - `nonce`: A unique number to prevent replay attacks.
+  - - `expiration`: (Optional) The expiration time for the order (required for GTD orders).
+  - - **OrderType**: The type of order (e.g., GTC, GTD, FOK).
+Response:
+  - - **field_name**: Description of the response field (not explicitly provided in the documentation).
+  - #### Python Example: 
+  - ### Notes: 
+
+Python Example:
+```python
+import requests
+# Example for GTC Order
+order = {
+"tokenID": "71321045679252212594626385532706912750332728571942532289631379312455583992563",
+"price": 0.5,
+"side": "BUY",
+"size": 100,
+"feeRateBps": 100,
+"nonce": 1
+}
+response = requests.post("https://api.example.com/order", json={"order": order, "OrderType": "GTC"})
+print(response.json())
+```
+
+---
+
+Method: POST
+Path: /order**
+Description: Description: This endpoint is used to submit an order to the server. The order can be of different types such as "FOK" (Fill or Kill), "GTC" (Good Till Cancelled), or "GTD" (Good Till Date). **Parameters:** - `order`: (Required, Order) A signed order object containing the details of the order. - `owner`: (Required, string) The API key of the order owner. - `orderType`: (Required, string) The type of the order, which can be "FOK", "GTC", or "GTD". **Order Object Structure:** - `salt`: (Required, integer) A random salt used to create a unique order. - `maker`: (Required, string) The maker address (funder). - `signer`: (Required, string) The signing address. - `taker`: (Required, string) The taker address (operator). - `tokenId`: (Required, string) The ERC1155 token ID of the conditional token being traded. - `makerAmount`: (Required, string) The maximum amount the maker is willing to spend. - `takerAmount`: (Required, string) The minimum amount the taker must pay the maker in return. - `expiration`: (Required, string) The Unix expiration timestamp. - `nonce`: (Required, string) The maker's Exchange nonce the order is associated with. - `feeRateBps`: (Required, string) The fee rate in basis points as required by the operator. - `side`: (Required, string) The side of the order, either "buy" or "sell". - `signatureType`: (Required, integer) The signature type enum index. **Response:** The response will contain details about the submitted order, including its status and any relevant identifiers. **Python Example:** --- This is the only endpoint explicitly described in the provided documentation. If there are more endpoints in the full documentation, please provide the complete text for further extraction.
+
+Python Example:
+```python
+import requests
+# Example order object
+order = {
+"salt": 123456789,
+"maker": "0xMakerAddress",
+"signer": "0xSignerAddress",
+"taker": "0xTakerAddress",
+"tokenId": "71321045679252212594626385532706912750332728571942532289631379312455583992563",
+"makerAmount": "100",
+"takerAmount": "50",
+"expiration": "1698765432",
+"nonce": "0",
+"feeRateBps": "0",
+"side": "buy",
+"signatureType": 1
+}
+# API key of the order owner
+owner = "your_api_key_here"
+# Order type
+order_type = "FOK"
+# Send the order to the server
+response = requests.post(
+"https://api.example.com/order",
+json={
+"order": order,
+"owner": owner,
+"orderType": order_type
+}
+)
+# Print the response
+print(response.json())
+```
+
+---
+
+Method: POST
+Path: /order
+Description: Description: This endpoint is used to place an order. The order can be of different types (FOK, GTC, GTD) and must include a valid signature.
+Parameters:
+  - - **signature**: (string, required) Hex-encoded signature.
+  - - **orderType**: (string, required) Type of the order. Possible values: `FOK`, `GTC`, `GTD`.
+  - - **price**: (string, required) Price of the order.
+  - - **size**: (string, required) Size of the order.
+  - - **expiration**: (string, optional) Expiration time in UTC seconds timestamp (required for GTD orders).
+Response:
+  - - **success**: (boolean) Indicates whether the order was successfully placed. If `false`, a server-side error occurred.
+  - - **errorMsg**: (string) Error message in case of unsuccessful placement. If `success` is `true` and `errorMsg` is not empty, it indicates a client-side error.
+  - - **orderID**: (string) ID of the placed order.
+  - - **transactionsHashes**: (string[]) Hash of the settlement transaction if the order was marketable and triggered a match action.
+  - - **status**: (string) Status of the order.
+  - #### Python Example: 
+  - ### Notes: 
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/order"
+data = {
+"signature": "0x1234567890abcdef",
+"orderType": "GTC",
+"price": "100.50",
+"size": "10",
+"expiration": "1672531200"  # Optional for GTD orders
+}
+response = requests.post(url, json=data)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /data/order/{order
+Description: 
+
+---
+
+Method: GET
+Path: single
+Description: **Parameters:** - `order hash`: (string) The unique identifier (hash) of the order to retrieve. **Response:** - `OpenOrder`: (object) The order details if it exists. **Python Example:** --- Let me know if you need further assistance!
+
+Python Example:
+```python
+import requests
+# Example API call to get order details
+order_hash = "0xb816482a5187a3d3db49cbaf6fe3ddf24f53e6c712b5a4bf5e01d0ec7b11dabc"
+response = requests.get(f"https://{clob-endpoint}/data/order/{order_hash}")
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /order-scoring**
+Description: Description: Checks if an order is scoring or not. This endpoint requires an L2 Header. **Parameters:** - `order_id`: The ID of the order to check for scoring status. **Response:** - `boolean`: A boolean value indicating whether the order is scoring (`true`) or not (`false`). **Python Example:** --- Let me know if you need further assistance!
+
+Python Example:
+```python
+import requests
+# Define the endpoint and parameters
+url = "https://{clob-endpoint}/order-scoring"
+params = {
+"order_id": "0x..."
+}
+# Make the GET request
+response = requests.get(url, headers={"L2": "your_l2_header"}, params=params)
+# Check the response
+if response.status_code == 200:
+is_scoring = response.json()
+print(f"Is the order scoring? {is_scoring}")
+else:
+print(f"Failed to check order scoring: {response.status_code}")
+```
+
+---
+
+Method: POST
+Path: /orders-scoring**
+Description: Description: This endpoint checks if specific orders are scoring or not. It requires a L2 Header and returns a dictionary with boolean values indicating whether each order is scoring. **Parameters:**
+
+---
+
+Method: GET
+Path: information
+Description: **Response:** - `OrdersScoring`: A dictionary where each key is an order ID and the value is a boolean indicating whether the order is scoring. Example: **Python Example:** --- Let me know if you need further assistance!
+
+Python Example:
+```python
+import requests
+# Define the endpoint and request payload
+url = "{clob-endpoint}/orders-scoring"
+headers = {
+"L2-Header": "your-l2-header-value"  # Replace with your actual L2 Header
+}
+payload = {
+"orderIds": ["0x..."]  # Replace with actual order IDs
+}
+# Make the POST request
+response = requests.post(url, headers=headers, json=payload)
+# Print the response
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /data/orders
+Description: **Description:**
+
+---
+
+Method: GET
+Path: active
+Description: **Parameters:**
+
+---
+
+Method: GET
+Path: information
+Description: - `market`: (Optional, string) Condition ID of the market. - `asset_id`: (Optional, string) ID of the asset/token. **Response:** - `null`: (OpenOrder[]) A list of open orders filtered by the query parameters. **Python Example:** ---
+
+Python Example:
+```python
+# Example using a hypothetical Python client
+response = clob_client.get_open_orders(
+market="0xbd31dc8a20211944f6b70f31557f1001557b59905b7738480ca09bd4532f84af"
+)
+print(response)
+```
+
+---
+
+Method: DELETE
+Path: /order
+Description: **Description:** Cancel an order. **Parameters:** - `orderID`: (Required, string) ID of the order to cancel. **Response:** No specific response fields are documented. **Python Example:** --- Let me know if you need further clarification or additional details!
+
+Python Example:
+```python
+# Example using a hypothetical Python client
+response = clob_client.cancel_order(
+orderID="0x38a73eed1e6d177545e9ab027abddfb7e08dbe975fa777123b1752d203d6ac88"
+)
+print(response)
+```
+
+---
+
+Method: DELETE
+Path: /orders
+Description: **Description:** Cancel many orders. This endpoint requires an L2 Header. **Parameters:** - `orderID`: (string) ID of the order to cancel. **Response:** - `canceled`: (string[]) List of canceled orders. - `not_canceled`: ({}) A map of order IDs to reasons explaining why those orders couldn't be canceled. **Python Example:** ---
+
+Python Example:
+```python
+# Example using a hypothetical client library
+response = clob_client.cancel_orders([
+"0x38a73eed1e6d177545e9ab027abddfb7e08dbe975fa777123b1752d203d6ac88",
+"0xaaaa..."
+])
+print(response)
+```
+
+---
+
+Method: DELETE
+Path: /cancel-all
+Description: 
+
+---
+
+Method: POST
+Path: ed
+Description: **Parameters:** - None **Response:** - `canceled`: (string[]) List of canceled orders. - `not_canceled`: ({}) A map of order IDs to reasons explaining why those orders couldn't be canceled. **Python Example:** --- Let me know if you need further clarification or additional formatting!
+
+Python Example:
+```python
+# Example using a hypothetical client library
+response = clob_client.cancel_all_orders()
+print(response)
+```
+
+---
+
+Method: DELETE
+Path: /cancel-market-orders
+Description: **Description:** Cancel orders from the market. This endpoint requires an L2 Header. **Parameters:** - `market`: (string, optional) Condition ID of the market. - `asset_id`: (string, optional) ID of the asset/token. **Response:** - `canceled`: (string[]) List of canceled orders. - `not_canceled`: ({}) A map of order IDs to reasons explaining why those orders couldn't be canceled. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "{clob-endpoint}/cancel-market-orders"
+headers = {
+"L2-Header": "your-l2-header-value"
+}
+payload = {
+"market": "0xbd31dc8a20211944f6b70f31557f1001557b59905b7738480ca09bd4532f84af",
+"asset_id": "52114319501245915516055106046884209969926127482827954674443846427813813222426"
+}
+response = requests.delete(url, headers=headers, json=payload)
+print(response.json())
+```
+
+---
+
+Method: DELETE
+Path: /cancel-all
+Description: **Description:** Cancel all orders. **Response:** - `canceled`: (string[]) List of canceled orders. - `not_canceled`: ({}) A map of order IDs to reasons explaining why those orders couldn't be canceled. **Python Example:** --- Let me know if you need further assistance!
+
+Python Example:
+```python
+import requests
+url = "{clob-endpoint}/cancel-all"
+headers = {
+"L2-Header": "your-l2-header-value"
+}
+response = requests.delete(url, headers=headers)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /data/trades**
+Description: 
+
+---
+
+Method: GET
+Path: trades
+Description: **Parameters:** - `id`: (optional, string) ID of the trade to fetch. - `market`: (required, string) Market identifier. - `maker_address`: (required, string) Address of the maker. **Response:** The response will include trade details, but specific fields are not described in the provided documentation. **Python Example:** --- Let me know if you need further assistance!
+
+Python Example:
+```python
+import requests
+clob_endpoint = "https://api.polymarket.com"  # Replace with actual CLOB endpoint
+headers = {
+"L2-Header": "your-l2-header"  # Replace with actual L2 header
+}
+params = {
+"market": "0xbd31dc8a20211944f6b70f31557f1001557b59905b7738480ca09bd4532f84af",
+"maker_address": "your_maker_address"  # Replace with actual maker address
+}
+response = requests.get(f"{clob_endpoint}/data/trades", headers=headers, params=params)
+trades = response.json()
+print(trades)
+```
+
+---
+
+Method: GET
+Path: /trades**
+Description: Retrieves a list of trades filtered by query parameters. **Parameters:**
+
+---
+
+Method: GET
+Path: trades
+Description: 
+
+---
+
+Method: GET
+Path: trades
+Description: 
+
+---
+
+Method: GET
+Path: trades
+Description: - `before`: (string, optional) Unix timestamp representing the cutoff up to which trades that happened before then can be included. - `after`: (string, optional) Unix timestamp representing the cutoff for which trades that happened after can be included. **Response:** - `Trade[]`: (list of Trade objects) List of trades filtered by query parameters. **Trade Object Fields:** - `id`: (string) Trade ID. - `taker_order_id`: (string) Hash of taker order (market order) that catalyzed the trade. - `market`: (string) Market ID (condition ID). - `asset_id`: (string) Asset ID (token ID) of taker order (market order). - `side`: (string) Buy or sell. - `size`: (string) Size. - `fee_rate_bps`: (string) The fees paid for the taker order expressed in basic points. - `price`: (string) Limit price of taker order. - `status`: (string) Trade status. - `match_time`: (string) Time at which the trade was matched. - `last_update`: (string) Timestamp of last status update. - `outcome`: (string) Human-readable outcome of the trade. - `maker_address`: (string) Funder address of the taker of the trade. - `owner`: (string) API key of taker of the trade. - `transaction_hash`: (string) Hash of the transaction where the trade was executed. - `bucket_index`: (integer) Index of bucket for trade in case trade is executed in multiple transactions. **Python Example:** --- This is the only endpoint described in the provided documentation. Let me know if you need further clarification or assistance!
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/trades"
+params = {
+"taker": "0xTakerAddress",
+"maker": "0xMakerAddress",
+"market": "conditionID123",
+"before": "1693526400",  # Unix timestamp
+"after": "1693440000"    # Unix timestamp
+}
+response = requests.get(url, params=params)
+trades = response.json()
+print(trades)
+```
+
+---
+
+Method: GET
+Path: /markets**
+Description: 
+
+---
+
+Method: GET
+Path: available
+Description: **Parameters:** - `next_cursor`: (optional, string) Cursor to start with, used for traversing paginated response. **Response:** - `limit`: (number) Limit of results on a single page. **Python Example:** --- Let me know if you need further assistance!
+
+Python Example:
+```python
+import requests
+# Example API call to get markets
+response = requests.get("https://{clob-endpoint}/markets", params={"next_cursor": ""})
+markets = response.json()
+print(markets)
+```
+
+---
+
+Method: GET
+Path: /markets**
+Description: Retrieves a list of markets with details such as condition ID, question ID, tokens, rewards, and other market-related data. **Parameters:** - `count`: Number of results to return. - `next_cursor`: Pagination item to retrieve the next page (base64 encoded). Use `'LTE='` for the end and an empty string `''` for the beginning. **Response:** - `count`: Number of results returned. - `next_cursor`: Pagination token for the next page. - `data`: List of `Market` objects. **Market Object Fields:** - `condition_id`: ID of the market (also the CTF condition ID). - `question_id`: Question ID of the market (also the CTF question ID used to derive the condition ID). - `tokens`: Binary token pair for the market. - `rewards`: Rewards-related data. - `minimum_order_size`: Minimum limit order size. - `minimum_tick_size`: Minimum tick size in units of implied probability. - `description`: Market description. - `category`: Market category. - `end_date_iso`: ISO string of the market end date. - `game_start_time`: ISO string of the game start time (used to trigger delay). - `question`: Market question. - `market_slug`: Slug of the market. - `min_incentive_size`: Minimum resting order size for incentive qualification. - `max_incentive_spread`: Maximum spread up to which orders are qualified for incentives (in cents). - `active`: Boolean indicating whether the market is active/live. - `closed`: Boolean indicating whether the market is closed/open. - `seconds_delay`: Seconds of match delay for in-game trading. - `icon`: Reference to the market icon image. - `fpmm`: Address of the associated fixed product market maker on the Polygon network. **Token Object Fields:** - `token_id`: ERC1155 token ID. **Python Example:** --- This is the only endpoint explicitly described in the provided documentation. If there are additional endpoints, they would need to be extracted from further documentation.
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/markets"
+params = {
+"count": 10,
+"next_cursor": ""
+}
+response = requests.get(url, params=params)
+data = response.json()
+print(data)
+```
+
+---
+
+Method: GET
+Path: /sampling-markets**
+Description: 
+
+---
+
+Method: GET
+Path: available
+Description: **Parameters:** - `next_cursor`: Pagination item to retrieve the next page (base64 encoded). 'LTE=' means the end, and an empty value ('') means the beginning. **Response:** - `limit`: Limit of results on a single page. - `count`: Number of results. - `next_cursor`: Pagination item to retrieve the next page (base64 encoded). - `data`: List of sampling markets (Market[]). **Python Example:** ---
+
+Python Example:
+```python
+# Code example showing how to call this endpoint
+async def main():
+markets = await clobClient.getSamplingMarkets("")
+print(f"markets: {markets}")
+```
+
+---
+
+Method: GET
+Path: /simplified-markets**
+Description: 
+
+---
+
+Method: GET
+Path: available
+Description: **Parameters:** - `next_cursor`: Pagination item to retrieve the next page (base64 encoded). 'LTE=' means the end, and an empty value ('') means the beginning. **Response:** *(Response format not fully provided in the documentation text.)* **Python Example:** --- Let me know if you need further clarification or additional details!
+
+Python Example:
+```python
+# Code example showing how to call this endpoint
+async def main():
+markets = await clobClient.getSimplifiedMarkets("")
+print(f"markets: {markets}")
+```
+
+---
+
+Method: GET
+Path: /sampling-simplified-markets**
+Description: 
+
+---
+
+Method: GET
+Path: available
+Description: **Parameters:** - `next_cursor`: string Pagination item to retrieve the next page. Base64 encoded. 'LTE=' means the end, and an empty string ('') means the beginning. **Response:** - `limit`: number Limit of results on a single page. - `count`: number Number of results. - `next_cursor`: string Pagination item to retrieve the next page. Base64 encoded. - `data`: SimplifiedMarket[] List of markets. Each `SimplifiedMarket` object contains: - `condition_id`: string ID of the market, which is also the CTF condition ID. - `tokens`: Tokens[2] Binary token pair for the market. - `rewards`: Rewards Rewards-related data. - `min_incentive_size`: string Minimum resting order size for incentive qualification. - `max_incentive_spread`: string Maximum spread up to which orders are qualified for incentives (in cents). - `active`: boolean Boolean indicating whether the market is active/live. - `closed`: boolean Boolean indicating whether the market is closed/open. **Python Example:** --- Let me know if you need further assistance!
+
+Python Example:
+```python
+import requests
+# Example API call
+clob_endpoint = "https://api.example.com"
+next_cursor = ""  # Start from the beginning
+response = requests.get(f"{clob_endpoint}/sampling-simplified-markets?next_cursor={next_cursor}")
+if response.status_code == 200:
+markets = response.json()
+print("Markets:", markets)
+else:
+print("Failed to fetch markets:", response.status_code)
+```
+
+---
+
+Method: GET
+Path: /markets/{condition_id}
+Description: 
+
+---
+
+Method: GET
+Path: a
+Description: **Parameters:** - `condition_id`: The ID of the market condition to retrieve. **Response:** - `market`: A market object containing details about the market. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+clob_endpoint = "https://api.example.com"
+condition_id = "your_condition_id_here"
+response = requests.get(f"{clob_endpoint}/markets/{condition_id}")
+market = response.json()
+print(market)
+```
+
+---
+
+Method: GET
+Path: /book
+Description: 
+
+---
+
+Method: GET
+Path: an
+Description: **Parameters:**
+
+---
+
+Method: GET
+Path: the
+Description: **Response:** - (Response format not explicitly provided in the documentation.) **Python Example:** --- Let me know if you need further clarification or additional details!
+
+Python Example:
+```python
+import requests
+clob_endpoint = "https://api.example.com"
+token_id = "71321045679252212594626385532706912750332728571942532289631379312455583992563"
+response = requests.get(f"{clob_endpoint}/book", params={"token_id": token_id})
+order_book = response.json()
+print(order_book)
+```
+
+---
+
+Method: POST
+Path: /books**
+Description: 
+
+---
+
+Method: GET
+Path: order
+Description: **Parameters:** - `params`: Search parameters for books.
+
+---
+
+Method: GET
+Path: the
+Description: **Response:** - `market`: (string) Condition ID. - `asset_id`: (string) ID of the asset/token. - `hash`: (string) Hash summary of the order book content. - `timestamp`: (string) Unix timestamp of the current book generation in milliseconds (1/1,000 second). - `bids`: (OrderSummary[]) List of bid levels. - `asks`: (OrderSummary[]) List of ask levels. **OrderSummary Object:** - `price`: (string) Price. - `size`: (string) Size. **Python Example:** --- This is the formatted API endpoint based on the provided documentation. Let me know if you need further clarification or additional endpoints!
+
+Python Example:
+```python
+# Example using an async function to call the endpoint
+async def main():
+YES = "71321045679252212594626385532706912750332728571942532289631379312455583992563"
+NO = "52114319501245915516055106046884209969926127482827954674443846427813813222426"
+orderbooks = await clobClient.getOrderBooks([
+{"token_id": YES},
+{"token_id": NO},
+])
+print(orderbooks)
+# Run the async function
+import asyncio
+asyncio.run(main())
+```
+
+---
+
+Method: GET
+Path: /price**
+Description: 
+
+---
+
+Method: GET
+Path: the
+Description: **Parameters:** - `market`: The market identifier (e.g., token ID). - `side`: The side of the orderbook to query (`buy` for best bid or `sell` for best ask). **Response:** - `price`: The best bid or ask price for the specified market. **Python Example:** --- Let me know if you need further assistance!
+
+Python Example:
+```python
+import requests
+# Example token IDs
+YES_TOKEN_ID = "71321045679252212594626385532706912750332728571942532289631379312455583992563"
+NO_TOKEN_ID = "52114319501245915516055106046884209969926127482827954674443846427813813222426"
+# Example function to get price
+def get_price(market, side):
+url = f"{clob_endpoint}/price"
+params = {"market": market, "side": side}
+response = requests.get(url, params=params)
+return response.json()
+# Example usage
+print("YES BUY:", get_price(YES_TOKEN_ID, "buy"))
+print("YES SELL:", get_price(YES_TOKEN_ID, "sell"))
+print("NO BUY:", get_price(NO_TOKEN_ID, "buy"))
+print("NO SELL:", get_price(NO_TOKEN_ID, "sell"))
+```
+
+---
+
+Method: POST
+Path: /prices**
+Description: 
+
+---
+
+Method: GET
+Path: the
+Description: **Parameters:** - `params`: (Required, type: `BookParams`) Search parameters for books. A `BookParams` object contains: - `token_id`: (Required, type: `string`)
+
+---
+
+Method: GET
+Path: the
+Description: - `side`: (Required, type: `string`) Either `BUY` or `SELL`. **Response:** - `{[asset_id]: {[side]: price}}` A dictionary where the key is the `asset_id` (token ID), and the value is another dictionary with `BUY` and `SELL` prices. Example: **Python Example:** --- This is the only endpoint described in the provided documentation.
+
+Python Example:
+```python
+async def main():
+YES = "71321045679252212594626385532706912750332728571942532289631379312455583992563"
+NO = "52114319501245915516055106046884209969926127482827954674443846427813813222426"
+prices = await clobClient.getPrices([
+{ "token_id": YES, "side": "BUY" },
+{ "token_id": YES, "side": "SELL" },
+{ "token_id": NO, "side": "BUY" },
+{ "token_id": NO, "side": "SELL" }
+])
+print(prices)
+main()
+```
+
+---
+
+Method: GET
+Path: /midpoint**
+Description: 
+
+---
+
+Method: GET
+Path: the
+Description: **Parameters:**
+
+---
+
+Method: GET
+Path: the
+Description: **Response:** - `mid`: (string) The midpoint price. **Python Example:** ---
+
+Python Example:
+```python
+# Example using a hypothetical client library
+response = client.get_midpoint(token_id="71321045679252212594626385532706912750332728571942532289631379312455583992563")
+print(response)
+```
+
+---
+
+Method: POST
+Path: /midpoints**
+Description: 
+
+---
+
+Method: GET
+Path: the
+Description: **Parameters:** - `params`: (Required, BookParams) A list of search parameters for books. - A `BookParams` object is of the form: **Response:** - (Not explicitly provided in the documentation, but likely a list of midpoint prices for the requested markets.) **Python Example:** --- Let me know if you need further clarification or additional details!
+
+Python Example:
+```python
+# Example using a hypothetical client library
+params = [
+{"token_id": "71321045679252212594626385532706912750332728571942532289631379312455583992563"},
+{"token_id": "52114319501245915516055106046884209969926127482827954674443846427813813222426"}
+]
+response = client.get_midpoints(params=params)
+print(response)
+```
+
+---
+
+Method: GET
+Path: /spread
+Description: 
+
+---
+
+Method: GET
+Path: the
+Description: **Parameters:**
+
+---
+
+Method: GET
+Path: the
+Description: **Response:** - `spread`: (string) The spread value for the specified token. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+clob_endpoint = "https://api.example.com"
+token_id = "71321045679252212594626385532706912750332728571942532289631379312455583992563"
+response = requests.get(f"{clob_endpoint}/spread", params={"token_id": token_id})
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /spread
+Description: 
+
+---
+
+Method: GET
+Path: the
+Description: **Parameters:**
+
+---
+
+Method: GET
+Path: the
+Description: **Response:** - `spread`: (string) The spread value for the specified token. **Python Example:** --- Let me know if you need further assistance!
+
+Python Example:
+```python
+import requests
+clob_endpoint = "https://api.example.com"
+token_ids = [
+{"token_id": "71321045679252212594626385532706912750332728571942532289631379312455583992563"},
+{"token_id": "52114319501245915516055106046884209969926127482827954674443846427813813222426"}
+]
+response = requests.get(f"{clob_endpoint}/spread", json=token_ids)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: BOOK
+Description: 
+
+---
+
+Method: GET
+Path: `
+Description: **Description**: Retrieves the order book data for a specific market. **Parameters**: - `params`: Search parameters for books. - Type: `BookParams` - Description: Object containing search parameters.
+
+---
+
+Method: GET
+Path: the
+Description: - Type: `string` - Required: Yes **Response**: - `{asset_id: spread}`: A dictionary where keys are asset IDs and values are spreads. - Example: **Python Example**: --- Let me know if you need further clarification or additional endpoints!
+
+Python Example:
+```python
+import requests
+url = "https://your-api-endpoint/book"
+params = {
+"params": {
+"token_id": "your_token_id"
+}
+}
+response = requests.get(url, json=params)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /orders
+Description: Retrieves details about maker orders and associated trade information. **Parameters:** - `market`: Market identifier (condition ID). - `matchtime`: Time trade was matched. - `outcome`: Outcome of the trade. - `owner`: API key of the event owner. - `price`: Price of the trade. - `side`: Indicates whether the trade is a BUY or SELL. - `size`: Size of the trade. - `status`: Status of the trade. - `taker_order_id`: ID of the taker order. - `timestamp`: Time of the event. - `trade_owner`: API key of the trade owner. - `type`: Type of the event (e.g., "TRADE"). **Response:** - `maker_orders`: Array of `MakerOrder` objects containing details about maker orders. - `asset_id`: Asset ID of the maker order. - `matched_amount`: Amount of the maker order matched in the trade. - `order_id`: ID of the maker order. - `outcome`: Outcome of the maker order. - `owner`: Owner of the maker order. - `price`: Price of the maker order. - `market`: Market identifier (condition ID). - `matchtime`: Time trade was matched. - `outcome`: Outcome of the trade. - `owner`: API key of the event owner. - `price`: Price of the trade. - `side`: Indicates whether the trade is a BUY or SELL. - `size`: Size of the trade. - `status`: Status of the trade. - `taker_order_id`: ID of the taker order. - `timestamp`: Time of the event. - `trade_owner`: API key of the trade owner. - `type`: Type of the event (e.g., "TRADE"). **Python Example:** --- This endpoint retrieves details about maker orders and associated trade information, including parameters like `market`, `outcome`, and `side`, and returns a response containing an array of `MakerOrder` objects and other trade-related details.
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/orders"
+params = {
+"market": "0xbd31dc8a20211944f6b70f31557f1001557b59905b7738480ca09bd4532f84af",
+"outcome": "YES",
+"side": "SELL"
+}
+response = requests.get(url, params=params)
+if response.status_code == 200:
+orders = response.json()
+print(orders)
+else:
+print(f"Error: {response.status_code}")
+```
+
+---
+
+Method: GET
+Path: /market/{market_id}/book
+Description: Description: Retrieves the order book for a specific market. This endpoint is triggered when first subscribing to a market or when a trade affects the book. **Parameters:** - `market_id`: The condition ID of the market. **Response:** - `event_type`: `string` - "book" - `asset_id`: `string` - Asset ID (token ID) - `market`: `string` - Condition ID of the market - `timestamp`: `string` - Unix timestamp of the current book generation in milliseconds (1/1,000 second) - `hash`: `string` - Hash summary of the order book content - `buys`: `OrderSummary[]` - List of aggregate book levels for buys (each with `size` and `price`) - `sells`: `OrderSummary[]` - List of aggregate book levels for sells (each with `size` and `price`) **Python Example:** ---
+
+Python Example:
+```python
+import requests
+market_id = "0x5f65177b394277fd294cd75650044e32ba009a95022d88a0c1d565897d72f8f1"
+response = requests.get(f"https://api.example.com/market/{market_id}/book")
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /market/{market_id}/price_change
+Description: Description: Retrieves price change events for a specific market. **Parameters:** - `market_id`: The condition ID of the market. **Response:** - `asset_id`: `string` - Asset ID (token ID) - `changes`: `list` - List of price changes (each with `price`, `side`, and `size`) - `event_type`: `string` - "price_change" - `market`: `string` - Condition ID of the market **Python Example:** --- These endpoints are inferred from the provided documentation text. If additional details or endpoints are available in the full documentation, they should be included similarly.
+
+Python Example:
+```python
+import requests
+market_id = "0x5f65177b394277fd294cd75650044e32ba009a95022d88a0c1d565897d72f8f1"
+response = requests.get(f"https://api.example.com/market/{market_id}/price_change")
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /prices-history
+Description: Description: Retrieves detailed price history data for a specific traded token on the CLOB. **Parameters:** - `market`: The CLOB token id for which to fetch price history. - `startTs`: The start time, a Unix timestamp in UTC (mutually exclusive with `interval`). - `endTs`: The end time, a Unix timestamp in UTC (mutually exclusive with `interval`). - `interval`: A string representing a duration ending at the current time (mutually exclusive with `startTs`/`endTs`). Options include: - `1m`: 1 month - `1w`: 1 week - `1d`: 1 day - `6h`: 6 hours - `1h`: 1 hour - `max`: max range - `fidelity`: The resolution of the data, in minutes. **Response:** - `history`: A list of `TimeseriesPoint` objects, each containing: - `t`: UTC timestamp. - `p`: Price. **Python Example:**
+
+Python Example:
+```python
+import requests
+url = "{clob-endpoint}/prices-history"
+params = {
+"market": 12345,
+"interval": "1d",
+"fidelity": 60
+}
+response = requests.get(url, params=params)
+data = response.json()
+print(data)
+```
+
+---
+
+Method: GET
+Path: /markets**
+Description: Description: Fetches a list of markets. Markets can be traded via the CLOB if `enableOrderBook` is true. **Parameters:** None specified in the provided documentation. **Response:** The documentation does not provide specific response fields, but it is implied that the response will include market-related data such as market IDs, token pairs, market maker addresses, question IDs, and condition IDs. **Python Example:** --- Let me know if you need further assistance!
+
+Python Example:
+```python
+import requests
+# Define the Gamma API endpoint
+gamma_endpoint = "https://gamma-api.polymarket.com"
+# Make a GET request to fetch markets
+response = requests.get(f"{gamma_endpoint}/markets")
+# Check if the request was successful
+if response.status_code == 200:
+markets = response.json()
+print(markets)
+else:
+print(f"Failed to fetch markets. Status code: {response.status_code}")
+```
+
+---
+
+Method: GET
+Path: /markets**
+Description: Description: Retrieves a list of markets based on the provided query parameters.
+Parameters:
+  - - `limit`: number - Limit query results.
+  - - `offset`: number - Pagination offset.
+  - - `order`: string - Key to sort by.
+  - - `ascending`: boolean - Sort direction, defaults to true, requires the `order` parameter.
+  - - `id`: number - ID of a single market to query, can be used multiple times to fetch multiple markets.
+  - - `slug`: string - Slug of a single event to query, can be used multiple times to fetch multiple markets.
+  - - `archived`: boolean - Filter by archived status.
+  - - `active`: boolean - Filter by active status.
+  - - `closed`: boolean - Filter by closed status.
+  - - `clob_token_ids`: string - Filter by CLOB token ID, can be used multiple times.
+  - - `condition_ids`: string - Filter by condition ID, can be used multiple times.
+  - - `liquidity_num_min`: decimal - Filter by minimum liquidity.
+  - - `liquidity_num_max`: decimal - Filter by maximum liquidity.
+  - - `volume_num_min`: decimal - Filter by minimum volume.
+  - - `volume_num_max`: decimal - Filter by maximum volume.
+  - - `start_date_min`: string - Filter by minimum start date.
+  - - `start_date_max`: string - Filter by maximum start date.
+  - - `end_date_min`: string - Filter by minimum end date.
+  - - `end_date_max`: string - Filter by maximum end date.
+  - - `tag_id`: number - Filter by tag ID.
+  - - `related_tags`: boolean - Include events with related tags, requires the `tag_id` parameter.
+Response:
+  - - `markets`: array - List of market objects.
+  - Python Example: 
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/markets"
+params = {
+"limit": 100,
+"offset": 0,
+"order": "slug",
+"ascending": False,
+"id": [1, 2],
+"slug": ["market-slug", "another-slug"],
+"archived": False,
+"active": True,
+"closed": False,
+"clob_token_ids": ["1", "2"],
+"condition_ids": ["3", "4"],
+"liquidity_num_min": 1000.0,
+"liquidity_num_max": 5000.0,
+"volume_num_min": 500.0,
+"volume_num_max": 2000.0,
+"start_date_min": "2023-01-01",
+"start_date_max": "2023-12-31",
+"end_date_min": "2023-01-01",
+"end_date_max": "2023-12-31",
+"tag_id": 5,
+"related_tags": True
+}
+response = requests.get(url, params=params)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /markets
+Description: Description: Retrieves a list of markets based on specified query parameters.
+Parameters:
+  - - `condition_ids`: Filter markets by condition IDs. Can be used multiple times.
+  - - `liquidity_num_min`: Filter markets with liquidity greater than or equal to the specified value.
+  - - `liquidity_num_max`: Filter markets with liquidity less than or equal to the specified value.
+  - - `volume_num_min`: Filter markets with volume greater than or equal to the specified value.
+  - - `volume_num_max`: Filter markets with volume less than or equal to the specified value.
+  - - `start_date_min`: Filter markets with a start date greater than or equal to the specified date.
+  - - `start_date_max`: Filter markets with a start date less than or equal to the specified date.
+  - - `end_date_min`: Filter markets with an end date greater than or equal to the specified date.
+  - - `end_date_max`: Filter markets with an end date less than or equal to the specified date.
+  - - `tag_id`: Filter markets by tag ID.
+  - - `related_tags`: Include related tags in the response (boolean).
+Response:
+  - - `markets`: A list of `Market` objects.
+  - Python Example: 
+
+Python Example:
+```python
+import requests
+url = "https://{gamma-endpoint}/markets"
+params = {
+"condition_ids": [1, 2],
+"liquidity_num_min": 1.0,
+"start_date_min": "2022-04-01T00:00:00Z"
+}
+response = requests.get(url, params=params)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /markets/{id}
+Description: Description: Retrieves a single market by its ID.
+Parameters:
+  - - `id`: The unique identifier of the market.
+Response:
+  - - `market`: A `Market` object representing the requested market.
+  - Python Example: 
+
+Python Example:
+```python
+import requests
+market_id = 501011
+url = f"https://{gamma-endpoint}/markets/{market_id}"
+response = requests.get(url)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /events
+Description: Description: Retrieves a list of events based on specified query parameters.
+Parameters:
+  - - `limit`: Limit the number of query results.
+  - - `offset`: Pagination offset.
+  - - `order`: Key to sort by.
+  - - `ascending`: Sort direction (defaults to `true`). Requires the `order` parameter.
+  - - `id`: ID of a single event to query. Can be used multiple times to fetch multiple events.
+  - - `slug`: Slug of a single event to query. Can be used multiple times to fetch multiple events.
+Response:
+  - - `events`: A list of `Event` objects.
+  - Python Example: 
+
+Python Example:
+```python
+import requests
+url = "https://{gamma-endpoint}/events"
+params = {
+"limit": 10,
+"offset": 0,
+"order": "start_date",
+"ascending": True,
+"id": [1, 2, 3]
+}
+response = requests.get(url, params=params)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /events
+Description: Retrieve a list of events with optional filtering parameters. **Parameters:** - `offset`: The number of events to skip before starting to collect the result set. - `limit`: The maximum number of events to return. - `order`: The field to order the results by (e.g., `slug`). - `ascending`: Whether to sort the results in ascending order (default is `true`). - `id`: Filter events by specific IDs. - `slug`: Filter events by specific slugs. - `archived`: Filter events by archived status. - `closed`: Filter events by closed status. - `active`: Filter events by active status. - `clob_token_ids`: Filter events by CLOB token IDs. - `condition_ids`: Filter events by condition IDs. - `liquidity_min`: Filter events by minimum liquidity. - `liquidity_max`: Filter events by maximum liquidity. - `volume_min`: Filter events by minimum volume. - `volume_max`: Filter events by maximum volume. - `start_date_min`: Filter events by minimum start date. - `start_date_max`: Filter events by maximum start date. - `end_date_min`: Filter events by minimum end date. - `end_date_max`: Filter events by maximum end date. - `tag`: Filter events by tag labels. - `tag_id`: Filter events by tag ID. - `related_tags`: Include events with related tags (requires `tag_id` parameter). - `tag_slug`: Filter events by tag slug. **Response:** - `events`: A list of event objects. - `id`: The unique identifier of the event. - `slug`: The slug of the event. - `archived`: Whether the event is archived. - `closed`: Whether the event is closed. - `active`: Whether the event is active. - `liquidity`: The liquidity of the event. - `volume`: The volume of the event. - `start_date`: The start date of the event. - `end_date`: The end date of the event. - `tags`: A list of tags associated with the event. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/events"
+params = {
+"archived": True,
+"liquidity_min": 1.0,
+"start_date_min": "2022-04-01T00:00:00Z"
+}
+response = requests.get(url, params=params)
+events = response.json()
+print(events)
+```
+
+---
+
+Method: GET
+Path: /events?tag=music
+Description: Retrieve events filtered by a specific tag label. **Parameters:** - `tag`: The tag label to filter events by. **Response:** - `events`: A list of event objects filtered by the specified tag. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/events"
+params = {
+"tag": "music"
+}
+response = requests.get(url, params=params)
+events = response.json()
+print(events)
+```
+
+---
+
+Method: GET
+Path: /events?tag_id=123
+Description: Retrieve events filtered by a specific tag ID. **Parameters:** - `tag_id`: The tag ID to filter events by. **Response:** - `events`: A list of event objects filtered by the specified tag ID. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/events"
+params = {
+"tag_id": 123
+}
+response = requests.get(url, params=params)
+events = response.json()
+print(events)
+```
+
+---
+
+Method: GET
+Path: /events?tag_slug=music-festival
+Description: Retrieve events filtered by a specific tag slug. **Parameters:** - `tag_slug`: The tag slug to filter events by. **Response:** - `events`: A list of event objects filtered by the specified tag slug. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/events"
+params = {
+"tag_slug": "music-festival"
+}
+response = requests.get(url, params=params)
+events = response.json()
+print(events)
+```
+
+---
+
+Method: GET
+Path: /events?related_tags=true
+Description: Retrieve events with related tags, requires the `tag_id` parameter. **Parameters:** - `related_tags`: Whether to include events with related tags. - `tag_id`: The tag ID to filter events by. **Response:** - `events`: A list of event objects including related tags. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/events"
+params = {
+"tag_id": 123,
+"related_tags": True
+}
+response = requests.get(url, params=params)
+events = response.json()
+print(events)
+```
+
+---
+
+Method: GET
+Path: /events?liquidity_min=1.0&liquidity_max=2.0
+Description: Retrieve events filtered by a range of liquidity. **Parameters:** - `liquidity_min`: The minimum liquidity value. - `liquidity_max`: The maximum liquidity value. **Response:** - `events`: A list of event objects filtered by the specified liquidity range. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/events"
+params = {
+"liquidity_min": 1.0,
+"liquidity_max": 2.0
+}
+response = requests.get(url, params=params)
+events = response.json()
+print(events)
+```
+
+---
+
+Method: GET
+Path: /events?volume_min=1.0&volume_max=2.0
+Description: Retrieve events filtered by a range of volume. **Parameters:** - `volume_min`: The minimum volume value. - `volume_max`: The maximum volume value. **Response:** - `events`: A list of event objects filtered by the specified volume range. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/events"
+params = {
+"volume_min": 1.0,
+"volume_max": 2.0
+}
+response = requests.get(url, params=params)
+events = response.json()
+print(events)
+```
+
+---
+
+Method: GET
+Path: /events?start_date_min=2022-04-01T00:00:00Z&start_date_max=2022-04-30T00:00:00Z
+Description: Retrieve events filtered by a range of start dates. **Parameters:** - `start_date_min`: The minimum start date. - `start_date_max`: The maximum start date. **Response:** - `events`: A list of event objects filtered by the specified start date range. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/events"
+params = {
+"start_date_min": "2022-04-01T00:00:00Z",
+"start_date_max": "2022-04-30T00:00:00Z"
+}
+response = requests.get(url, params=params)
+events = response.json()
+print(events)
+```
+
+---
+
+Method: GET
+Path: /events?end_date_min=2022-04-01T00:00:00Z&end_date_max=2022-04-30T00:00:00Z
+Description: Retrieve events filtered by a range of end dates. **Parameters:** - `end_date_min`: The minimum end date. - `end_date_max`: The maximum end date. **Response:** - `events`: A list of event objects filtered by the specified end date range. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/events"
+params = {
+"end_date_min": "2022-04-01T00:00:00Z",
+"end_date_max": "2022-04-30T00:00:00Z"
+}
+response = requests.get(url, params=params)
+events = response.json()
+print(events)
+```
+
+---
+
+Method: GET
+Path: /events?clob_token_ids=tokenid
+Description: Retrieve events filtered by CLOB token IDs. **Parameters:** - `clob_token_ids`: The CLOB token IDs to filter events by. **Response:** - `events`: A list of event objects filtered by the specified CLOB token IDs. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/events"
+params = {
+"clob_token_ids": "tokenid"
+}
+response = requests.get(url, params=params)
+events = response.json()
+print(events)
+```
+
+---
+
+Method: GET
+Path: /events?condition_ids=condition
+Description: Retrieve events filtered by condition IDs. **Parameters:** - `condition_ids`: The condition IDs to filter events by. **Response:** - `events`: A list of event objects filtered by the specified condition IDs. **Python Example:** --- This covers all the endpoints and their parameters as described in the documentation.
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/events"
+params = {
+"condition_ids": "condition"
+}
+response = requests.get(url, params=params)
+events = response.json()
+print(events)
+```
+
+---
+
+Method: GET
+Path: /events?tag_id={tag_id}
+Description: Description: Retrieves a list of events filtered by a specific tag ID. **Parameters:** - `tag_id`: The ID of the tag used to filter events. **Response:** - `events`: A list of events (Event[]). ---
+
+---
+
+Method: GET
+Path: /events?tag_id={tag_id}&related_tags={related_tags}
+Description: Description: Retrieves a list of events filtered by a specific tag ID and includes related tags. **Parameters:** - `tag_id`: The ID of the tag used to filter events. - `related_tags`: A boolean flag to include related tags in the response. **Response:** - `events`: A list of events (Event[]). ---
+
+---
+
+Method: GET
+Path: /events/{id}
+Description: Description: Retrieves a single event by its ID. **Parameters:** - `id`: The unique identifier of the event. **Response:** - `event`: The event object corresponding to the provided ID. --- ### GraphQL Subgraph Endpoint Description: Provides real-time aggregate calculations and event indexing for trade, volume, user position, market, and liquidity data. The subgraph is hosted by Goldsky and can be queried using GraphQL. **Hosted Version:** - The subgraph is hosted on Goldsky with an accompanying GraphQL playground. **Source:** - The Polymarket subgraph is open source and available on the [Polymarket GitHub](https://github.com/Polymarket/polymarket-subgraph). --- ### Python Example: --- Let me know if you need further clarification or additional details!
+
+Python Example:
+```python
+import requests
+# Example: Fetch a single event by ID
+event_id = "901289"
+response = requests.get(f"https://{gamma-endpoint}/events/{event_id}")
+event_data = response.json()
+print(event_data)
+```
+
+---
+
+Method: GET
+Path: /api/public/project_cl6mb8i9h0003e201j6li0diw/subgraphs/polymarket-orderbook-resync/prod/gn
+Description: **Description:** Access the Orders subgraph to retrieve order-related data. **Parameters:** None specified. **Response:** The response structure is not explicitly defined in the documentation. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.goldsky.com/api/public/project_cl6mb8i9h0003e201j6li0diw/subgraphs/polymarket-orderbook-resync/prod/gn"
+response = requests.get(url)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /api/public/project_cl6mb8i9h0003e201j6li0diw/subgraphs/positions-subgraph/0.0.7/gn
+Description: **Description:** Access the Positions subgraph to retrieve position-related data. **Parameters:** None specified. **Response:** The response structure is not explicitly defined in the documentation. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.goldsky.com/api/public/project_cl6mb8i9h0003e201j6li0diw/subgraphs/positions-subgraph/0.0.7/gn"
+response = requests.get(url)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /api/public/project_cl6mb8i9h0003e201j6li0diw/subgraphs/activity-subgraph/0.0.4/gn
+Description: **Description:** Access the Activity subgraph to retrieve activity-related data. **Parameters:** None specified. **Response:** The response structure is not explicitly defined in the documentation. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.goldsky.com/api/public/project_cl6mb8i9h0003e201j6li0diw/subgraphs/activity-subgraph/0.0.4/gn"
+response = requests.get(url)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /api/public/project_cl6mb8i9h0003e201j6li0diw/subgraphs/oi-subgraph/0.0.6/gn
+Description: **Description:** Access the Open Interest subgraph to retrieve open interest-related data. **Parameters:** None specified. **Response:** The response structure is not explicitly defined in the documentation. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.goldsky.com/api/public/project_cl6mb8i9h0003e201j6li0diw/subgraphs/oi-subgraph/0.0.6/gn"
+response = requests.get(url)
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: /api/public/project_cl6mb8i9h0003e201j6li0diw/subgraphs/pnl-subgraph/0.0.14/gn
+Description: **Description:** Access the PNL subgraph to retrieve profit and loss-related data. **Parameters:** None specified. **Response:** The response structure is not explicitly defined in the documentation. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+url = "https://api.goldsky.com/api/public/project_cl6mb8i9h0003e201j6li0diw/subgraphs/pnl-subgraph/0.0.14/gn"
+response = requests.get(url)
+print(response.json())
+```
+
+---
+
+Method: POST
+Path: /initialize
+Description: **Description:** Initialize binary CTF markets via the `UmaCtfAdapter`'s `initialize()` function. This stores the question parameters on the contract, prepares the question on the CTF, and requests a price for a question from the Optimistic Oracle (OO). **Parameters:** - `ancillaryData`: Data used to resolve a question (e.g., the question + description). **Response:** Returns a `CTF questionID` that is also used as a reference on the `UmaCtfAdapter`. **Python Example:** --- Let me know if you need further clarification or additional details!
+
+Python Example:
+```python
+import requests
+url = "https://api.example.com/initialize"
+data = {
+"ancillaryData": "What is the price of ETH on January 1, 2024?"
+}
+response = requests.post(url, json=data)
+print(response.json())
+```
+
+---
+
+Method: POST
+Path: ed
+Description: - liveness: UMA liveness period in seconds.
+Parameters:
+  - - questionId: Unique identifier for the question or proposal.
+  - - proposedPrice: The price being proposed.
+Response:
+  - - questionId: Unique identifier for the initialized question or proposal.
+  - Python Example: 
+  - Description: Proposes a price for a specific question or proposal.
+  - - proposalId: Unique identifier for the proposed price.
+
+Python Example:
+```python
+# Example of calling the propose endpoint
+propose_response = contract.functions.propose(
+questionId="0x...",
+proposedPrice=1000
+).transact()
+```
+
+---
+
+Method: PUT
+Path: e
+Description: 
+
+---
+
+Method: POST
+Path: ing
+Description: 
+Parameters:
+  - - questionId: Unique identifier for the question or proposal.
+
+---
+
+Method: PUT
+Path: edPrice:
+Description: 
+
+---
+
+Method: PUT
+Path: eId:
+Description: Python Example: --- ### METHOD /resolve
+
+Python Example:
+```python
+# Example of calling the dispute endpoint
+dispute_response = contract.functions.dispute(
+questionId="0x...",
+disputedPrice=900
+).transact()
+```
+
+---
+
+Method: PUT
+Path: e
+Description: 
+Parameters:
+  - - questionId: Unique identifier for the question or proposal.
+Response:
+  - - resolvedPrice: The final resolved price.
+
+---
+
+Method: PUT
+Path: ed").
+Description: Python Example: --- ### METHOD /challenge Description: Challenges a proposed price, escalating it to the DVM for a voter-wide vote.
+Parameters:
+  - - questionId: Unique identifier for the question or proposal.
+  - - challengePrice: The price being challenged.
+Response:
+  - - challengeId: Unique identifier for the challenge.
+  - Python Example: 
+  - ### Notes: 
+
+Python Example:
+```python
+# Example of calling the challenge endpoint
+challenge_response = contract.functions.challenge(
+questionId="0x...",
+challengePrice=800
+).transact()
+```
+
+---
+
+Method: GET
+Path: /markets
+Description: **Description:** Fetches full market objects, including configurations such as `min_incentive_size` and `max_incentive_spread`. **Parameters:** None explicitly mentioned. **Response:** - `market_objects`: A list of market objects containing configurations like `min_incentive_size` and `max_incentive_spread`. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+response = requests.get("https://api.example.com/markets")
+markets = response.json()
+print(markets)
+```
+
+---
+
+Method: GET
+Path: /markets/{market_id}/rewards
+Description: **Description:** Fetches reward allocations for a specific market in a given epoch. **Parameters:** - `market_id`: The unique identifier for the market. **Response:** - `rewards`: A list of reward allocations for the specified market and epoch. **Python Example:** ---
+
+Python Example:
+```python
+import requests
+market_id = "example_market_id"
+response = requests.get(f"https://api.example.com/markets/{market_id}/rewards")
+rewards = response.json()
+print(rewards)
+```
+
+---
+
+Method: GET
+Path: /clob/markets
+Description: **Description:** Fetches market objects via the CLOB API, including configurations such as `min_incentive_size` and `max_incentive_spread`. **Parameters:** None explicitly mentioned. **Response:** - `market_objects`: A list of market objects containing configurations like `min_incentive_size` and `max_incentive_spread`. **Python Example:** --- If there are additional details or specific endpoints you'd like to extract, please provide more explicit API documentation text.
+
+Python Example:
+```python
+import requests
+response = requests.get("https://api.example.com/clob/markets")
+markets = response.json()
+print(markets)
+```
+
+---
+
+Method: GET
+Path: ConditionId
+Description: Description: Derives the `conditionId` from the given oracle address, questionId, and outcomeSlotCount. **Parameters:** - `oracle`: address - UMA adapter V2. - `questionId`: bytes32 - Hash of the UMA ancillary data. - `outcomeSlotCount`: uint - Number of outcome slots (2 for binary markets). **Response:** - `conditionId`: bytes32 - The derived conditionId. **Python Example:** ---
+
+Python Example:
+```python
+# Example code to call getConditionId
+from web3 import Web3
+web3 = Web3(Web3.HTTPProvider('https://polygon-rpc.com'))
+ctf_contract = web3.eth.contract(address='0xCTFContractAddress', abi=ctf_abi)
+oracle = '0xUMAAdapterV2Address'
+questionId = web3.toBytes(hexstr='0x...')  # Replace with actual questionId hash
+outcomeSlotCount = 2
+conditionId = ctf_contract.functions.getConditionId(oracle, questionId, outcomeSlotCount).call()
+print(f"ConditionId: {conditionId}")
+```
+
+---
+
+Method: GET
+Path: CollectionId
+Description: Description: Derives the `collectionId` from the given parentCollectionId, conditionId, and indexSet. **Parameters:** - `parentCollectionId`: bytes32 - Parent collection ID (bytes32(0) in this case).
+
+---
+
+Method: GET
+Path: ConditionId`.
+Description: - `indexSet`: uint - Index set for the outcome (1 for the first outcome, 2 for the second). **Response:** - `collectionId`: bytes32 - The derived collectionId. **Python Example:** ---
+
+Python Example:
+```python
+# Example code to call getCollectionId
+parentCollectionId = web3.toBytes(hexstr='0x0000000000000000000000000000000000000000000000000000000000000000')
+indexSet = 1  # For the first outcome
+collectionId = ctf_contract.functions.getCollectionId(parentCollectionId, conditionId, indexSet).call()
+print(f"CollectionId: {collectionId}")
+```
+
+---
+
+Method: GET
+Path: PositionId
+Description: Description: Derives the `positionId` from the given collateral token and collectionId. **Parameters:** - `collateralToken`: IERC20 - Address of the ERC20 collateral token (e.g., USDC).
+
+---
+
+Method: GET
+Path: CollectionId`.
+Description: **Response:** - `positionId`: uint256 - The derived positionId. **Python Example:** --- ### METHOD /splitPosition Description: Splits collateral into a full set of outcome positions (e.g., 1 USDC into 1 YES and 1 NO). **Parameters:** - `collateralToken`: IERC20 - Address of the positions' backing collateral token. - `partition`: uint[] - Array of index sets representing the partition. - `amount`: uint - Amount of collateral to split. **Response:** - Transaction receipt indicating success or failure. **Python Example:** --- These endpoints are derived from the provided documentation and formatted as requested. Let me know if you need further clarification or additional details!
+
+Python Example:
+```python
+# Example code to call splitPosition
+partition = [1, 2]  # For binary outcomes
+amount = web3.toWei(1, 'ether')  # Amount in collateral token units (e.g., 1 USDC)
+tx = ctf_contract.functions.splitPosition(collateralToken, partition, amount).buildTransaction({
+'from': '0xYourAddress',
+'gas': 2000000,
+'gasPrice': web3.toWei('50', 'gwei'),
+'nonce': web3.eth.getTransactionCount('0xYourAddress'),
+})
+signed_tx = web3.eth.account.signTransaction(tx, private_key='0xYourPrivateKey')
+tx_hash = web3.eth.sendRawTransaction(signed_tx.rawTransaction)
+print(f"Transaction Hash: {web3.toHex(tx_hash)}")
+```
+
+---
+
+Method: POST
+Path: /splitPosition
+Description: Splits collateral for a full set of positions based on a given condition. **Parameters:**
+
+---
+
+Method: GET
+Path: positions.
+Description: - `conditionId`: bytes32 - The ID of the condition to split on. - `partition`: uint[] - An array of disjoint index sets representing a nontrivial partition of the outcome slots of the given condition. - `amount`: uint - The amount of collateral or stake to split. Also the number of full sets to receive. **Response:** - `transactionHash`: string - The hash of the transaction. **Python Example:** ---
+
+Python Example:
+```python
+# Example code to call the splitPosition endpoint
+from web3 import Web3
+web3 = Web3(Web3.HTTPProvider("https://polygon-rpc.com"))
+contract_address = "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045"
+abi = [...]  # ABI of the CTF contract
+contract = web3.eth.contract(address=contract_address, abi=abi)
+tx = contract.functions.splitPosition(
+parentCollectionId=b'\x00' * 32,  # Example value
+conditionId=b'\x00' * 32,  # Example value
+partition=[1, 2],  # Example value
+amount=100  # Example value
+).buildTransaction({
+'from': '0xYourAddress',
+'gas': 2000000,
+'gasPrice': web3.toWei('50', 'gwei'),
+'nonce': web3.eth.getTransactionCount('0xYourAddress'),
+})
+signed_tx = web3.eth.account.signTransaction(tx, private_key='YourPrivateKey')
+tx_hash = web3.eth.sendRawTransaction(signed_tx.rawTransaction)
+print(f"Transaction Hash: {web3.toHex(tx_hash)}")
+```
+
+---
+
+Method: POST
+Path: /mergePosition
+Description: Merges a full set of positions into collateral based on a given condition. **Parameters:** - `collateralToken`: IERC20 - The address of the positions' backing collateral token.
+
+---
+
+Method: GET
+Path: positions.
+Description: - `conditionId`: bytes32 - The ID of the condition to merge on. - `partition`: uint[] - An array of disjoint index sets representing a nontrivial partition of the outcome slots of the given condition. - `amount`: uint - The number of full sets to merge. Also the amount of collateral to receive. **Response:** - `transactionHash`: string - The hash of the transaction. **Python Example:** ---
+
+Python Example:
+```python
+# Example code to call the mergePosition endpoint
+from web3 import Web3
+web3 = Web3(Web3.HTTPProvider("https://polygon-rpc.com"))
+contract_address = "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045"
+abi = [...]  # ABI of the CTF contract
+contract = web3.eth.contract(address=contract_address, abi=abi)
+tx = contract.functions.mergePosition(
+collateralToken="0xYourCollateralTokenAddress",  # Example value
+parentCollectionId=b'\x00' * 32,  # Example value
+conditionId=b'\x00' * 32,  # Example value
+partition=[1, 2],  # Example value
+amount=100  # Example value
+).buildTransaction({
+'from': '0xYourAddress',
+'gas': 2000000,
+'gasPrice': web3.toWei('50', 'gwei'),
+'nonce': web3.eth.getTransactionCount('0xYourAddress'),
+})
+signed_tx = web3.eth.account.signTransaction(tx, private_key='YourPrivateKey')
+tx_hash = web3.eth.sendRawTransaction(signed_tx.rawTransaction)
+print(f"Transaction Hash: {web3.toHex(tx_hash)}")
+```
+
+---
+
+Method: POST
+Path: /redeemPositions
+Description: Redeems positions for collateral based on the reported payout vector of a condition. **Parameters:** - `collateralToken`: IERC20 - The address of the positions' backing collateral token. - `parentCollectionId`: bytes32 - The ID of the outcome collections common to the position being redeemed. Null in Polymarket case. - `conditionId`: bytes32 - The ID of the condition to redeem. - `indexSets`: uint[] - An array of disjoint index sets representing a nontrivial partition of the outcome slots of the given condition. **Response:** - `transactionHash`: string - The hash of the transaction. **Python Example:** --- ### Deployment Addresses - **Polygon Mainnet**: `0x4D97DCd97eC945f40cF65F87097ACe5EA0476045` - **Mumbai Testnet**: `0x7D8610E9567d2a6C9FBf66a5A13E9Ba8bb120d43` --- Let me know if you need further assistance!
+
+Python Example:
+```python
+# Example code to call the redeemPositions endpoint
+from web3 import Web3
+web3 = Web3(Web3.HTTPProvider("https://polygon-rpc.com"))
+contract_address = "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045"
+abi = [...]  # ABI of the CTF contract
+contract = web3.eth.contract(address=contract_address, abi=abi)
+tx = contract.functions.redeemPositions(
+collateralToken="0xYourCollateralTokenAddress",  # Example value
+parentCollectionId=b'\x00' * 32,  # Example value
+conditionId=b'\x00' * 32,  # Example value
+indexSets=[1, 2]  # Example value
+).buildTransaction({
+'from': '0xYourAddress',
+'gas': 2000000,
+'gasPrice': web3.toWei('50', 'gwei'),
+'nonce': web3.eth.getTransactionCount('0xYourAddress'),
+})
+signed_tx = web3.eth.account.signTransaction(tx, private_key='YourPrivateKey')
+tx_hash = web3.eth.sendRawTransaction(signed_tx.rawTransaction)
+print(f"Transaction Hash: {web3.toHex(tx_hash)}")
+```
+
+---
+
+Method: POST
+Path: /addFunding
+Description: **Description:** Liquidity providers can add liquidity to the pool in the form of collateral. This function returns tokens representing their share of the pool and fees. **Parameters:** - `addedFunds`: uint - The amount of collateral to add to the pool. - `distributionHint`: uint[] - Array indicating the ratios of outcome tokens for initial liquidity. This can only be provided by the first liquidity provider in the pool. For example, `[1,1]` in the 50/50 starting case. **Response:** - `tokens`: uint[] - Tokens representing the liquidity provider's share of the pool. - `fees`: uint - Fees earned by the liquidity provider. **Python Example:** ---
+
+Python Example:
+```python
+# Example of calling the addFunding endpoint
+added_funds = 1000  # Example amount of collateral
+distribution_hint = [1, 1]  # Example distribution hint
+response = requests.post("/addFunding", json={"addedFunds": added_funds, "distributionHint": distribution_hint})
+print(response.json())
+```
+
+---
+
+Method: POST
+Path: /removeFunding
+Description: **Description:** Liquidity providers can remove liquidity from a pool they are providing to. This function returns the underlying conditional tokens and any earned fees (in collateral). **Parameters:** - `sharesToBurn`: uint - The number of liquidity shares to burn. **Response:** - `tokens`: uint[] - Underlying conditional tokens returned to the liquidity provider. - `fees`: uint - Fees earned by the liquidity provider. **Python Example:** --- Let me know if you need further clarification or additional endpoints!
+
+Python Example:
+```python
+# Example of calling the removeFunding endpoint
+shares_to_burn = 500  # Example number of shares to burn
+response = requests.post("/removeFunding", json={"sharesToBurn": shares_to_burn})
+print(response.json())
+```
+
+---
+
+Method: GET
+Path: back.
+Description: - `outcomeIndex`: uint - The index of the outcome to sell.
+
+---
+
+Method: GET
+Path: the
+Description: **Response:** - `tokensSold`: uint - The amount of outcome tokens sold. - `collateralReceived`: uint - The amount of collateral received. **Python Example:** --- ### Notes: - The contract addresses provided in the documentation are for Polygon (`0x8b9805a2f595b6705e74f7310829f2d299d21522`) and Mumbai (`0x5a80a64c8ae0551b09c3df377b60953872c5aa7f`). - Ensure you have the correct ABI for the contract to interact with these endpoints. - Replace `0xYourWalletAddress` and `YourPrivateKey` with your actual wallet details.
+
+Python Example:
+```python
+# Example of calling the sell endpoint
+from web3 import Web3
+web3 = Web3(Web3.HTTPProvider("https://polygon-rpc.com"))
+contract_address = "0x8b9805a2f595b6705e74f7310829f2d299d21522"
+contract_abi = [...]  # ABI of the contract
+contract = web3.eth.contract(address=contract_address, abi=contract_abi)
+tx = contract.functions.sell(
+returnAmount=1000000,  # 1 USDC in smallest units
+outcomeIndex=0,
+maxOutcomeTokensToSell=500000  # Maximum tokens to sell
+).build_transaction({
+'from': '0xYourWalletAddress',
+'gas': 2000000
+})
+signed_tx = web3.eth.account.sign_transaction(tx, private_key='YourPrivateKey')
+tx_hash = web3.eth.send_raw_transaction(signed_tx.rawTransaction)
+```
+
+---
+

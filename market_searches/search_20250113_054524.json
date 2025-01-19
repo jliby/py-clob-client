@@ -1,0 +1,3319 @@
+{
+  "timestamp": "2025-01-13T05:45:24.542618",
+  "search_keyword": "rockets",
+  "count": 92,
+  "markets": [
+    {
+      "condition_id": "0x2e8291f8a108113f1218fa771d1a7ea8a532b0d651b6e01a3b81390a371fdad3",
+      "question_id": "0xf51a92dde1c3ca69c094da294246aef7c6fd7a0cbccd4302789ba0f54a757a92",
+      "description": "In the upcoming NBA game, scheduled for February 13:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Philadelphia 76ers win, the market will resolve to \u201c76ers\u201d.\n\nIf this game is not completed by April 13, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Rockets vs. 76ers (02/13/2023)",
+      "market_slug": "nba-rockets-vs-76ers-02132023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-12T00:00:00Z",
+        "game_start_time": "2023-02-14T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "41742734655074676656005006823206328811769624134908338042883353825891864519466",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "56850831553125775119785338361366602236460187974444824412090457411162594766883",
+          "outcome": "76ers",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xeaaa1621fbb0b319e0515ca6c74da9ffa2c7435234b316072502b23c04004444",
+      "question_id": "0xee1ce904e0482970881d20eeef5fc6412d6592e4491422faa2ce562678a8cf02",
+      "description": "In the upcoming NBA game, scheduled for February 3:\n\nIf the Toronto Raptors win, the market will resolve to \u201cRaptors\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf this game is not completed by April 3, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Raptors vs. Rockets (02/03/2023)",
+      "market_slug": "nba-raptors-vs-rockets-02032023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-04T00:00:00Z",
+        "game_start_time": "2023-02-04T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "16743756446668198418161546459686092770971765469544638637589064152347281520658",
+          "outcome": "Raptors",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "71357143382016923333286138704308502799994327671017497806704759179352384697178",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x86f1971cee2ee42e28eabfa2fbb4a6d3d281485946c80ae54089b35554e39513",
+      "question_id": "0x608d090909e9e3e037acea9760c21c4193fdebe707d81268c86f07ac2547fe8e",
+      "description": "In the upcoming NBA game, scheduled for February 24 at 10:00\u202fPM ET:\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50",
+      "category": "N/A",
+      "question": "NBA: Golden State Warriors vs. Houston Rockets 2023-02-24",
+      "market_slug": "nba-gs-hou-2023-02-24",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-23T00:00:00Z",
+        "game_start_time": "2023-02-25T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "21551124262441498148606239068210176217765557376164622663370628375757685409208",
+          "outcome": "Warriors",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "15182239917332745872535114718879214284028536893564291747567106436260378901358",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x19dc17f2115b81004e0b933abc2a5165aeb511c64ff41cea5307025a10314cf3",
+      "question_id": "0xffbbbb8f3f47444563cb7a856a111d58bad86ec7fc5466e41761c7306c92b2ec",
+      "description": "In the upcoming NBA game, scheduled for February 15:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf this game is not completed by April 15, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Rockets vs. Thunder (02/15/2023)",
+      "market_slug": "nba-rockets-vs-thunder-02152023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-12T00:00:00Z",
+        "game_start_time": "2023-02-16T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "115479680354622092760452080874619300478602339206927949201977301575319582636134",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "106128436028253454436926301124853679071331539544601243781567969364020755263118",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xd431624aba0aee48ec0d1a741a6e196d371b8e00c53d74dd38bc7e81e71786af",
+      "question_id": "0xd30bd4449c33b6ea1ceae33ad19e5c364a24cac4c74017cd4e1cd3975dbb7c78",
+      "description": "In the upcoming NBA game, scheduled for February 10:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Miami Heat win, the market will resolve to \u201cHeat\u201d.\n\nIf this game is not completed by April 10, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Rockets vs. Heat (02/10/2023)",
+      "market_slug": "nba-rockets-vs-heat-02102023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-06T00:00:00Z",
+        "game_start_time": "2023-02-11T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "47139679549206959067766971927165132811965634461694639741879860806656445981483",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "114569349474396644030090840399695698770434493974895978066317977886784162879936",
+          "outcome": "Heat",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x4855918b2b8c6a97122c2b5ab67d7a83cef9569b80926b6e4fcb688f558a5e06",
+      "question_id": "0x7ea3a9bd3aff07fb726d23f723b60ce21fd93604072b408f61c37b3fa082b35b",
+      "description": "In the upcoming NBA game, scheduled for February 6:\n\nIf the Sacramento Kings win, the market will resolve to \u201cKings\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf this game is not completed by April 6, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Kings vs. Rockets (02/06/2023)",
+      "market_slug": "nba-kings-vs-rockets-02062023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-06T00:00:00Z",
+        "game_start_time": "2023-02-07T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "14901343434659744813888362951542093074131611344687007904270722375793022249563",
+          "outcome": "Kings",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "40809391121133606238873779969437652753457078641830805127789270118054417384713",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x36a81323d7680332a70072f4c3f80c67213a910903d6b1a4f3ff767d7582d421",
+      "question_id": "0xeeaf16ccb57b9cff2937fad8bedc68ea48808f3b53712ee12fe062be630ea697",
+      "description": "In the upcoming NBA game, scheduled for February 8:\n\nIf the Sacramento Kings win, the market will resolve to \u201cKings\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf this game is not completed by April 8, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Kings vs. Rockets (02/08/2023)",
+      "market_slug": "nba-kings-vs-rockets-02082023",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-06T00:00:00Z",
+        "game_start_time": "2023-02-09T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "45125304471008331376462711815711405166328159007449160535622895711350254020941",
+          "outcome": "Kings",
+          "price": 0.9793,
+          "winner": false
+        },
+        {
+          "token_id": "73805151126939239635764906129112745110546020560652232149751000334556807839839",
+          "outcome": "Rockets",
+          "price": 0.0207,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xbcf045f209513f57cccb3e821b987c3bf04dbf046844f597161117df08652207",
+      "question_id": "0x52ce3bd650a1bb7a89ae2aefe620c6847789329738755ad3718fe29391a788fc",
+      "description": "In the upcoming NBA game, scheduled for March 17 at 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. New Orleans Pelicans 2023-03-17",
+      "market_slug": "nba-hou-no-2023-03-17",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-17T00:00:00Z",
+        "game_start_time": "2023-03-18T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "4557909858478096519891430393545205220223291435285734566394271201409360203731",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "107512517866518895175638620054599347193581889383580163612796909021353222834742",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x9eb42a36f80698c87c8561258cc11c1a3715df070fde8ce21b46c655aec90873",
+      "question_id": "0x94c078c20a1d85d5a052992c61c6fe3cf91da599bbea77a140ac4ac10895bf0d",
+      "description": "In the upcoming NBA game, scheduled for February 28 at 8:00\u202fPM:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. Denver Nuggets 2023-02-28",
+      "market_slug": "nba-hou-den-2023-02-28",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-28T00:00:00Z",
+        "game_start_time": "2023-03-01T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "66430538181567314728233285815233826237042031836383288092248385187103749439274",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "21519529948756272434384600493553251518142322511945296753396686443010119498024",
+          "outcome": "Nuggets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x23167438e7c854592b9f513657273a12ec123cd270027ade1040e264f1f84cb8",
+      "question_id": "0x1211cdb064612f875827729f1ea1b853a9efe3380bc5573d9eb90390ea0a6232",
+      "description": "In the upcoming NBA game, scheduled for March 4 at 8:00\u202fPM:\n\nIf the San Antonio Spurs win, the market will resolve to \u201cSpurs\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: San Antonio Spurs vs. Houston Rockets 2023-03-04",
+      "market_slug": "nba-sa-hou-2023-03-04",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-04T00:00:00Z",
+        "game_start_time": "2023-03-05T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "28754765952404464788753866946908573412436780234033538647712438446801349922364",
+          "outcome": "Spurs",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "7999685104033020847475239214902537300866755721247416595564267818922667110586",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x4f330bb2efb6767adb7363aceafb25f1b945bb7caffa0728cfe4da2fa856157d",
+      "question_id": "0x9b0f682ee08407a4d7ed38c28ce4aea27a95839b9dea572974d5e8361379a345",
+      "description": "In the upcoming NBA game, scheduled for March 20 at 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. Golden State Warriors 2023-03-20",
+      "market_slug": "nba-hou-gs-2023-03-20",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-20T00:00:00Z",
+        "game_start_time": "2023-03-21T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "30954580277748556964729398569834730914653973323050344656019509939449311398873",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "70338236097478800210987854990808987243179299434536308710083905242566947506782",
+          "outcome": "Warriors",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xbf12875ad1cc43a939b556749fa2fb1a9635c30a785e8b4ea530ef0f82acd06e",
+      "question_id": "0x09a3d43da0625f60e032cf67e6004d65eddde7effb4d632e00d2a0765760ea43",
+      "description": "In the upcoming NBA game, scheduled for February 26 at 9:00\u202fPM:\n\nIf the Portland Trail Blazers win, the market will resolve to \u201cTrail Blazers\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Portland Trail Blazers vs. Houston Rockets 2023-02-26",
+      "market_slug": "nba-por-hou-2023-02-26",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-26T00:00:00Z",
+        "game_start_time": "2023-02-27T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "71965908757649371221087029878044908043179228763250095285407701443439535012262",
+          "outcome": "Trail Blazers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "39071197498656240858919473317331599907927809800291844103399975897026443854821",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xe8471b9fe7f90880cad87751f28fd4ae1013462f1984c7f87b5f7ed5274b4ae3",
+      "question_id": "0x129e6aaaa8e5868063adc677add7a61205e379e7e84cbabdb5480d2228639eec",
+      "description": "In the upcoming NBA game, scheduled for March 9 at 7:00\u202fPM ET:\n\nIf the Indiana Pacers win, the market will resolve to \u201cPacers\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Indiana Pacers vs. Houston Rockets 2023-03-09",
+      "market_slug": "nba-ind-hou-2023-03-09",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-09T00:00:00Z",
+        "game_start_time": "2023-03-10T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "24893987077262136537220435180837410336168971885006940111671233486251678527950",
+          "outcome": "Pacers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "47762022044909259485713746347288809275139719521655689389789811872064699460811",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x26c2456b9bc4b09993c4dc1a9672490a4478313d98aac365572d4dd373a9edfd",
+      "question_id": "0x0df2d593f3a5a1c90a0dcaae1c9d7d191be4eb7cef63372146298b76b13fd82e",
+      "description": "In the upcoming NBA game, scheduled for March 7 at 8:00\u202fPM:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Brooklyn Nets win, the market will resolve to \u201cNets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. Brooklyn Nets 2023-03-07",
+      "market_slug": "nba-hou-bkn-2023-03-07",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-07T00:00:00Z",
+        "game_start_time": "2023-03-08T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "100514778719626009463710998555630081556865950519327040858634972709910187601024",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "52814756961896666957608558908392212337369003975236040608906903396594170723474",
+          "outcome": "Nets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x3bb9de24c8b9ff7315af83dbb3e1b870681f465ffd4a061ce37cfc4809df8055",
+      "question_id": "0xbc5a7ec69f3a434f0f79d959d31ecb7c01e9d844c26a9726f442a439e4171b2e",
+      "description": "In the upcoming NBA game, scheduled for March 19 at 7:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. New Orleans Pelicans 2023-03-19",
+      "market_slug": "nba-hou-no-2023-03-19",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-19T00:00:00Z",
+        "game_start_time": "2023-03-19T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "97560674302436314596959722293476157853866618187340548758352846848566578393096",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "34703426658072864632654696174923589969277871044325465356041253764393144408995",
+          "outcome": "Pelicans",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xf446a1ac44c08d34167d3587d6bfd6ced40a27ad4b1d22342bb4e5d3c0affc6f",
+      "question_id": "0x1dc34b8fa7c934968e41b7ca1c38d3b3b4ded9d971abd4a89f74df45c873c7ce",
+      "description": "In the upcoming NBA game, scheduled for March 5 at 7:00\u202fPM:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the San Antonio Spurs win, the market will resolve to \u201cSpurs\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. San Antonio Spurs 2023-03-05",
+      "market_slug": "nba-hou-sa-2023-03-05",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-05T00:00:00Z",
+        "game_start_time": "2023-03-06T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "101287482737006635047319672785583665652868666929330749968729637174596015948463",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "43773230138355874660066699700696775061266737439563369643210636635737273742593",
+          "outcome": "Spurs",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb43cb01b97f4a94a2f0d05eabd614026e00433ad8ba4edd06272ff6ff829b57d",
+      "question_id": "0x1bad773407e49ca7a7e3bbf13036b41fdb752d7c191604ef5fa8fbd7070d4840",
+      "description": "In the upcoming NBA game, scheduled for March 1 at 8:00\u202fPM:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. Memphis Grizzlies 2023-03-01",
+      "market_slug": "nba-hou-mem-2023-03-01",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-01T00:00:00Z",
+        "game_start_time": "2023-03-02T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "24936060496780973591808880335533267547446958129985109863134743208819008489868",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "30462041543185711628747285752476774640696943123917268228708440893525359399162",
+          "outcome": "Grizzlies",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x0894e17cff38d5cb791c6704b302faa70c729816e9995e10cf8142a9eb312165",
+      "question_id": "0xda8d86cc46e092909105074350e296d70b0b2fa7bbc5b4ffa61af19bfb09c723",
+      "description": "In the upcoming NBA game, scheduled for March 15 at 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. Los Angeles Lakers 2023-03-15",
+      "market_slug": "nba-hou-lal-2023-03-15",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-15T00:00:00Z",
+        "game_start_time": "2023-03-16T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "79357128948466012988440225943837111166934639377839586383276163957977238331335",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "97081995782422409337610258606967974348784945476495485350962589518783741419268",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xa239adc1fa791d8df4e10b79bdaaf49ead33568b6fd93c7e686d038f20f9e0ad",
+      "question_id": "0x7410f84effe309b255f81c8d5ef4af908a2c3649a8214632df3929eb40a0fbbb",
+      "description": "In the upcoming NBA game, scheduled for March 13 at 8:00\u202fPM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Boston Celtics win, the market will resolve to \u201cCeltics\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. Boston Celtics 2023-03-13",
+      "market_slug": "nba-hou-bos-2023-03-13",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-13T00:00:00Z",
+        "game_start_time": "2023-03-14T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "97350742731895672458095321090627263051629400068004232354295108504095929394652",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "88993836092455035180412153960796660377804780037946987461672216843658817300080",
+          "outcome": "Celtics",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb72ef066a27e3d6e74f453865a92bdc2835f88eae43cfad47d3785e518c45691",
+      "question_id": "0xe58eb12e2b63789f38e43afcd1b296dd0a3f51f9e13bb18bb68612e8f2aa6764",
+      "description": "In the upcoming NBA game, scheduled for March 11 at 8:00\u202fPM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Chicago Bulls win, the market will resolve to \u201cBulls\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. Chicago Bulls 2023-03-11",
+      "market_slug": "nba-hou-chi-2023-03-11",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-11T00:00:00Z",
+        "game_start_time": "2023-03-12T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "29866087464123095268069293949296772377107789276302379399089009249863258887965",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "30680921741089184081114522438631566008150416523888297783710731191355916043243",
+          "outcome": "Bulls",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x083381433bcfa3992584414a0d71eb70b78cd726bc6fdb8f44bdfc5ff7e69521",
+      "question_id": "0x95f25224bc5a56d0132c1fe2a4b8e7d185704419c5006c8fcfde169f97190550",
+      "description": "In the upcoming NBA game, scheduled for April 2 at 7:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. Los Angeles Lakers 2023-04-02",
+      "market_slug": "nba-hou-lal-2023-04-02",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-02T00:00:00Z",
+        "game_start_time": "2023-04-02T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "67010481350308841205223526624662931595606573146233888762413247328379433346336",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "66579746574512173642609952332861742290797410940997305771084452677589094412983",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xaa33b59cc309367041cb753210b44e590c6b184a4f18778ebb9c07b00bbf2719",
+      "question_id": "0x7ad80dbb729205ce7566ae6952774c7bd43298216f63ed50507eb8be49288fa5",
+      "description": "In the upcoming NBA game, scheduled for March 26 at 6:00 PM ET:\n\nIf the Cleveland Cavaliers win, the market will resolve to \u201cCavaliers\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Cleveland Cavaliers vs. Houston Rockets 2023-03-26",
+      "market_slug": "nba-cle-hou-2023-03-26",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-26T00:00:00Z",
+        "game_start_time": "2023-03-26T22:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "37695910450980076975190615834939463258636920253457436516611999289221744290147",
+          "outcome": "Cavaliers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "36420293101815521784913581222531597590672293035142375897183711464448648427435",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x4cc66231e1df066e5906a887a62f041ef5a5b1e58d014bf5c15fafdc02c4d991",
+      "question_id": "0x1f48bd6d505627190615313768a56ab70e6507d393646cb59852ce9d8ad99ff8",
+      "description": "In the upcoming NBA game, scheduled for March 27 at 7:30 PM ET:\n\nIf the New York Knicks win, the market will resolve to \u201cKnicks\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: New York Knicks vs. Houston Rockets 2023-03-27",
+      "market_slug": "nba-nyk-hou-2023-03-27",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-27T00:00:00Z",
+        "game_start_time": "2023-03-27T23:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "31031719909283055897014942960223859217378722405439284015416858842836434454139",
+          "outcome": "Knicks",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "1579073994841852531848302689218077001301243731097337644744893389119792281370",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xf8e693ea00643ef4647f5869db00302a8d606ccdaccc90689180966b88c63614",
+      "question_id": "0x96b899258ed83f4529bd38eba768a928c13b17c3520c6511dcb658a741c5d39d",
+      "description": "In the upcoming NBA game, scheduled for April 4 at 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. Denver Nuggets 2023-04-04",
+      "market_slug": "nba-hou-den-2023-04-04",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-04T00:00:00Z",
+        "game_start_time": "2023-04-05T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "35101789276391301523808485663190274187370231434842548461620886906058300835980",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "37505446440284165418405501869688962822088769827205731958513458463032877160983",
+          "outcome": "Nuggets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x6c85ef4b8d35616aa062a5581045b22f2af76ba75e9ad81d4d9819f5d3724f9e",
+      "question_id": "0x9f0a26d1c38d8400344ed70a55b2e69fd603097ecf324d4c0f925389fa38a1ad",
+      "description": "In the upcoming NBA game, scheduled for March 22 at 8:00 PM ET:\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Memphis Grizzlies vs. Houston Rockets 2023-03-22",
+      "market_slug": "nba-mem-hou-2023-03-22",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-22T00:00:00Z",
+        "game_start_time": "2023-03-23T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "93755769545842554719542303370086526525141146093095394400827152912900579143061",
+          "outcome": "Grizzlies",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "80848043636274657817628763135061987020646154326752298544849989458075091752234",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xa269d04d694206962c4d091f197229cfc864013ab46f30b0239c763df6953953",
+      "question_id": "0x00bf7daf40ee37de15f5f557692ff72dd08fe244adeee4ced21733cd7a4643fc",
+      "description": "In the upcoming NBA game, scheduled for March 24 at 8:00 PM ET:\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Memphis Grizzlies vs. Houston Rockets 2023-03-24",
+      "market_slug": "nba-mem-hou-2023-03-24",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-24T00:00:00Z",
+        "game_start_time": "2023-03-25T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "62542148461350772408807844379780977731383581592437190027275266087514039729668",
+          "outcome": "Grizzlies",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "968782351064036049763864423575087812640823382689870704839441481236183111331",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x5c3625b6d260a3afa3647daf7942faaf2c085b904d1a0abf3c3c7ada55bacb1e",
+      "question_id": "0xcf309d5af5f6b74322fe852610f77880c3c5116f26f102dce95d257274e68125",
+      "description": "In the upcoming NBA game, scheduled for March 31 at 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Detroit Pistons win, the market will resolve to \u201cPistons\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Houston Rockets vs. Detroit Pistons 2023-03-31",
+      "market_slug": "nba-hou-det-2023-03-31",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-31T00:00:00Z",
+        "game_start_time": "2023-04-01T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "10081346574936884664034454715939775940122115139557716879866492396583353134290",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "57331146122359869614584523783484262846511785615707951208655434275415846733065",
+          "outcome": "Pistons",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x40e672ca5a146de1acb73388fa777c5e535a37bd4a33763ef1a0828646ad1711",
+      "question_id": "0xdf8a4ef1ea1b613d65ef7119afce00eb131e7cd6bd7b01b0840d3bac58af7663",
+      "description": "In the upcoming NBA game, scheduled for March 29 at 7:30 PM ET:\n\nIf the Brooklyn Nets win, the market will resolve to \u201cNets\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Brooklyn Nets vs. Houston Rockets 2023-03-29",
+      "market_slug": "nba-bkn-hou-2023-03-29",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-29T00:00:00Z",
+        "game_start_time": "2023-03-29T23:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "62247123017720159297620151701953146651040446111437991467461888577700251041847",
+          "outcome": "Nets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "62998146246737345811307396407069980127289999225825828478575834747439787969139",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x9f0c95d137a765639ee810b1be7336b66de4b353ca666025f282379c497e0850",
+      "question_id": "0xcb493d4fcd3c4cc5fca2872a2dcdb3c0ebfc73ce14353d36db579624afda87b2",
+      "description": "In the upcoming NBA game, scheduled for April 7 at 7:00 PM ET:\n\nIf the Charlotte Hornets win, the market will resolve to \u201cHornets\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Charlotte Hornets vs. Houston Rockets 2023-04-07",
+      "market_slug": "nba-cha-hou-2023-04-07",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-07T00:00:00Z",
+        "game_start_time": "2023-04-07T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "31510477774871397592863453135659943828036147838861815893682842639674383730425",
+          "outcome": "Hornets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "17450531165303403961267501008283981704798912283942475865175575064350300472763",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x30efc2561aeec2fbfd56201ba5812d2b268b1a5a09a65c77439d9fad8a3055d9",
+      "question_id": "0x4daee58b2de5234d78d9d492230b6de750551a42a595f1a4a3f9d17eb3a24afe",
+      "description": "In the upcoming NBA game, scheduled for April 9 at 1:00 PM ET:\n\nIf the Washington Wizards win, the market will resolve to \u201cWizards\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Washington Wizards vs. Houston Rockets 2023-04-09",
+      "market_slug": "nba-wsh-hou-2023-04-09",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-09T00:00:00Z",
+        "game_start_time": "2023-04-09T17:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "81429260167248387649749754833501884279258424746109412493733475916027252585421",
+          "outcome": "Wizards",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "28488099258039120842798638850069387275386593416825702325106954834862253867915",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x82d84fdb907720739c8fbed8470d1f13897897ff6b9821340354f20b2e32db83",
+      "question_id": "0x6dacb3a009c34fe4e0ccb87890a996017c30105348287cfb594bb0ec97c5691e",
+      "description": "In the upcoming NBA game, scheduled for October 25, 7:00 PM ET:\n\nIf the Orlando Magic win, the market will resolve to \u201cMagic\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by November 1, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Magic vs. Rockets",
+      "market_slug": "nba-orl-hou-2023-10-25",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-10-25T00:00:00Z",
+        "game_start_time": "2023-10-25T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "55926968033167304872098623639153705740325903248530970303526505601217883084772",
+          "outcome": "Magic",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "69554903181814227179584635549440958462504101402413357980894270379895225550899",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xff7642abcecd39a2417d0176adad0e24e05b8de0312c95efac7a0de01ddd0c1e",
+      "question_id": "0x8d3d1403b7a9d2d58eae55825b5634d2bf03044ce2f91c8a12cf5952404df2ef",
+      "description": "In the upcoming NBA game, scheduled for October 29, 7:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\n If the game is not completed by November 5, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Warriors",
+      "market_slug": "nba-hou-gs-2023-10-29",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-10-29T00:00:00Z",
+        "game_start_time": "2023-10-29T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "23159255672990663006877255517231222778136791244905446318348364730949908478788",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "102573524272905003328256673361111632653195913140624240898212409810442123053179",
+          "outcome": "Warriors",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xd92c52510c792afc25710ace3f6a4355ca247ad691c4f681553f18e8658fcad0",
+      "question_id": "0xb6012b9609ea8918e3781c73cdda616abcc35316e01ad03bdf3b5381ed7f2d24",
+      "description": "In the upcoming NBA game, scheduled for October 27, 8:00 PM ET:\n\nIf the San Antonio Spurs win, the market will resolve to \u201cSpurs\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by November 3, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Spurs vs. Rockets",
+      "market_slug": "nba-sa-hou-2023-10-27",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-10-27T00:00:00Z",
+        "game_start_time": "2023-10-28T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "29509091650421687151330204129554002347624840394396196977877694331380253991627",
+          "outcome": "Spurs",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "30478359195417441702008732372655364867345328224756948555151051178377752690758",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xa55e94f348821d2a19a19faf89eced7d66c5f436e4e61e7f5c10cc51a7040768",
+      "question_id": "0x45c6374f603e7f0136dae2ab981d35f6019b034f243fcf0e1590a46d23002e67",
+      "description": "In the upcoming NBA game, scheduled for November 10, 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n\n If the game is not completed by November 17, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Pelicans",
+      "market_slug": "nba-hou-no-2023-11-10",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-10T00:00:00Z",
+        "game_start_time": "2023-11-11T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "92374318013645967517551053888187433113222870209347342298468962917174778516221",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "106388262606525202465766693217597671575763957145569202685135425115710482513577",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x0f59e99cbd3c9fa396865c06d4849b2358bc508b4718863dcb020ce4228ecab1",
+      "question_id": "0xc6afdc2cb60d95026fce765e175951afa41a4684f06f1d6e3ce2ea830632d75c",
+      "description": "In the upcoming NBA game, scheduled for November 1, 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Charlotte Hornets win, the market will resolve to \u201cHornets\u201d.\n\n If the game is not completed by November 8, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Hornets",
+      "market_slug": "nba-hou-cha-2023-11-01",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-01T00:00:00Z",
+        "game_start_time": "2023-11-02T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "61068016487702685042409073465257492616791414219560947995763653216727899239840",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "101857503094787866217023215168974161848458116982975056367972138432357231791122",
+          "outcome": "Hornets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x00f3d20ba96b921ac8698e453b8a4fbc1378db6535308b4a91d0c5ebd0cc9f02",
+      "question_id": "0x24063f170d7a235c451d7cc77691ebba096092159c916f3f5ed19ff0eda367da",
+      "description": "In the upcoming NBA game, scheduled for November 20 at 10:00 PM ET:\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by November 27, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Warriors vs. Rockets",
+      "market_slug": "nba-gs-hou-2023-11-20",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-20T00:00:00Z",
+        "game_start_time": "2023-11-21T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "86455170589812064077405874929416193513633543772179444204377417791986515921334",
+          "outcome": "Warriors",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "78801269192656929538121440064937637665665708501176436741178637182089528997701",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x4bd96c710f38b4caf7f4111581a5b04daf186ae4c3b898d9aaeb72711da7a593",
+      "question_id": "0xffbd2e38c1a5dcbec5589b3a9534af388a623fe0e6609811fa7e637530d394d8",
+      "description": "In the upcoming NBA game, scheduled for November 19 at 9:30 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by November 26, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Lakers vs. Rockets",
+      "market_slug": "nba-lal-hou-2023-11-19",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-19T00:00:00Z",
+        "game_start_time": "2023-11-20T02:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "97486319690973762745548230560983024668896092773790877108920163092620231841014",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "45064479871038082806600333530341598980612962268936603195974329278740358124152",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x8040346dd627f2865e8ae6a3449e2daee2b17689de56a837f99314d92e0404c4",
+      "question_id": "0xd46560555aa260ee85e794c76172847966adad54bc5b60aa409d0d3bc74b935a",
+      "description": "In the upcoming NBA game, scheduled for November 12, 7:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d.\n\n If the game is not completed by November 19, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Nuggets",
+      "market_slug": "nba-hou-den-2023-11-12",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-12T00:00:00Z",
+        "game_start_time": "2023-11-13T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "103047149230986390459550584964843078986768251620190279462042524696860280534012",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "64012870318202857317873571284719269061880536019786305976830903698952078564657",
+          "outcome": "Nuggets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xfc264c19156288b774d7d75e62a25e2fa6def2350808503e8787a420063b0d57",
+      "question_id": "0x3deb11bd91097b8bd94abc55b130e35f01a2577fa8adf313217f5b872f9366c0",
+      "description": "In the upcoming NBA game, scheduled for November 22 at 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\n If the game is not completed by November 29, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Grizzlies",
+      "market_slug": "nba-hou-mem-2023-11-22",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-22T00:00:00Z",
+        "game_start_time": "2023-11-23T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "5011247550256706250259566834345850339422792932302148019490506513476746063376",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "34206735017887164084118591123219012929442610478347761307036567311330019759097",
+          "outcome": "Grizzlies",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x5c46d34f130f60bdda01b0cc200d019f224ba5fe9de8c4c08452de27cff1f9d0",
+      "question_id": "0xdb1a70445dfa3178120d781f30af57725db975f75f86192f2e7a7802fec64da6",
+      "description": "In the upcoming NBA game, scheduled for November 17 at 10:30 PM ET:\n\nIf the LA Clippers win, the market will resolve to \u201cClippers\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by November 24, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Clippers vs. Rockets",
+      "market_slug": "nba-lac-hou-2023-11-17",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-17T00:00:00Z",
+        "game_start_time": "2023-11-18T03:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "54631879839633673693460166093711310788382627841810437681690560173017779026697",
+          "outcome": "Clippers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "50849218264812857358265325867158601023974713192143161878696369779496495116937",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x4c9b6751a6bbe56889a971b1e41226509a0622a34d7f39d5762b35605e5ce5f5",
+      "question_id": "0x2af74da4d43400c57573b75b1c1f5f4c5d1e975337b7e648f17980260db543e2",
+      "description": "In the upcoming NBA game, scheduled for November 6, 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Sacramento Kings win, the market will resolve to \u201cKings\u201d.\n\n If the game is not completed by November 13, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Kings",
+      "market_slug": "nba-hou-sac-2023-11-06",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-06T00:00:00Z",
+        "game_start_time": "2023-11-07T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "100227231710550437946823671638656788128762870658940648452703729564858335498847",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "18748437147016455245212413467681013217302033264608302706685312204172393421344",
+          "outcome": "Kings",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xed6a388ad53cf30a83bb8e3cbd4b07177f9e0be5da412096885d846bf48f8160",
+      "question_id": "0x9d6a2dc907fbc837c423d19344be3229dc365696ecb5fdbb8b46e6ab67dabc7d",
+      "description": "In the upcoming NBA game, scheduled for November 8, 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by November 15, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Lakers",
+      "market_slug": "nba-hou-lal-2023-11-08",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-08T00:00:00Z",
+        "game_start_time": "2023-11-09T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "49792797366126116361132910315762576705598166245460899897399183394690020706925",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "30118339434664727725915994327680577874504353673502509562480563908409657680877",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x627a4d52585cb926ee226c7dd272c8b52dcf9fd7d1e1885d38bfa6888c8603c5",
+      "question_id": "0x542b28caf38d6e423588b06ff0a7c650d61f7297983fb6fa1488267e8e91f550",
+      "description": "In the upcoming NBA game, scheduled for November 4, 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Sacramento Kings win, the market will resolve to \u201cKings\u201d.\n\n If the game is not completed by November 11, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Kings",
+      "market_slug": "nba-hou-sac-2023-11-04",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-04T00:00:00Z",
+        "game_start_time": "2023-11-05T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "106840444750208148021042890577266218089094485707691675519253961656535491083660",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "19626602814586781140798604130271314178431665222255359035943021174153294066524",
+          "outcome": "Kings",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x5f437a76e4e76fbe81b4269e5f8ffd98ade4751ec849baa0a68284723645904d",
+      "question_id": "0x834475c883fb4b23ce2a0b0a6964488e868016470159e17403471d9f611d4c0a",
+      "description": "This market will resolve to \u201cYes\u201d if the Houston Rockets win the 2024-2025 NBA Championship. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to become 2024-25 NBA Champion based off the rules of the NBA.\n\nThe resolution source for this market will be information from the NBA.",
+      "category": "N/A",
+      "question": "Will the Houston Rockets win the 2025 NBA Finals?",
+      "market_slug": "will-the-houston-rockets-win-the-2025-nba-finals",
+      "status": {
+        "active": true,
+        "closed": false
+      },
+      "timing": {
+        "end_date": "2025-06-23T00:00:00Z",
+        "game_start_time": null
+      },
+      "tokens": [
+        {
+          "token_id": "114498674664747165339015323604447864593755086767230574975645203019886592862371",
+          "outcome": "Yes",
+          "price": 0.0155,
+          "winner": false
+        },
+        {
+          "token_id": "68723566181261549724945740794793819954031394976897417557628591067577109106213",
+          "outcome": "No",
+          "price": 0.9845,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb106c72f188c7981744277e2cdd32c0d639b6587d3830e4d8081adcce8e93fed",
+      "question_id": "0x81d803ae0a8dcfee7ec64306206c76460dc50621f3b61d6831d5537fa6924c04",
+      "description": "This market will resolve to \u201cYes\u201d if the Houston Rockets win the 2024-2025 NBA Western Conference finals. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market will resolve to \u201cNo\u201d if it becomes impossible for this team to win the 2024-25 NBA Western Conference finals based off the rules of the NBA.\n\nThe resolution source for this market will be information from the NBA.",
+      "category": "N/A",
+      "question": "Will the Houston Rockets win the Western Conference?",
+      "market_slug": "will-the-houston-rockets-win-the-western-conference",
+      "status": {
+        "active": true,
+        "closed": false
+      },
+      "timing": {
+        "end_date": "2025-06-05T00:00:00Z",
+        "game_start_time": null
+      },
+      "tokens": [
+        {
+          "token_id": "55370953862594130820388042856329820015992904099783087517338088950747717234085",
+          "outcome": "Yes",
+          "price": 0.038,
+          "winner": false
+        },
+        {
+          "token_id": "29572888421711325398148817726715418131012721051448136800730034423005662178213",
+          "outcome": "No",
+          "price": 0.962,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xf75787621b6dea097127c6f78ca07a477f17e030354e8557d041d7a7a1aaa1fa",
+      "question_id": "0xeb56771180319a33c2310bed40e6547435f00021ec78b232c1b7fdbcdddb8a84",
+      "description": "In the upcoming NBA game, scheduled for October 23 at 8:00 PM ET:\n\nIf the Charlotte Hornets win, the market will resolve to \u201cHornets\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d..\n If the game is not completed by October 31, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Hornets vs. Rockets",
+      "market_slug": "nba-cha-hou-2024-10-23",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-10-24T00:00:00Z",
+        "game_start_time": "2024-10-24T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "90951996155476375539779870494880193006004419584754706244935002905182581515274",
+          "outcome": "Hornets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "19074605635906433343142663112738447453227131019306346394997660000647060052288",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xe3757d807778593b587fc8c10b81af6d7d9e5179f7e84f8088f352b5dfb0ded1",
+      "question_id": "0x80fe3f34e8c8c50dcd4677c6b5927d560f1c0a0156b2822340f1ca83bf55842e",
+      "description": "In the upcoming NBA game, scheduled for October 26 at 8:30 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the San Antonio Spurs win, the market will resolve to \u201cSpurs\u201d..\n If the game is not completed by November 3, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Rockets vs. Spurs",
+      "market_slug": "nba-hou-sa-2024-10-26",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-10-27T00:00:00Z",
+        "game_start_time": "2024-10-27T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "56928947441852259018183437432212834573160131823076001136785442082811492668146",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "71400348932981753191354391123077016399811578949376573442992780867283123211135",
+          "outcome": "Spurs",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xcbf475900e6a2dfe52425a21e1b43ed787fbb8ff91dd2fcaa2733b06d801cde3",
+      "question_id": "0xa2c43f767add8bfaf5554c0c8986623510bc22541a94ddbec7ea52a3e2c528bd",
+      "description": "In the upcoming NBA game, scheduled for October 25 at 8:00 PM ET:\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d..\n If the game is not completed by November 2, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Grizzlies vs. Rockets",
+      "market_slug": "nba-mem-hou-2024-10-25",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-10-26T00:00:00Z",
+        "game_start_time": "2024-10-26T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "35077825272741875441082624815737578157162671838540955637955275675237860839937",
+          "outcome": "Grizzlies",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "13972607796760955485495330360279016209187805688280794524686647517046837196611",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x5f881eff5343b106780170ac79abb19ff04a5a116a5c9a1f057ba0e4c6dad927",
+      "question_id": "0x93a1bb523c8597f0dc996805d7cabe88042f58268a3bd3c886ed8a30c694ed71",
+      "description": "In the upcoming NBA game, scheduled for October 28 at 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the San Antonio Spurs win, the market will resolve to \u201cSpurs\u201d..\n If the game is not completed by November 5, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Rockets vs. Spurs",
+      "market_slug": "nba-hou-sa-2024-10-28",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-10-29T00:00:00Z",
+        "game_start_time": "2024-10-29T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "73423451775182633611050234547866973664965505796782674143443400418730384520799",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "56686116225532856947652028881229640384151305904975089787973439088272539610795",
+          "outcome": "Spurs",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x4d17c677faf24402363ccbd515722128adcc2b0bb63938f592bc46ec36483064",
+      "question_id": "0x549cdb9e5b825f35f1fc0a228b66483cb8c5bd71d81371fd57b0a8ea13a4b387",
+      "description": "In the upcoming NBA game, scheduled for October 31 at 8:30 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Dallas Mavericks win, the market will resolve to \u201cMavericks\u201d..\n If the game is not completed by November 8, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Rockets vs. Mavericks",
+      "market_slug": "nba-hou-dal-2024-10-31",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-01T00:00:00Z",
+        "game_start_time": "2024-11-01T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "2141631554425968847999427064986359303944868727620444990215361278665694141664",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "64713218037350130107062111451302976295441000138739866764334301086222450879632",
+          "outcome": "Mavericks",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xd9dc09dbfc4433c7cdf713d67cb69d4a2845608b4a1d84becbb826ca14e89538",
+      "question_id": "0xa76eb8f0ded4a140e240d00a4c23c4206e199f63826c153cf3da9123e54b4d12",
+      "description": "In the upcoming NBA game, scheduled for November 2 at 8:00 PM ET:\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d..\n If the game is not completed by November 10, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Warriors vs. Rockets",
+      "market_slug": "nba-gsw-hou-2024-11-02",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-03T00:00:00Z",
+        "game_start_time": "2024-11-03T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "57272490108523326220023484443476955336640397431233836163560566571875630155222",
+          "outcome": "Warriors",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "96749813731609029217740336244270385418872322597078817862791121870811293319226",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xa63b995890e04156321e29cd4a9ca4973bc766bad3e2dbab447ce07ea5f21197",
+      "question_id": "0x4986f274d94e441e8d95a8df46a6f87b9fe587d4896567c9b7d38a64f60acc77",
+      "description": "In the upcoming NBA game, scheduled for November 4 at 8:45 PM ET:\n\nIf the New York Knicks win, the market will resolve to \u201cKnicks\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d..\n If the game is not completed by November 12, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Knicks vs. Rockets",
+      "market_slug": "nba-nyk-hou-2024-11-04",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-05T00:00:00Z",
+        "game_start_time": "2024-11-05T01:45:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "90056428526130543728771473476967128600414819263178726064749269037686835771531",
+          "outcome": "Knicks",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "11113977078775886707820186438998370703344739462382931991341950509123646799142",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x5fc142065b6ae3ec8daaf72f044a2802eef26a374b051afc40f1a2a81a7342a7",
+      "question_id": "0xc6f9ab838675d022d6e3cd669a59040eec6d0a1d60e5e84c917ff024e75917ab",
+      "description": "In the upcoming NBA game, scheduled for November 8 at 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d..\n If the game is not completed by November 16, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Rockets vs. Thunder",
+      "market_slug": "nba-hou-okc-2024-11-08",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-09T00:00:00Z",
+        "game_start_time": "2024-11-09T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "87235671063233319968546633799891031825109439385645059550416641788253412563532",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "105466189714025765295359121477002394219870396999516228544635218365659069460333",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xa8a626dadf81aa88c4e9260e1d877fc2ab3ff9115fad0a5d5bd5b376bc233fe3",
+      "question_id": "0x1d49c77e5ad25713e28d9983ca8bdd0b40613599b0b484024f984546acb8cae8",
+      "description": "In the upcoming NBA game, scheduled for November 6 at 8:00 PM ET:\n\nIf the San Antonio Spurs win, the market will resolve to \u201cSpurs\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d..\n If the game is not completed by November 14, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Spurs vs. Rockets",
+      "market_slug": "nba-sas-hou-2024-11-06",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-07T00:00:00Z",
+        "game_start_time": "2024-11-07T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "45243340237003699635736144319888771899616000036448850392472533156652049728544",
+          "outcome": "Spurs",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "81623389845097302145456821880207094247126694778630869375967420421524367591310",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xbbd8f5eb2a3fb485fe1c1611b173ee12a54caf659e0bef124398c221eb9e4bee",
+      "question_id": "0xd14814177468b52f53c79e13cd4ee1fcce37d9fabc97d0024e1198c175ec1010",
+      "description": "In the upcoming NBA game, scheduled for November 10 at 3:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Detroit Pistons win, the market will resolve to \u201cPistons\u201d..\n If the game is not completed by November 17, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Rockets vs. Pistons",
+      "market_slug": "nba-hou-det-2024-11-10",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-10T00:00:00Z",
+        "game_start_time": "2024-11-10T20:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "67201055143424657887626355127503209895988306136080943456421383131570939359062",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "68111433045197718639899223787065948587120446839481697924243006272163315765275",
+          "outcome": "Pistons",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x1b7bb823840a742340055608c8c05946106b708a7c6183199acf50c6abc8f6d9",
+      "question_id": "0x548a5ccc9f41e40aa2b0955bd3fe3d225cf6b5cae989033ab64ea891b441a897",
+      "description": "In the upcoming NBA game, scheduled for November 13 at 8:00PM ET:\nIf the LA Clippers win, the market will resolve to \u201cClippers\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by November 20, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Clippers vs. Rockets",
+      "market_slug": "nba-lac-hou-2024-11-13",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-21T00:00:00Z",
+        "game_start_time": "2024-11-14T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "6838441396094846437810162566187702107968537847094682721926113078803313749769",
+          "outcome": "Clippers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "85472772259908733402076032234339497137717143666304464333302155590099834622182",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x894352fdac3df5adf1ceecf656ce548da5a57a06f2ce6748225faeea4fd64503",
+      "question_id": "0x5eb2b41277cfd550df42c9b55934334397a49584dbfce19feaecb220e24d3afc",
+      "description": "In the upcoming NBA game, scheduled for November 17 at 7:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Chicago Bulls win, the market will resolve to \u201cBulls\u201d.\nIf the game is not completed by November 24, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Rockets vs. Bulls",
+      "market_slug": "nba-hou-chi-2024-11-17",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-25T00:00:00Z",
+        "game_start_time": "2024-11-18T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "34942702508885406795013062480195835232830691848783211047122461295791816764430",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "24445354136909723820045209275187119612442153844482105134834338046926767357910",
+          "outcome": "Bulls",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x9a7d186a3834b678d03b915574b378b16d1d00fadb4ada85483992804707646a",
+      "question_id": "0x9f63b1c3e3e6faf5e8189ef48bfa52c93cbff012ff56b1a310f22a2611546988",
+      "description": "In the upcoming NBA game, scheduled for November 11 at 8:00PM ET:\nIf the Washington Wizards win, the market will resolve to \u201cWizards\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by November 18, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Wizards vs. Rockets",
+      "market_slug": "nba-was-hou-2024-11-11",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-19T00:00:00Z",
+        "game_start_time": "2024-11-12T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "14979851348873941828649299848287179176552169052906102654611906604611315111589",
+          "outcome": "Wizards",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "27735164816162772394599349400891821750504539856395588054924345138551369661685",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x6f6779663f905e4a4974fd3302a1733b21c84dd503cdd38cc81686c03ff3013a",
+      "question_id": "0xb97201f600bee99efab6bbd4731602351a9569622fd318ce6d5f8941acf0ca1e",
+      "description": "In the upcoming NBA game, scheduled for November 15 at 8:00PM ET:\nIf the LA Clippers win, the market will resolve to \u201cClippers\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by November 22, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Clippers vs. Rockets",
+      "market_slug": "nba-lac-hou-2024-11-15",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-23T00:00:00Z",
+        "game_start_time": "2024-11-16T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "66410915904631213487410770273278784807840887550260505324976565303515449501828",
+          "outcome": "Clippers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "77731035917744609133374001765005177340450975897846868582701541846546691411424",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x2e6527251960ba27774e9cb8d78d608315435da47fa6281ab0f971afca4e398a",
+      "question_id": "0x333bb09165bf69cf458d71ba9b07dfc08726f1f0d23627cbac26cb6616902ab2",
+      "description": "In the upcoming NBA game, scheduled for November 23 at 8:00PM ET:\nIf the Portland Trail Blazers win, the market will resolve to \u201cTrail Blazers\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by November 30, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Trail Blazers vs. Rockets",
+      "market_slug": "nba-por-hou-2024-11-23",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-01T00:00:00Z",
+        "game_start_time": "2024-11-24T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "109515534096957043731122896549640151958437892127645523391959988043374227479354",
+          "outcome": "Trail Blazers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "41516444641261486821445266274111513657651769988811290610458520041113188107604",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xdf602174d77030e7687325815978eb75aa82433dfb35369879d5cc9d8af78d8e",
+      "question_id": "0xc893af4ed94ace6a3096b90a80cfe432f40f46a848d941b242394ad64be15ead",
+      "description": "In the upcoming NBA game, scheduled for November 22 at 8:00PM ET:\nIf the Portland Trail Blazers win, the market will resolve to \u201cTrail Blazers\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by November 29, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Trail Blazers vs. Rockets",
+      "market_slug": "nba-por-hou-2024-11-22",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-30T00:00:00Z",
+        "game_start_time": "2024-11-23T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "98122592070714154983621040820556542703370191316245842608552145531310317986664",
+          "outcome": "Trail Blazers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "15107803679348893403014989044920542562300444968265214086547617206343254226742",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xea153983d76c791a63e07cebfd67d699248fa9a2546460680eb87d5adf75d1ba",
+      "question_id": "0xf13a15fc49d8f4d6b929dee8b6a394a235e29e45bd54421a6834dae356f5684b",
+      "description": "In the upcoming NBA game, scheduled for November 20 at 8:00PM ET:\nIf the Indiana Pacers win, the market will resolve to \u201cPacers\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by November 27, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Pacers vs. Rockets",
+      "market_slug": "nba-ind-hou-2024-11-20",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-28T00:00:00Z",
+        "game_start_time": "2024-11-21T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "52791181100307501800685886136638523523581684796361492268300403887356745861581",
+          "outcome": "Pacers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "7113052368885103508391284853763353906190159119664582404652159461310362928801",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x6e522c1b6bc65c597d1fb61653aa3e5a42f3c95aec735023e78b362ec28f2ebf",
+      "question_id": "0x0aea562987cd02adff72c5db7f6be7474270d3c07ec3c8db28d42f1e0e5dcb0a",
+      "description": "This market will resolve to \u201cYes\u201d if the Houston Rockets win the 2024 NBA Cup. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf at any point it becomes impossible for this team to win the NBA Cup based on the rules of the NBA (e.g. they don\u2019t advance to the knockout round), this market will resolve immediately to \u201cNo\u201d.\n\nThe resolution source for this market will be information from the NBA.",
+      "category": "N/A",
+      "question": "Will the Houston Rockets win the 2024 NBA Cup?",
+      "market_slug": "will-the-houston-rockets-win-the-2024-nba-cup",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-17T00:00:00Z",
+        "game_start_time": null
+      },
+      "tokens": [
+        {
+          "token_id": "79677461777042877149262529277910714572233189597550662905494513438353500402253",
+          "outcome": "Yes",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "66110443420163587249034157828245393283407791299318050425593456003458617853349",
+          "outcome": "No",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x71c1371ff70e6a33c6dda4452b36c43209ef60551d62203d0c9a56f00200d290",
+      "question_id": "0xb25f87befd337add2e38e287964342d3a6d1a062cb12392eff4be896d67a7611",
+      "description": "In the upcoming NBA game, scheduled for November 18 at 8:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Milwaukee Bucks win, the market will resolve to \u201cBucks\u201d.\nIf the game is not completed by November 25, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Rockets vs. Bucks",
+      "market_slug": "nba-hou-mil-2024-11-18",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-26T00:00:00Z",
+        "game_start_time": "2024-11-19T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "1744875983994484111792208888780165194388911845550356142524366424923854881606",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "7281117795210180551725475964976868734651366361062252168559754656099764571248",
+          "outcome": "Bucks",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xbfc6f626bcfb96b59534ec232d54c79afc4a379db2078ffa14bcaeb5bcef0679",
+      "question_id": "0xd622e72ea079efddb4e334050f205302800972af4e5fb0131c97018b335ffd39",
+      "description": "In the upcoming NBA game, scheduled for November 27 at 7:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Philadelphia 76ers win, the market will resolve to \u201c76ers\u201d.\nIf the game is not completed by December 4, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. 76ers",
+      "market_slug": "nba-hou-phi-2024-11-27",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-05T00:00:00Z",
+        "game_start_time": "2024-11-28T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "34941434661507635084972679136884685034295359269899762533546388519174527676802",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "37007992784374322038132754059616249629557570457393360008911037374599374432761",
+          "outcome": "76ers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x01c69fd431522d5af48b2c165cfeb1f42ced0dca317b98d0c28bb2d56564bd3a",
+      "question_id": "0x1bdeefc4f5d67c86fce514a427d5701484181cb6cdbb871d2db9ffb7d41bb41f",
+      "description": "In the upcoming NBA game, scheduled for November 26 at 8:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Minnesota Timberwolves win, the market will resolve to \u201cTimberwolves\u201d.\nIf the game is not completed by December 3, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Timberwolves",
+      "market_slug": "nba-hou-min-2024-11-26",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-04T00:00:00Z",
+        "game_start_time": "2024-11-27T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "51809774953994707537922742937160304778215866440518139990738724806936429407015",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "74724342841931118089479087465049251367783332004005635214427090767601992308257",
+          "outcome": "Timberwolves",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x35416ab95b1c1a951b85300d57d82faa2ef092d5fe701047319aca79c9f1205e",
+      "question_id": "0xcf0d58e06de36ebeda37d1ade91ef492879c2b3b8366e36efdb3f04a2d32fe5c",
+      "description": "In the upcoming NBA game, scheduled for December 1 at 7:00PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by December 8, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Rockets",
+      "market_slug": "nba-okc-hou-2024-12-01",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-09T00:00:00Z",
+        "game_start_time": "2024-12-02T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "33455645502312308131138097802012837076998604896109917507136395111117494245243",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "109006710352839025540881576592500772479474828527581564820089355568361111458561",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x050a6efa9486f16bb8ad51eb8351bc389f96bc29511ef2c8a4f1292622d29770",
+      "question_id": "0x0233667646d885cc8a74062651489c59836420608e4a942502888464acc8f6a6",
+      "description": "In the upcoming NBA game, scheduled for December 3 at 10:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Sacramento Kings win, the market will resolve to \u201cKings\u201d.\nIf the game is not completed by December 10, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Kings",
+      "market_slug": "nba-hou-sac-2024-12-03",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-11T00:00:00Z",
+        "game_start_time": "2024-12-04T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "94353404915241307540679933786397446569289892894031170787470208349481128975221",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "97670620555248231323772737427234059075713336387077218979048997260701707773312",
+          "outcome": "Kings",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xc780ec1d53901534e0bd3de5069b0b968f5c8245b9571d09736e94d3674fd86e",
+      "question_id": "0x76548749d0f6e2e6e4c985bebe9bf4423cc3eebe41e76c3a9541daa5757bb256",
+      "description": "In the upcoming NBA game, scheduled for December 5 at 10:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\nIf the game is not completed by December 12, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Warriors",
+      "market_slug": "nba-hou-gsw-2024-12-05",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-13T00:00:00Z",
+        "game_start_time": "2024-12-06T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "43641574201663548112340947565586367674611820958856560344520105999334101537911",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "108823693836035937149337155385104214242397214361570576340025272871090773282479",
+          "outcome": "Warriors",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xab4948807a44ec40116b468fc45f6d9476f80dcabdfee5db333f5c0dd073a79b",
+      "question_id": "0xed03105e92efa4f0d16ba33d895d19bb10c6275c3bc257752f155d479b85a2ea",
+      "description": "In the upcoming NBA game, scheduled for December 11 at 9:30PM ET:\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by December 18, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Warriors vs. Rockets",
+      "market_slug": "nba-gsw-hou-2024-12-11",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-19T00:00:00Z",
+        "game_start_time": "2024-12-12T02:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "113200571636202932276171007057214125179445758895513988534688255710621410797068",
+          "outcome": "Warriors",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "84605713417661453063334718202507496923189347137747272951220624704653962099528",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x8a899d79d22c1ec469e93835f0115f870d83c84e9ec539522e6c88f39ae7f0d3",
+      "question_id": "0xc907e2ddf9265ce9bda8987a145bfdc0253139f01c791fd8172c13cef3656320",
+      "description": "In the upcoming NBA game, scheduled for December 8 at 9:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the LA Clippers win, the market will resolve to \u201cClippers\u201d.\nIf the game is not completed by December 15, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Clippers",
+      "market_slug": "nba-hou-lac-2024-12-08",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-16T00:00:00Z",
+        "game_start_time": "2024-12-09T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "86980715605334195289880806607927979271741290373156856501937189200724954647792",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "51662473154162640693937478389299294142865239706629253765127891284198764973286",
+          "outcome": "Clippers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x504353b8835ffd992cc63995b4610a7ebd9d2e4e5cc82efbab120d8f363bccd9",
+      "question_id": "0xa72fbe8554708cd6d063d483838f9589038886a6e26640cdf2f875ec32439100",
+      "description": "This market will resolve to \"Yes\" if Jimmy Butler of the Miami Heat is traded to the Houston Rockets before the trade deadline for the 2024-2025 NBA season, currently scheduled for February 6, 2025 3:00 PM ET, goes into effect. Otherwise, this market will resolve to \"No\".\n\nThis market\u2019s resolution source will be official announcements from the NBA and the Miami Heat, however, a consensus of credible reporting may also be used.",
+      "category": "N/A",
+      "question": "Will Jimmy Butler get traded to the Houston Rockets?",
+      "market_slug": "will-jimmy-butler-get-traded-to-the-houston-rockets",
+      "status": {
+        "active": true,
+        "closed": false
+      },
+      "timing": {
+        "end_date": null,
+        "game_start_time": null
+      },
+      "tokens": [
+        {
+          "token_id": "76898480704105143095465769305982247031446925320469545960474839460614259556424",
+          "outcome": "Yes",
+          "price": 0.1,
+          "winner": false
+        },
+        {
+          "token_id": "50268969727669119359143367471808201633099303758811058986606628645944147450892",
+          "outcome": "No",
+          "price": 0.9,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x21a7c245deba898768676f5fbfe3efe74887b2881c94b26ebd8a1fee3d5746c3",
+      "question_id": "0xcce51355785a9bb8059ec1c3fce533831bb92df0216a354685f6b5750b18a8be",
+      "description": "In the upcoming NBA game, scheduled for December 19 at 8:00PM ET:\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by December 26, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Pelicans vs. Rockets",
+      "market_slug": "nba-nop-hou-2024-12-19",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-27T00:00:00Z",
+        "game_start_time": "2024-12-20T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "5361646710790721954881734005704275178091622093049446649492731479871327649776",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "50883144078202202424121687217761908669905425295845249767834500982203941909859",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xbda57b7f7037334c5b53c1362d359c9a2c7bb57017077e7319c8984cbf4abc03",
+      "question_id": "0xd310cfcd2e5b48930c94279b5a271b094766d7c38dc632363606730b7d6dda68",
+      "description": "In the upcoming NBA game, scheduled for December 14 at 8:30PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by December 21, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Thunder",
+      "market_slug": "nba-hou-okc-2024-12-14",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-22T00:00:00Z",
+        "game_start_time": "2024-12-15T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "55508838746815517910876865347373024453301539495689050348492705668381241917181",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "26343292554833610898398727648281884407797552150514980427518567568455143485279",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x4a740f5ca5d18ea26298cef319ffbe7c7b65c650dcfd63fdc3b593f1fb4a0891",
+      "question_id": "0x5912e95c019d2f7773f9aba2f1150df128bec8e79a276d717d2eed45aaa94f94",
+      "description": "In the upcoming NBA game, scheduled for December 27 at 8:00PM ET:\nIf the Minnesota Timberwolves win, the market will resolve to \u201cTimberwolves\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by January 3, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Timberwolves vs. Rockets",
+      "market_slug": "nba-min-hou-2024-12-27",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-04T00:00:00Z",
+        "game_start_time": "2024-12-28T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "67934470494015929411516190360773112176424118438737716376008868620595839650763",
+          "outcome": "Timberwolves",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "93177671080335834093403844376820355132592269316968337467415786958974518007659",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xd5b8afe3696452cafc740478a7d77f4b359bc2869263cb57bedf8bb83ceabe35",
+      "question_id": "0xf640182e610da5c25c7219dee909f7d0a90d8dc5e65522a235660c6325132cce",
+      "description": "In the upcoming NBA game, scheduled for December 23 at 7:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Charlotte Hornets win, the market will resolve to \u201cHornets\u201d.\nIf the game is not completed by December 30, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Hornets",
+      "market_slug": "nba-hou-cha-2024-12-23",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-31T00:00:00Z",
+        "game_start_time": "2024-12-24T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "11152026116210826697857397546071583273253850939387573277601942279641389893428",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "84079702008143947640180636607289532410850086445695512635419638986073128370195",
+          "outcome": "Hornets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xfe7bc87933b19a799f614489959078ed6c905dcd79e30927ab01233b718181b5",
+      "question_id": "0x3680aadaf9d9ec8ea18fe0e88e1eaf165343ee7623ddecac7418104a74384c46",
+      "description": "In the upcoming NBA game, scheduled for December 22 at 6:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Toronto Raptors win, the market will resolve to \u201cRaptors\u201d.\nIf the game is not completed by December 29, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Raptors",
+      "market_slug": "nba-hou-tor-2024-12-22",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-29T00:00:00Z",
+        "game_start_time": "2024-12-22T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "97663137071387123517344967025872062643399215379088725488589389463849023371569",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "81031014647995009758972762024112125519170473964037894906919500373320941815115",
+          "outcome": "Raptors",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xcd145afc48319cc8f242c5da91eeac798e6fa300cc4d908bc019af955404cd76",
+      "question_id": "0x812887edbb47a99004403080bbb296b2a89bf681634ee129e71fa59357f4645a",
+      "description": "In the upcoming NBA game, scheduled for December 26 at 8:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\nIf the game is not completed by January 2, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Pelicans",
+      "market_slug": "nba-hou-nop-2024-12-26",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-03T00:00:00Z",
+        "game_start_time": "2024-12-27T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "25234095073247236577965910010469383258539365972193430585032694392970191193603",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "41718468491791870766845656729574758957367269412714211356205943542699642005767",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xf4e6e6198ec9fd5f0f956b4a8492e3bba9114927e894010ea7e0bf754cfadb52",
+      "question_id": "0x610bcdd7b74625d2640b7835adf150c80fffa8dcd8d3ba038c86d3eb5b1b8e44",
+      "description": "In the upcoming NBA game, scheduled for January 1 at 8:00PM ET:\nIf the Dallas Mavericks win, the market will resolve to \u201cMavericks\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by January 8, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Mavericks vs. Rockets",
+      "market_slug": "nba-dal-hou-2025-01-01",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-09T00:00:00Z",
+        "game_start_time": "2025-01-02T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "7356189785716014399367599692314223134998484915252265700308418321684334502497",
+          "outcome": "Mavericks",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "80876465350961305241479133112712809765936693097513273838321185823421090605941",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xcc619e24714ed324f92437723c4ae5ed5fb726b06ee5ea52fd75ca9553d94b0b",
+      "question_id": "0xa81645de47d0c6ff4c80d6d8c3c3df5c4804fe8bf4a183f926d6dd937735fe96",
+      "description": "In the upcoming NBA game, scheduled for January 3 at 8:00PM ET:\nIf the Boston Celtics win, the market will resolve to \u201cCeltics\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by January 10, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Celtics vs. Rockets",
+      "market_slug": "nba-bos-hou-2025-01-03",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-11T00:00:00Z",
+        "game_start_time": "2025-01-04T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "47684628065042828935592242952935874568896451470656643531481842686082621159073",
+          "outcome": "Celtics",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "23084548509272938916381851276331632893604250590990442383099627870531758885185",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x085e7ec2e06f934d1d5ebcda2445991e94b7dc90028770123eee78d3310e4041",
+      "question_id": "0x2b85f583e0febd77ccbfbd806358347296d3cd8dbf1b50bf223a48ee549132f6",
+      "description": "This market refers to the \u201cGameAbove Sports Bowl,\u201d the college football bowl game matchup between the Pittsburgh Panthers (Pitt) and the Toledo Rockets scheduled for December 26, 2024, at 2:00 PM ET.\n\nIf the combined total points scored by the Pittsburgh Panthers and the Toledo Rockets in their game is 49 or more, this market will resolve to \u201cOver\u201d. If it is less than 49, this market will resolve to \u201cUnder\u201d.\n\nIf this game is postponed after January 2, 2025 (11:59 PM ET), or canceled, this market will resolve 50-50.\n\nThe primary resolution source for this market will be official information from the NCAA; however, a consensus of credible reporting will also be used.",
+      "category": "N/A",
+      "question": "Will Pitt and Toledo combine for 49 or more points?",
+      "market_slug": "will-pitt-and-toledo-combine-for-49-or-more-points",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-26T00:00:00Z",
+        "game_start_time": "2024-12-26T19:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "50083606653383874169517474930089982982333546908601294120056619769168866520768",
+          "outcome": "Over",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "8702485705157295566178860093011529371895789790270007240049604066032080586426",
+          "outcome": "Under",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x6f3e092c5c3d56f6f16f54c4fdf1ddc6ff733a801813251ad9100a9edb32836c",
+      "question_id": "0xfba5bd4eed4596bc6cd0fb6f46b7184122394b698d03bb1c4ab486f6501e3c98",
+      "description": "This market refers to the \u201cGameAbove Sports Bowl,\u201d the college football bowl game matchup between the Pittsburgh Panthers (Pitt) and the Toledo Rockets scheduled for December 26, 2024, at 2:00 PM ET.\n\nThis market will resolve to \u201cPitt\u201d if the Pittsburgh Panthers win their game against the Toledo Rockets by 7 or more points.\n\nOtherwise, this market will resolve to \u201cToledo\u201d.\n\nIf this game is postponed after January 2, 2025 (11:59 PM ET), or canceled, this market will resolve 50-50.\n\nThe primary resolution source for this market will be official information from the NCAA; however, a consensus of credible reporting will also be used.",
+      "category": "N/A",
+      "question": "Will Pitt beat Toledo by 7 or more points?",
+      "market_slug": "will-pitt-beat-toledo-by-7-or-more-points",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-26T00:00:00Z",
+        "game_start_time": "2024-12-26T19:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "15288822190198329119657341298138815512087584874548199631846769524553641991645",
+          "outcome": "Pitt",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "24968300728478220430010068408274543495092718914567618806524287543505181250033",
+          "outcome": "Toledo",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xc18e4070f82b532b0ef518836758ad09603ae0f58442b12459b49bcfd39ff8d2",
+      "question_id": "0x865721860d7f0a9858c93dd2357897d5fd87d4232bbe12d9b60e4ad5d6f240a5",
+      "description": "In the upcoming NBA game, scheduled for December 29 at 7:00PM ET:\nIf the Miami Heat win, the market will resolve to \u201cHeat\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by January 5, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Heat vs. Rockets",
+      "market_slug": "nba-mia-hou-2024-12-29",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-06T00:00:00Z",
+        "game_start_time": "2024-12-30T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "73391780985702866373805406050051741669716357233291372959134600916028933674412",
+          "outcome": "Heat",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "75982039895394649039548198062844028691214300116647494869039076179145442487848",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x594f681bc59ccff04c561d622f398aad36bdf7ad00b721aae47213328fa2795c",
+      "question_id": "0xe4767b67773294b9928d7c32d65f72360f16f605d884a55258320dcd10a130e4",
+      "description": "In the upcoming NBA game, scheduled for January 9 at 8:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\nIf the game is not completed by January 16, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Grizzlies",
+      "market_slug": "nba-hou-mem-2025-01-09",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-17T00:00:00Z",
+        "game_start_time": "2025-01-10T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "82995116849375413069352700649703368954835387730749157602901985931871637082306",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "27273531021066162581916780367556963590772645725937644953705678357165854601039",
+          "outcome": "Grizzlies",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x2023a25321675b505e0ced19db9bc616573f7ecec1c8ae92111d6c33493ef2a3",
+      "question_id": "0x29ae1a990af0c599c0fb0c0841b5bd97d9ea90c36ff9fec1dcd89de0c1aea619",
+      "description": "In the upcoming NBA game, scheduled for January 5 at 7:00PM ET:\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by January 12, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Lakers vs. Rockets",
+      "market_slug": "nba-lal-hou-2025-01-05",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-13T00:00:00Z",
+        "game_start_time": "2025-01-06T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "31625734557061728648512979413164220629494806096550399533250912263058783193328",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "12821534758374279532804043332713604944942063483359289850543623614598350205403",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x39031cda4481b0f89a320e15569a1ee0b2f6ba2892221534a3e5f08093964682",
+      "question_id": "0xeb9de156ef42e3414cd3c2c293cd632ad6134c17acfdc641fbbd2b578f1b9f9f",
+      "description": "In the upcoming NBA game, scheduled for January 7 at 7:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Washington Wizards win, the market will resolve to \u201cWizards\u201d.\nIf the game is not completed by January 14, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Wizards",
+      "market_slug": "nba-hou-was-2025-01-07",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-15T00:00:00Z",
+        "game_start_time": "2025-01-08T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "74609585828650122367777653305241366592753005466556693149811180049028041518156",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "29137014265686010308359442755887008241050995825723242221636609810465525308300",
+          "outcome": "Wizards",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x243e3b3e034f38ce7edec88d949b64ebe93d576a8e4528fa99b2f3f9af27c7b9",
+      "question_id": "0xcae7dc0b140c3d484e0bf5e2ace4228e9486f75fd62af19fa7b8cb3db854d705",
+      "description": "In the upcoming NBA game, scheduled for January 11 at 3:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Atlanta Hawks win, the market will resolve to \u201cHawks\u201d.\nIf the game is not completed by January 18, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Hawks",
+      "market_slug": "nba-hou-atl-2025-01-11",
+      "status": {
+        "active": true,
+        "closed": false
+      },
+      "timing": {
+        "end_date": "2025-01-18T00:00:00Z",
+        "game_start_time": "2025-01-11T20:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "1670443389074893732806679211071146988016117781649851867449325163791477534910",
+          "outcome": "Rockets",
+          "price": 0.505,
+          "winner": false
+        },
+        {
+          "token_id": "72649688697113098995814315647205356480284185549497390989657470821171784459223",
+          "outcome": "Hawks",
+          "price": 0.495,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xc573ffae0d1430ba2063dc21ffb547eb942017ca521b61e918a984531c4b26c0",
+      "question_id": "0xae2ccc2973bbb71cb12ccb0aa177bccb6c4c8771bec51d8158fb1dcbc3317503",
+      "description": "This market will resolve to \u201cYes\u201d if De\u2019Aaron Fox of the Sacramento Kings is traded to the Houston Rockets before the NBA Trade Deadline for the 2024-25 NBA Season, currently scheduled for February 6, 2025, 3:00 PM ET. Otherwise, this market will resolve to \u201cNo.\u201d\n\nThe resolution source will be official announcements from the NBA and the Sacramento Kings, however, a consensus of credible reporting may also be used.",
+      "category": "N/A",
+      "question": "Will De\u2019Aaron Fox be traded to the Houston Rockets?",
+      "market_slug": "will-deaaron-fox-get-traded-to-the-houston-rockets",
+      "status": {
+        "active": true,
+        "closed": false
+      },
+      "timing": {
+        "end_date": "2025-01-09T00:00:00Z",
+        "game_start_time": null
+      },
+      "tokens": [
+        {
+          "token_id": "91022342370150939186011369671379563770392475967108327102527503271780240411095",
+          "outcome": "Yes",
+          "price": 0.5,
+          "winner": false
+        },
+        {
+          "token_id": "67452511089095196019954899598158527899080479860042245178812438420418118410860",
+          "outcome": "No",
+          "price": 0.5,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x00bd633bb83d4b032c7f76b0ebb7ed4ed26722f55f8f6413c37c60ed0e946df6",
+      "question_id": "0xd359193612ea7644aa76a6388f2dd96d9866e4a52f2909cc056b9974aa6597c5",
+      "description": "In the upcoming NBA game, scheduled for January 13 at 8:00PM ET:\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by January 20, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Grizzlies vs. Rockets",
+      "market_slug": "nba-mem-hou-2025-01-13",
+      "status": {
+        "active": true,
+        "closed": false
+      },
+      "timing": {
+        "end_date": "2025-01-21T00:00:00Z",
+        "game_start_time": "2025-01-14T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "28397052708178212184258094822366549211381214753486289708451835102566429260760",
+          "outcome": "Grizzlies",
+          "price": 0.455,
+          "winner": false
+        },
+        {
+          "token_id": "99490302449187121756697435388791168766214452848179421597211145364384192880593",
+          "outcome": "Rockets",
+          "price": 0.545,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb8e0c321c88a0741b32b9d8c654eb0c61fd7f4d6397b90a0fd27173c0464b7cc",
+      "question_id": "0x4a5d70051638f9152a8294cd43b3d1e57997d52d960c8e59340aadddaae78f62",
+      "description": "In the upcoming NBA game, scheduled for January 16 at 10:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Sacramento Kings win, the market will resolve to \u201cKings\u201d.\nIf the game is not completed by January 23, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Kings",
+      "market_slug": "nba-hou-sac-2025-01-16",
+      "status": {
+        "active": true,
+        "closed": false
+      },
+      "timing": {
+        "end_date": "2025-01-24T00:00:00Z",
+        "game_start_time": "2025-01-17T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "7222235772723017561261659375488543797607626280868802337274740003833750484088",
+          "outcome": "Rockets",
+          "price": 0.78,
+          "winner": false
+        },
+        {
+          "token_id": "45609814924552876729609287654194842957855947927741549655975232376728992764228",
+          "outcome": "Kings",
+          "price": 0.22,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x3a121d64f1414e7f28527fdd635cb6dfedb248839d461ca6fcf7e204f2153923",
+      "question_id": "0xdddd59a4d951374704e06b76ee2392f65eae624803343c3c63708824ef8fe5a2",
+      "description": "In the upcoming NBA game, scheduled for January 15 at 9:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d.\nIf the game is not completed by January 22, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Nuggets",
+      "market_slug": "nba-hou-den-2025-01-15",
+      "status": {
+        "active": true,
+        "closed": false
+      },
+      "timing": {
+        "end_date": "2025-01-23T00:00:00Z",
+        "game_start_time": "2025-01-16T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "1790162730334677201133933394173362609033093039178470991836977263428310262233",
+          "outcome": "Rockets",
+          "price": 0.62,
+          "winner": false
+        },
+        {
+          "token_id": "17574872767403035530582967002031394507930860236404049254745550250633745594642",
+          "outcome": "Nuggets",
+          "price": 0.38,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xef6161a9ec12a77843fda03e3f6a6470d7b29b510a494b052ee8c67f17bf73d5",
+      "question_id": "0x67b39852414857cb35149bbfc57464f733d82e26d100c7185bb8defe7c04d9c7",
+      "description": "In the upcoming NBA game, scheduled for January 18 at 10:00PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Portland Trail Blazers win, the market will resolve to \u201cTrail Blazers\u201d.\nIf the game is not completed by January 25, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Trail Blazers",
+      "market_slug": "nba-hou-por-2025-01-18",
+      "status": {
+        "active": true,
+        "closed": false
+      },
+      "timing": {
+        "end_date": "2025-01-26T00:00:00Z",
+        "game_start_time": "2025-01-19T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "112986054842806793018974308084303870606950288326159235455424163545939020021045",
+          "outcome": "Rockets",
+          "price": 0.82,
+          "winner": false
+        },
+        {
+          "token_id": "60192331605912061032105426141085110767975674526992437153056079287017962339940",
+          "outcome": "Trail Blazers",
+          "price": 0.18,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+Orders
+Overview
+All orders are expressed as limit orders (can be marketable). The underlying order primitive must be in the form expected and executable by the on-chain binary limit order protocol contract. Preparing such an order is quite involved (structuring, hashing, signing), thus Polymarket suggests using the open source typescript, python and golang libraries.
+
+Allowances
+To place an order, allowances must be set by the funder address for the specified maker asset for the Exchange contract. When buying, this means the funder must have set a USDC allowance greater than or equal to the spending amount. When selling, the funder must have set an allowance for the conditional token tht is greater than or equal to the selling amount. This allows the Exchange contract to execute settlement according to the signed order instructions created by a user and matched by the operator.
+
+Signature Types
+Polymarket's CLOB supports 3 signature types. Orders must identify what signature type they use. The available typescript and python clients abstract the complexity of signing and preparing orders with the following signature types by allowing a funder address and signer type to be specified on initialization. The supported signature types are:
+
+Type	ID	Description
+EOA	0	EIP712 signature signed by an EOA
+POLY_PROXY	1	EIP712 signatures signed by a signer associated with funding Polymarket proxy wallet
+POLY_GNOSIS_SAFE	2	EIP712 signatures signed by a signer associated with funding Polymarket gnosis safe wallet
+Validity Checks
+Orders are continually monitored to make sure they remain valid. Specifically, this includes continually tracking underlying balances, allowances and on-chain order cancellations. Any maker that is caught intentionally abusing these checks (which are essentially real time) will be blacklisted.
+
+Additionally, there are rails on order placement in a market. Specifically, you can only place orders that sum to less than or equal to your available balance for each market. For example if you have 500 USDC in your funding wallet, you can place one order to buy 1000 YES in marketA @ $.50, then any additional buy orders to that market will be rejected since your entire balance is reserved for the first (and only) buy order. More explicitly the max size you can place for an order is:
+
+maxOrderSize=underlyingAssetBalance−∑(orderSize−orderFillAmount)
+
+Create and Place an Order
+ This endpoint required a L2 Header.
+Create and place an order using the Polymarket CLOB API clients. All orders are represented as "limit" orders, but "market" orders are enabled by allowing marketable limit orders, which are executed on input at the best price available. Thus to place a market order, simply ensure your price is marketable against current resting limit orders.
+
+HTTP Request
+POST {clob-endpoint}/order
+
+## GTC Order
+#
+from py_clob_client.clob_types import OrderArgs, OrderType
+from py_clob_client.order_builder.constants import BUY
+
+## Create and sign a limit order buying 100 YES tokens for 0.50c each
+order_args = OrderArgs(
+    price=0.50,
+    size=100.0,
+    side=BUY,
+    token_id="71321045679252212594626385532706912750332728571942532289631379312455583992563",
+)
+signed_order = client.create_order(order_args)
+
+## GTC Order
+resp = client.post_order(signed_order, OrderType.GTC)
+print(resp)
+## GTD Order
+#
+from py_clob_client.clob_types import OrderArgs, OrderType
+from py_clob_client.order_builder.constants import BUY
+
+## Create and sign a limit order buying 100 YES tokens for 0.50c each
+order_args = OrderArgs(
+    price=0.50,
+    size=100.0,
+    side=BUY,
+    token_id="71321045679252212594626385532706912750332728571942532289631379312455583992563",
+    # There is a 1 minute of security threshold for the expiration field.
+    # If we need the order to expire in 30 seconds the correct expiration value is:
+    # now + 1 miute + 30 seconds
+    expiration="100000000000"
+)
+signed_order = client.create_order(order_args)
+
+## GTD Order
+resp = client.post_order(signed_order, OrderType.GTD)
+print(resp)
+Request Payload Parameters
+Name	Required	Type	Description
+order	yes	Order	signed order object
+owner	yes	string	api key of oder owner
+orderType	yes	string	order type ("FOK", "GTC", "GTD")
+An Order object is of the form:
+
+Name	Required	Type	Description
+salt	yes	integer	random salt used to create unique order
+maker	yes	string	maker address (funder)
+signer	yes	string	signing address
+taker	yes	string	taker address (operator)
+tokenId	yes	string	ERC1155 token ID of conditional token being traded
+makerAmount	yes	string	maximum amount maker is willing to spend
+takerAmount	yes	string	minimum amount taker must pay the maker in return
+expiration	yes	string	unix expiration timestamp
+nonce	yes	string	maker's Exchange nonce the order is associated with
+feeRateBps	yes	string	fee rate in basis points as required by the operator
+side	yes	string	buy or sell enum index
+signatureType	yes	integer	signature type enum index
+signature	yes	string	hex encoded signature
+Order types:
+FOK: A 'Fill-Or-Kill' order is an market order to buy shares that must be executed immediately in its entirety; otherwise, the entire order will be cancelled.
+GTC: A 'Good-Til-Cancelled' order is a limit order that is active until it is fulfilled or cancelled.
+GTD: A 'Good-Til-Day' order is a type of order that is active until its specified date (UTC seconds timestamp), unless it has already been fulfilled or cancelled. There is a security threshold of one minute: If the order needs to expire in 30 seconds the correct expiration value is: now + 1 miute + 30 seconds
+Response Format
+Name	Type	Description
+success	boolean	boolean indicating server-side error (if success == false -> server-side error)
+errorMsg	string	error message in case of unsuccessful placement (in case success == true && errorMsg != '' -> client-side error, the reason is in errorMsg)
+orderID	string	id of order
+transactionsHashes	string[]	hash of settlement transaction if order was marketable and triggered a match action
+status	string	order status
+Insert Errors/Messages
+If the errorMsg field of the response object from placement is not an empty string the order was not able to be immediately placed. This might be because of a delay or because of a failure. If the success is not true then there was an issue placing the order. The following errors/messages are possible.
+
+Error	Failure?	Message	Description
+INVALID_ORDER_MIN_TICK_SIZE	yes	order is invalid. Price () breaks minimum tick size rule:	order price isn't accurate to correct tick sizing
+INVALID_ORDER_MIN_SIZE	yes	order is invalid. Size () lower than the minimum:	order size must meet min size threshold requirement
+INVALID_ORDER_DUPLICATED	yes	order is invalid. Duplicated.	same order has already been placed, can't be placed again
+INVALID_ORDER_NOT_ENOUGH_BALANCE	yes	not enough balance / allowance	funder address doesn't have sufficient balance or allowance for order
+INVALID_ORDER_EXPIRATION	yes	invalid expiration	expiration field expresses a time before now
+INSERT_ORDER_ERROR	yes	could not insert order	system error while inserting order
+EXECUTION_ERROR	yes	could not run the execution	system error while attempting to execute trade
+ORDER_DELAYED	no	order match delayed due to market conditions	order placement delayed
+DELAYING_ORDER_ERROR	yes	error delaying the order	system error while delaying order
+FOK_ORDER_NOT_FILLED_ERROR	yes	order couldn't be fully filled. FOK orders are fully filled or killed.	FOK order not fully filled so can't be placed
+MARKET_NOT_READY	no	the market is not yet ready to process new orders	system not accepting orders for market yet
+Insert Statuses
+When placing an order, a status field is included. This status field provides additional information regarding the order's state as a result of the placement. Possible values include:
+
+Status	Description
+live	order placed and live
+matched	order matched (marketable)
+delayed	order marketable, but subject to matching delay
+unmatched	order marketable, but failure delaying, placement not successful
+Get Order
+ This endpoint required a L2 Header.
+Get single order by id.
+
+HTTP Request
+GET {clob-endpoint}/data/order/{order hash}
+
+order = clob_client.get_order("0xb816482a5187a3d3db49cbaf6fe3ddf24f53e6c712b5a4bf5e01d0ec7b11dabc")
+print(order)
+Request Parameters
+Name	Required	Type	Description
+id	no	string	id of order to get information about
+Response Format
+Name	Type	Description
+null	OpenOrder	order if it is exists
+An OpenOrder object is of the form:
+
+Name	Type	Description
+associate_trades	string[]	any Trade id the order has been partially included in
+id	string	order id
+status	string	order current status
+market	string	market id (condition id)
+original_size	string	original order size at placement
+outcome	string	human readable outcome the order is for
+maker_address	string	maker address (funder)
+owner	string	api key
+price	string	price
+side	string	buy or sell
+size_matched	string	size of order that has been matched/filled
+asset_id	string	token id
+expiration	string	unix timestamp when the order expired, 0 if it does not expire
+type	string	order type (GTC, FOK, GTD)
+created_at	string	unix timestamp when the order was created
+Check if an order is scoring
+ This endpoint required a L2 Header.
+Returns a boolean value where it is indicated if an order is scoring or not.
+
+HTTP Request
+GET {clob-endpoint}/order-scoring?order_id={...}
+
+scoring = client.is_order_scoring(
+    OrderScoringParams(
+        orderId="0x..."
+    )
+)
+print(scoring)
+Request Parameters
+Name	Required	Type	Description
+orderId	yes	string	id of order to get information about
+Response Format
+Name	Type	Description
+null	OrderScoring	order scoring data
+An OrderScoring object is of the form:
+
+Name	Type	Description
+scoring	boolean	indicates if the order is scoring or not
+Check if some orders are scoring
+ This endpoint required a L2 Header.
+Returns a a dictionary with boolean value where it is indicated if an order is scoring or not.
+
+HTTP Request
+POST {clob-endpoint}/orders-scoring
+
+scoring = client.are_orders_scoring(
+    OrdersScoringParams(
+        orderIds=["0x..."]
+    )
+)
+print(scoring)
+Request Parameters
+Name	Required	Type	Description
+orderIds	yes	string[]	ids of the orders to get information about
+Response Format
+Name	Type	Description
+null	OrdersScoring	orders scoring data
+An OrdersScoring object is a dictionary that indicates order by order if it scores:
+
+{
+  "0x0": true,
+  "0x1": false
+}
+Get Active Orders
+ This endpoint required a L2 Header.
+Get active order(s) for a specific market.
+
+HTTP Request
+GET {clob-endpoint}/data/orders
+
+from py_clob_client.clob_types import OpenOrderParams
+
+resp = client.get_orders(
+    OpenOrderParams(
+        market="0xbd31dc8a20211944f6b70f31557f1001557b59905b7738480ca09bd4532f84af",
+    )
+)
+print(resp)
+print("Done!")
+Request Parameters
+Name	Required	Type	Description
+id	no	string	id of order to get information about
+market	no	string	condition id of market
+asset_id	no	string	id of the asset/token
+Response Format
+Name	Type	Description
+null	OpenOrder[]	list of open orders filtered by query parameters
+Cancel an Order
+ This endpoint required a L2 Header.
+Cancel an order.
+
+HTTP Request
+DELETE {clob-endpoint}/order
+
+resp = client.cancel(order_id="0x38a73eed1e6d177545e9ab027abddfb7e08dbe975fa777123b1752d203d6ac88")
+print(resp)
+Request Payload Parameters
+Name	Required	Type	Description
+orderID	yes	string	ID of order to cancel
+Response Format
+Name	Type	Description
+canceled	string[]	list of canceled orders
+not_canceled	{ }	a order id - reason map that explains why that order couldn't be canceled
+Cancel orders
+ This endpoint required a L2 Header.
+Cancel many orders.
+
+HTTP Request
+DELETE {clob-endpoint}/orders
+
+resp = client.cancel_orders(["0x38a73eed1e6d177545e9ab027abddfb7e08dbe975fa777123b1752d203d6ac88", "0xaaaa..."])
+print(resp)
+Request Payload Parameters
+Name	Required	Type	Description
+null	yes	string[]	IDs of the orders to cancel
+Response Format
+Name	Type	Description
+canceled	string[]	list of canceled orders
+not_canceled	{ }	a order id - reason map that explains why that order couldn't be canceled
+Cancel All Orders
+ This endpoint required a L2 Header.
+Cancel all open orders posted by a user.
+
+HTTP Request
+DELETE {clob-endpoint}/cancel-all
+
+resp = client.cancel_all()
+print(resp)
+print("Done!")
+Response Format
+Name	Type	Description
+canceled	string[]	list of canceled orders
+not_canceled	{ }	a order id - reason map that explains why that order couldn't be canceled
+Cancel orders from market
+ This endpoint required a L2 Header.
+Cancel orders from market.
+
+HTTP Request
+DELETE {clob-endpoint}/cancel-market-orders
+
+resp = client.cancel_market_orders(market="0xbd31dc8a20211944f6b70f31557f1001557b59905b7738480ca09bd4532f84af", asset_id="52114319501245915516055106046884209969926127482827954674443846427813813222426")
+print(resp)
+Request Payload Parameters
+Name	Required	Type	Description
+market	no	string	condition id of the market
+asset_id	no	string	id of the asset/token
+Response Format
+Name	Type	Description
+canceled	string[]	list of canceled orders
+not_canceled	{ }	a order id - reason map that explains why that order couldn't be canceled
+Trades

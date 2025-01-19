@@ -1,0 +1,3463 @@
+{
+  "timestamp": "2025-01-17T01:26:43.825077",
+  "search_keyword": "okc",
+  "count": 96,
+  "markets": [
+    {
+      "condition_id": "0xf8fa60fa33aaa7394ff92cf195fcc45b2d5de4bac43fcb537e0323c9b64b4d01",
+      "question_id": "0xf4a73fc7b8399af79c928b109bc155b75bc31be50230128282213dad08047432",
+      "description": "In the upcoming NBA game, scheduled for February 23 at 9:00\u202fPM ET:\n\nIf the Utah Jazz win, the market will resolve to \u201cJazz\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50",
+      "category": "N/A",
+      "question": "NBA: Utah Jazz vs. Oklahoma City Thunder 2023-02-23",
+      "market_slug": "nba-utah-okc-2023-02-23",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-22T00:00:00Z",
+        "game_start_time": "2023-02-24T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "56854778582279152963301831119080686371971576741615690358980536418756036606518",
+          "outcome": "Jazz",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "39819691616627042045010631890768228775204216752451226303365992283746601630955",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xc0f6fc1ef71052492781bf8f1614cb3e767fd4a71fc2f1dfd1899dbb195fefea",
+      "question_id": "0xde41b7a5c62462d3f833f2e1643247af8b0111ac590af77705dea013b4187ce3",
+      "description": "LeBron James is 36 points away from surpassing Kareem Abdul-Jabbar to claim the National Basketball Association's (NBA's) all time scoring record. The NBA's all-time scoring record list can be viewed here: https://www.nba.com/news/lebron-james-scoring-tracker.\n\nThis market will resolve to \"Yes\" if Lakers player LeBron James breaks the all time NBA record for most points scored (i.e. a total of 38,388 or more) during the Los Angeles Lakers game against the Oklahoma City Thunder on February 7, 2023, 10:00 PM ET. Otherwise, this market will resolve to \"No\".\n\nIf this game starts on February 7 but extends into February 8, and LeBron James beats the record at that point, this market will still resolve to \"Yes\". If this game is postponed to a later date or cancelled, this market will resolve to \"No\". \n\nThe primary resolution source for this market will be official information from the NBA, including live footage from the game, however a consensus of credible reporting may also be used.",
+      "category": "N/A",
+      "question": "Will LeBron break the scoring record during the Feb 7 game vs. OKC?",
+      "market_slug": "will-lebron-break-the-scoring-record-during-the-feb-7-game-vs-okc",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-07T00:00:00Z",
+        "game_start_time": "2023-02-08T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "59807065909300685172612218308381429575745612931150980239075273322751866141474",
+          "outcome": "Yes",
+          "price": 0.9999,
+          "winner": false
+        },
+        {
+          "token_id": "22043269032172386305278451412297528721845400932396410358944191793979985652558",
+          "outcome": "No",
+          "price": 0.0001,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x571295a4f8ae98333b574becfedd1d6b28f843e5e382e0e075a8f6f1e1462447",
+      "question_id": "0x5cb86084573564192fc2f0245cb9a71f7bfd7ec039578e6ca4daf4abedfc7ebd",
+      "description": "In the upcoming NBA game, scheduled for February 24 at 10:00\u202fPM ET:\n\nIf the Phoenix Suns win, the market will resolve to \u201cSuns\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50",
+      "category": "N/A",
+      "question": "NBA: Phoenix Suns vs. Oklahoma City Thunder 2023-02-24",
+      "market_slug": "nba-phx-okc-2023-02-24",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-22T00:00:00Z",
+        "game_start_time": "2023-02-25T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "67173215191593932136352390980197035130758677933392786652294924565684555326188",
+          "outcome": "Suns",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "19539207335982658334755327575348501565274948556806713350143264923864557615949",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xa1768e8079f5b9a71398729e0f353466bd31216e4e22825eef95dd20a6610bee",
+      "question_id": "0xc04070289afd6cc05063c2bead01bee472c0ff796307b989e164430a794a597f",
+      "description": "In the upcoming NBA game, scheduled for March 3 at 8:00\u202fPM:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Utah Jazz win, the market will resolve to \u201cJazz\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. Utah Jazz 2023-03-03",
+      "market_slug": "nba-okc-utah-2023-03-03",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-03T00:00:00Z",
+        "game_start_time": "2023-03-04T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "6436076077134778605902772220589566084144380138993944914968207229288131389319",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "108670661335023528504774115263840857986267179006592422027738463091917417106704",
+          "outcome": "Jazz",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x493931b4a209ac8bc7b129398a78a27a9a8585fa7a6aad104f6cb363a195e8d1",
+      "question_id": "0x8185a54114a93163fe47deba817a71eb2babd6d1556f80e2101f27ecbfac79e8",
+      "description": "In the upcoming NBA game, scheduled for March 7 at 8:00\u202fPM:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. Golden State Warriors 2023-03-07",
+      "market_slug": "nba-okc-gs-2023-03-07",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-07T00:00:00Z",
+        "game_start_time": "2023-03-08T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "113790031318775645555744673265175567658368177398208000365841692533576372312363",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "11101520065215093546932226388080284723723640533391944326819896322041562089982",
+          "outcome": "Warriors",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xe37e96273fad0137ed99e33d1983cbe42685751b38eebbf74d29ddb7140c953a",
+      "question_id": "0x857b16c40346117b4dce2b62d250251578340f89c6b3feb48d8d2e3f6b5db9f0",
+      "description": "In the upcoming NBA game, scheduled for March 5 at 7:00\u202fPM:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Utah Jazz win, the market will resolve to \u201cJazz\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. Utah Jazz 2023-03-05",
+      "market_slug": "nba-okc-utah-2023-03-05",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-05T00:00:00Z",
+        "game_start_time": "2023-03-06T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "14825915835745298608777970384526834357748803157452142076708149119768588742967",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "31919529075903529749336144468524390662821539414309801915232922480017874299369",
+          "outcome": "Jazz",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x65303b60df4dfeb396dfcb4104e14dfeb7f159406a8c08b5b7ac1681877cda9a",
+      "question_id": "0x984edc0c32c237e42131bc48d84454dd9e127637292732f2df4957f38696beed",
+      "description": "In the upcoming NBA game, scheduled for March 12 at 7:00\u202fPM ET:\n\nIf the San Antonio Spurs win, the market will resolve to \u201cSpurs\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: San Antonio Spurs vs. Oklahoma City Thunder 2023-03-12",
+      "market_slug": "nba-sa-okc-2023-03-12",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-12T00:00:00Z",
+        "game_start_time": "2023-03-12T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "109226843946739032565620990831456400639533019078528792726710815703111260607097",
+          "outcome": "Spurs",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "41942592783336963867578129208508535576382740788298002635733676525347923014518",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xa3e7e47ccd65d78d48d1cbe0016a14346c027fa8a25e964d1ee6d3e395b05514",
+      "question_id": "0xdb6fc1c583edf989dbcf1cee96a3c3071a7573dd65d5a9e903c014aab084f1c2",
+      "description": "In the upcoming NBA game, scheduled for March 14 at 8:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Brooklyn Nets win, the market will resolve to \u201cNets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. Brooklyn Nets 2023-03-14",
+      "market_slug": "nba-okc-bkn-2023-03-14",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-14T00:00:00Z",
+        "game_start_time": "2023-03-15T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "100399863025812990068914211799465733859672534835385219402043635413219319180806",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "28321662631669711672961250231745871664787559507328653552170022475324065128418",
+          "outcome": "Nets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xc29794e9709a41245ddb98c3ee9efc1a0ed867009507032e1eb6eebd48d10392",
+      "question_id": "0x5a78d674731a45a1c4c6dd9ec0a703b4ffac770d71e017fa5c01174f543cea9f",
+      "description": "In the upcoming NBA game, scheduled for March 19 at 3:30 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Phoenix Suns win, the market will resolve to \u201cSuns\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. Phoenix Suns 2023-03-19",
+      "market_slug": "nba-okc-phx-2023-03-19",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-19T00:00:00Z",
+        "game_start_time": "2023-03-19T19:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "85127805038788024310061861083782013171363623551026699068523048939112389600521",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "70438297134624944651110943656523525894755098294380734049971883927211084010578",
+          "outcome": "Suns",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x181e5e999daa366fd2305177bb9ed34e66e6890a991a9df5fc3fed03f1f8e334",
+      "question_id": "0xf1117030935aa26b6c2531d661323a1180249c35956f45ded177543887f1fdbe",
+      "description": "In the upcoming NBA game, scheduled for March 8 at 9:00\u202fPM:\n\nIf the Phoenix Suns win, the market will resolve to \u201cSuns\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Phoenix Suns vs. Oklahoma City Thunder 2023-03-08",
+      "market_slug": "nba-phx-okc-2023-03-08",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-08T00:00:00Z",
+        "game_start_time": "2023-03-09T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "113626583346143892382680093643529866893539947485548648039051044703786421247561",
+          "outcome": "Suns",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "106107814403589108930202924142245004113216657224685194661229098850331769113125",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x2d7b8db2d56065c9b2d94df5d17e8128a6a5f2144fb4081ca10a7f4b1e3b82d6",
+      "question_id": "0x31d182b7356deac1479c2ea70388a27a052539055cc2d457bd9dce206b4c2bd9",
+      "description": "In the upcoming NBA game, scheduled for March 11 at 8:30\u202fPM ET:\n\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: New Orleans Pelicans vs. Oklahoma City Thunder 2023-03-11",
+      "market_slug": "nba-no-okc-2023-03-11",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-11T00:00:00Z",
+        "game_start_time": "2023-03-12T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "95678951303289078659403068143259198686603856038418647389912643928630113702609",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "31635436205271325889888811269742118053863007058393890434802353940035033852237",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x6e6b3906eb4d6975a391a33b6538ba8f00915b61de66ec2a8c17142fae8b3927",
+      "question_id": "0x52a78ae1ded2c5299cc961fdf52a38af4005e3c24aed1dfd5af4717d24e8915b",
+      "description": "In the upcoming NBA game, scheduled for February 26 at 7:00\u202fPM:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Sacramento Kings win, the market will resolve to \u201cKings\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. Sacramento Kings 2023-02-26",
+      "market_slug": "nba-okc-sac-2023-02-26",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-26T00:00:00Z",
+        "game_start_time": "2023-02-27T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "64502611281881638412679255053580819511568450711944232337859386816091392544161",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "114548605344354285979969521051995970794073262723497250527450198914499032716104",
+          "outcome": "Kings",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x2325e48b04d4245f36d7415e62616a311b1b4644438721a46b5f6f26d69c5d93",
+      "question_id": "0x7b5a5537d3bce30d82dfc8fb980c67a6a003be4f6c7f60affd70c6756bc65420",
+      "description": "In the upcoming NBA game, scheduled for March 16 at 7:30 PM ET:\n\nIf the Toronto Raptors win, the market will resolve to \u201cRaptors\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Toronto Raptors vs. Oklahoma City Thunder 2023-03-16",
+      "market_slug": "nba-tor-okc-2023-03-16",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-16T00:00:00Z",
+        "game_start_time": "2023-03-16T23:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "40744386155860756651371607704067257668372888926032010787002740294455065529570",
+          "outcome": "Raptors",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "27562215160189236473213788018885936647209629653461292790847206759540074175644",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x0f4c985bf94917ed059e618464bf92ae1b91a24bb058034071ca3e4b834082ff",
+      "question_id": "0x92c26304405d059c9c826be019d1b6b7a7d0f9843db80511448f7d534538c583",
+      "description": "In the upcoming NBA game, scheduled for March 1 at 8:00\u202fPM:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. Los Angeles Lakers 2023-03-01",
+      "market_slug": "nba-okc-lal-2023-03-01",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-01T00:00:00Z",
+        "game_start_time": "2023-03-02T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "27813490804467780067324428192866122768046964301722231779657427982252765072133",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "36415837902910971935359857718184110093355458340220620949139256126361915202717",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x8b46473633804e60a9090e4f378935d2039b24a5b28b5a083215829ba0b2f33b",
+      "question_id": "0x4be2ca06f6e1b8477f8ac60b5d42de68a90b1ba52aa905a1972f0aed0f9b4b9d",
+      "description": "In the upcoming NBA game, scheduled for February 28 at 8:00\u202fPM:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Sacramento Kings win, the market will resolve to \u201cKings\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. Sacramento Kings 2023-02-28",
+      "market_slug": "nba-okc-sac-2023-02-28",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-02-28T00:00:00Z",
+        "game_start_time": "2023-03-01T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "113764885430052380943568774397768175843866646798733829255003927063293426361834",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "49515629524877896401651632872863749014489863325590486869236148354148680976013",
+          "outcome": "Kings",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb81a244053f0e52e60275500910e6db30619cb66766dfbc7bbe8c7ff5a2c48ab",
+      "question_id": "0x5f135e494e6f2cf0ed245a0fe4727df895923eb277ebb29bfb4ac8fda57a911b",
+      "description": "In the upcoming NBA game, scheduled for April 6 at 9:00 PM ET:\n\nIf the Utah Jazz win, the market will resolve to \u201cJazz\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Utah Jazz vs. Oklahoma City Thunder 2023-04-06",
+      "market_slug": "nba-utah-okc-2023-04-06",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-06T00:00:00Z",
+        "game_start_time": "2023-04-07T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "115014422154653364051593770231774373215814831714102258031869990147667752657102",
+          "outcome": "Jazz",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "59997047666077678731717464293213357015115812583680580263768886016184013778326",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x99eee57c0b7ba58803dd3978863ac2e65d3cf084b7cd03de850509e8ddb2a9d2",
+      "question_id": "0x3181665be47c3d37a33aef7d487e81a852d5b532efe6f6892044ad7ecd529e22",
+      "description": "In the upcoming NBA game, scheduled for March 29 at 8:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Detroit Pistons win, the market will resolve to \u201cPistons\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. Detroit Pistons 2023-03-29",
+      "market_slug": "nba-okc-det-2023-03-29",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-29T00:00:00Z",
+        "game_start_time": "2023-03-30T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "46185159048452397472566959698767772655032578758998108569122704533650476530898",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "35077027124026837794568209962344408842675369797007293973721024281555446904306",
+          "outcome": "Pistons",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x101570cd9dea032ecf6a5f053f1dc3d1b7eafdb411fa4d5e1934e6a3c330ebb3",
+      "question_id": "0x47c42622c89951817379cb37b30916c385f028fd90fdec1852626b0322c22185",
+      "description": "In the upcoming NBA game, scheduled for March 24 at 10:30 PM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Los Angeles Lakers vs. Oklahoma City Thunder 2023-03-24",
+      "market_slug": "nba-lal-okc-2023-03-24",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-24T00:00:00Z",
+        "game_start_time": "2023-03-25T02:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "107015115232190736088588258151295525563032459571686951349939868112821240690323",
+          "outcome": "Lakers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "66185129040305563529268644053093937605683459211060053539516427523956882990541",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x67393d5b708ad52b9c760ee3f5bf7c4b0e972bcd6792091d4c8a213e0be72010",
+      "question_id": "0xd5309ecff0e7bab0fcd1e49142ef2e1c6cbdeb8b8797a18bc3d3759cef3000cb",
+      "description": "In the upcoming NBA game, scheduled for March 26 at 7:00 PM ET:\n\nIf the Portland Trail Blazers win, the market will resolve to \u201cTrail Blazers\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Portland Trail Blazers vs. Oklahoma City Thunder 2023-03-26",
+      "market_slug": "nba-por-okc-2023-03-26",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-26T00:00:00Z",
+        "game_start_time": "2023-03-26T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "31501301914392989525475200983917088974929324032961276010640980461336472786392",
+          "outcome": "Trail Blazers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "98274245600069582240388263266424381218041488548925320910010565464018470813805",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x2a2bcfdce06e5b02ca6aef6bb4dd45c28a4dd392674249f1c38b2212a4662811",
+      "question_id": "0x913090f6d2d423bae12d358dfb85d3a021e1732d1b695a53fa296bd9fc5df94a",
+      "description": "In the upcoming NBA game, scheduled for March 28 at 8:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Charlotte Hornets win, the market will resolve to \u201cHornets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. Charlotte Hornets 2023-03-28",
+      "market_slug": "nba-okc-cha-2023-03-28",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-28T00:00:00Z",
+        "game_start_time": "2023-03-29T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "51225290683608341792178200129246400454295243572137882250777667465279118039609",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "60305006560645434346886499864355816602398960842171128714151444345738437037957",
+          "outcome": "Hornets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x79f3a26c6e7cc369f52bb5675ae1a07823ee36f659303d39ae7a3875a961585d",
+      "question_id": "0xa1ea7ae1a4951ade7ecbda25ea2d9e23a1aebf74b2a2dd3a8b2dfb4dc0de9d32",
+      "description": "In the upcoming NBA game, scheduled for April 2 at 7:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Phoenix Suns win, the market will resolve to \u201cSuns\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. Phoenix Suns 2023-04-02",
+      "market_slug": "nba-okc-phx-2023-04-02",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-02T00:00:00Z",
+        "game_start_time": "2023-04-02T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "49163086478165645970206629055309447993653437771964803956833329502631756075060",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "49995196905353462233878826140454272322454024199855943757601632708393289779512",
+          "outcome": "Suns",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x27daa5877e551c83a988c6cecb3067045c100ae26035bcc29f2a951adb5b50a4",
+      "question_id": "0x3cb3f51bb217676d0b4b9631b9207f6a6aa4408a99d44d23ffc270e218f87f24",
+      "description": "In the upcoming NBA game, scheduled for April 4 at 10:00 PM ET:\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Golden State Warriors vs. Oklahoma City Thunder 2023-04-04",
+      "market_slug": "nba-gs-okc-2023-04-04",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-04T00:00:00Z",
+        "game_start_time": "2023-04-05T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "21408819905719455133342282457494605376783620571641209320240483885840324646686",
+          "outcome": "Warriors",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "94289233902185865090533920840638967266043465471551478192652040598397166458606",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x2fd98c6d6a8532afe8d92585bb7db04ade1d2b104c16e40897f7e84245fbd36c",
+      "question_id": "0x9c65da8f346d6d0b0009c7d1190122a6af7f25a034ff0a616f0ed57e52331664",
+      "description": "In the upcoming NBA game, scheduled for March 23 at 10:30 PM ET:\n\nIf the LA Clippers win, the market will resolve to \u201cClippers\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: LA Clippers vs. Oklahoma City Thunder 2023-03-23",
+      "market_slug": "nba-lac-okc-2023-03-23",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-23T00:00:00Z",
+        "game_start_time": "2023-03-24T02:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "40338573938457664738785939562923807400562809285729686700046068016038529420333",
+          "outcome": "Clippers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "28568401112907271717832579600671011924738919866942529121742850609426745141098",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x1a4552b55e20b474029afe1a188f9219221dbb4d6b707001ffd3b67046bb2d39",
+      "question_id": "0xf730547d0758f467e7e8cd3ae80716c09d3f502a8713d1bdfc34942ee5cee2ff",
+      "description": "In the upcoming NBA game, scheduled for March 31 at 7:00 PM ET:\n\nIf the Indiana Pacers win, the market will resolve to \u201cPacers\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Indiana Pacers vs. Oklahoma City Thunder 2023-03-31",
+      "market_slug": "nba-ind-okc-2023-03-31",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-31T00:00:00Z",
+        "game_start_time": "2023-03-31T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "101521428053164767012255827597587661601768507958476942119695100599546197786282",
+          "outcome": "Pacers",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "42263602269686086328065144772046627028412998906098776608989342532326093897229",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x10ce4b3ba6aa098f03a344fe369ea5eb58ab4ac3c54b7f9c4c65955ecd766a1e",
+      "question_id": "0xf9a8f7ad7a60b7ac63fe953d0e8b646b99a80f86eafe5a8e4c117f79171edab4",
+      "description": "In the upcoming NBA game, scheduled for March 21 at 10:30 PM ET:\n\nIf the LA Clippers win, the market will resolve to \u201cClippers\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: LA Clippers vs. Oklahoma City Thunder 2023-03-21",
+      "market_slug": "nba-lac-okc-2023-03-21",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-03-21T00:00:00Z",
+        "game_start_time": "2023-03-22T02:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "97460385512357822240613404388885683502782207008865238406913609039005562914374",
+          "outcome": "Clippers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "100114770961521855692912323391126806168738881395521171261254036885426101634822",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xd4bb6c035717b98ef22f71b8b28823596341f1f3ab83986bcc8078d7bae0fe15",
+      "question_id": "0x615466aff0cb3d9329fd4ab0652433d36d05fc49118ece475ecdaabe5e3224f5",
+      "description": "In the upcoming NBA game, scheduled for April 14 at 9:30 PM ET:\n\nIf the Minnesota Timberwolves win, the market will resolve to \u201cTimberwolves\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Minnesota Timberwolves vs. Oklahoma City Thunder 2023-04-14",
+      "market_slug": "nba-min-okc-2023-04-14",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-14T00:00:00Z",
+        "game_start_time": "2023-04-15T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "6137430614316973058951709627119262599508426976433949021202440169682346119513",
+          "outcome": "Timberwolves",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "3415005588126061355123885728104317317220200476778551067820990712727167450713",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x50134ef053d75c1605f3711c068111b4eac7d949c7c2dc33ee8f355b685ec1d3",
+      "question_id": "0x8485b4e42a8fdad8538db849b6109c2ecf21315ee7857685a9fb0517a9e39ee5",
+      "description": "In the upcoming NBA game, scheduled for April 12 at 9:30 PM ET:\n\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: New Orleans Pelicans vs. Oklahoma City Thunder 2023-04-12",
+      "market_slug": "nba-no-okc-2023-04-12",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-12T00:00:00Z",
+        "game_start_time": "2023-04-13T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "4411471394568171022542038405813389093624464191069085351830377771616205323586",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "35981104602430471368313920314323649705765434694083553656617134459927350878269",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xea1548940b92df17c39fc59ec041bb36cf3332f7464adfeb6dfa5521b5a67d76",
+      "question_id": "0x7d2cb7a438ae3fa5a83f09ffbb5790054e3e4a4cd63c4064ad722b32022398e2",
+      "description": "In the upcoming NBA game, scheduled for April 9 at 3:30 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. Memphis Grizzlies 2023-04-09",
+      "market_slug": "nba-okc-mem-2023-04-09",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-04-09T00:00:00Z",
+        "game_start_time": "2023-04-09T19:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "105009272517694760001863629687304971400626281163209019232127372515094692565168",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "39659258992119529596251312208354493275858614609196040562418991885237915734388",
+          "outcome": "Grizzlies",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x314f5776bbd154fe21323b1c4e11713c492b57e69343e3f9410ca936811d1693",
+      "question_id": "0xe6135ceafbe96132788dbceebb386542ab6a77f856f5c06d537d133506a1093a",
+      "description": "In the upcoming NBA game, scheduled for October 27, 7:30 PM ET:\n\nIf the Cleveland Cavaliers win, the market will resolve to \u201cCavaliers\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by November 3, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Cavaliers vs. Thunder",
+      "market_slug": "nba-cle-okc-2023-10-27",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-10-27T00:00:00Z",
+        "game_start_time": "2023-10-27T23:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "6447806960166398802849670365737984283297155532215356102146582527039324713371",
+          "outcome": "Cavaliers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "112538945190463547241654679129618832960764961717229418553262272877516560033641",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x75ad4c7c0efeced6f5b5a8f2806540b06094c4470693d54dac18230c13360c73",
+      "question_id": "0x7ed8210b8080e3a6ca6f01048455f9753d5a5c0f4487c693751ec71aad49276f",
+      "description": "In the upcoming NBA game, scheduled for October 30, 8:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Detroit Pistons win, the market will resolve to \u201cPistons\u201d.\n\n If the game is not completed by November 6, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Pistons",
+      "market_slug": "nba-okc-det-2023-10-30",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-10-30T00:00:00Z",
+        "game_start_time": "2023-10-31T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "51348632998436528002849673693113404392713808312991221377431012471564310923053",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "83618775929009860893676390454232501243767602509974130210587701421124404403482",
+          "outcome": "Pistons",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xd98dea5604c75e7aa3e5c445dc264cbe7e453e9ba8fd65552f88b78ff1f8dffc",
+      "question_id": "0x39a3799abbc91c76197fda0980ab31c52ee0701ff891890b5d525bb57584374e",
+      "description": "In the upcoming NBA game, scheduled for October 29, 3:30 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d.\n\n If the game is not completed by November 5, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Nuggets",
+      "market_slug": "nba-okc-den-2023-10-29",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-10-29T00:00:00Z",
+        "game_start_time": "2023-10-29T19:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "102534427182509230368679290600689753057324848527006318253935067555254371868772",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "95315455848491602121884228658398809043215348556392251178595433843164734328325",
+          "outcome": "Nuggets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xdeb1adecf085f30205253807eabcd6fe2b6d003905f4930a4e2d6ab89d953216",
+      "question_id": "0xf75c7a892ba1003be494861d55f17fcf06f646032d99df9794bd576aec22b0e8",
+      "description": "In the upcoming NBA game, scheduled for October 25, 8:00 PM ET:\n\nIf the Chicago Bulls win, the market will resolve to \u201cBulls\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by November 1, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Bulls vs. Thunder",
+      "market_slug": "nba-chi-okc-2023-10-25",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-10-25T00:00:00Z",
+        "game_start_time": "2023-10-26T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "91783645016729038510149971205698318732204607117509729960303998637485089981927",
+          "outcome": "Bulls",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "52099859039440136120789688528027096094102269429350521291229626021333696645897",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x631f1af4f154bee1d8ec7b20e6debf1c5866164cdd244d664993f1778aa6a8ed",
+      "question_id": "0x867b70c24f1d8efd6e24b9e1f8b45aaa2225d09c7d477e4eae9ac99413235763",
+      "description": "In the upcoming NBA game, scheduled for November 22 at 8:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Chicago Bulls win, the market will resolve to \u201cBulls\u201d.\n\n If the game is not completed by November 29, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Bulls",
+      "market_slug": "nba-okc-chi-2023-11-22",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-22T00:00:00Z",
+        "game_start_time": "2023-11-23T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "76995801537990863931369879490630248732728281320754462464774650669585860712073",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "42213811285961060299921581537287170664588616673367189995084534953727518234498",
+          "outcome": "Bulls",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb7f07bb92bbb43efe71a55f7b54b7fe174054f50f978b2d5f60b186fb885ab4b",
+      "question_id": "0xf0cbd0335d07a250870dab62a91480572c3b2a40fe3c8504d31160012a1bfe39",
+      "description": "In the upcoming NBA game, scheduled for November 6, 8:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Atlanta Hawks win, the market will resolve to \u201cHawks\u201d.\n\n If the game is not completed by November 13, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Hawks",
+      "market_slug": "nba-okc-atl-2023-11-06",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-06T00:00:00Z",
+        "game_start_time": "2023-11-07T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "39305298873431393986270563377728686053586848937682580892575514461988995686192",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "72159221836616748511113706345928919894882009008553744016881076492023571722651",
+          "outcome": "Hawks",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x3e5eeb5610ca033c841453d7cb4e38e9f6befac0ad7bba3e885980ebdeae6cfe",
+      "question_id": "0x136b41808872a28ce333f38eb18ed49ae5664e4f7abb352cfc51d289bf712e92",
+      "description": "In the upcoming NBA game, scheduled for November 14 at 7:30 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the San Antonio Spurs win, the market will resolve to \u201cSpurs\u201d.\n\n If the game is not completed by November 21, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Spurs",
+      "market_slug": "nba-okc-sa-2023-11-14",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-14T00:00:00Z",
+        "game_start_time": "2023-11-15T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "37921582713678760989703823040556611801898713854529932790588662616340432812364",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "11140775130699442435628706638190049096813808566492912311621291094919914345082",
+          "outcome": "Spurs",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x6079424b2706ebb41ab149b065a5e783806b72bef6e82db407d4484702bb9ce1",
+      "question_id": "0x371f6973109f5556c828f0e336665954013596b6cbdc6d64119a1ba04882884c",
+      "description": "In the upcoming NBA game, scheduled for November 18 at 8:30 PM ET:\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by November 25, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Warriors vs. Thunder",
+      "market_slug": "nba-gs-okc-2023-11-18",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-18T00:00:00Z",
+        "game_start_time": "2023-11-19T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "89909799270947143723835093470421906382277728626601547591269657841251369241426",
+          "outcome": "Warriors",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "112213303357690333474088932578266029011680846881937278707617314539939347819278",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x96851e51defe22dee0e5586451287c0a521aba9f20d32ccecb7c45d8ba98787d",
+      "question_id": "0x745443da6c596f12689134d89050a37954226f596288f2de39637e991f90b6ea",
+      "description": "In the upcoming NBA game, scheduled for November 3, 8:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\n If the game is not completed by November 10, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Warriors",
+      "market_slug": "nba-okc-gs-2023-11-03",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-03T00:00:00Z",
+        "game_start_time": "2023-11-04T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "34211042543321628836549437744800820446094562600850065456634759786272422599787",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "23895350935653279392201747520578447958373994129604354106795418227244097430500",
+          "outcome": "Warriors",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x1e06b9f91b3675acd3e46e455a841a816932582535f308e13368034ba09e47c0",
+      "question_id": "0x236570c2a1035f2fc34c51a84d35780501ed35122e6a00f71564c71fe2d69267",
+      "description": "In the upcoming NBA game, scheduled for December 8 at 8:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\n If the game is not completed by December 15, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Warriors",
+      "market_slug": "nba-okc-gs-2023-12-08",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-12-08T00:00:00Z",
+        "game_start_time": "2023-12-09T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "115196914513539581308679283471511010108552568903431876159108441666272819056797",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "41071349448203676454578512479923837321443901588685426936672633422405790063799",
+          "outcome": "Warriors",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x4eb7e2141e913bb5cde0fba275344f196d7fbc15488f442dd755a32469cf53b5",
+      "question_id": "0x04e9684fe103d9a4236ba1dbd97c22c1ec0c1e32d099b79856104db2e79d3089",
+      "description": "In the upcoming NBA game, scheduled for November 19 at 9:00 PM ET:\n\nIf the Portland Trail Blazers win, the market will resolve to \u201cTrail Blazers\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by November 26, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Trail Blazers vs. Thunder",
+      "market_slug": "nba-por-okc-2023-11-19",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-19T00:00:00Z",
+        "game_start_time": "2023-11-20T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "70271050804236136482615534431210614007563691119352829584153949073245641352842",
+          "outcome": "Trail Blazers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "17043163648343237575422056954077604730137362737319164251955110773350010641394",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x3d590445708e770e6448c8c854552848d69eb17ce99946e09dcbe68499b3ffcd",
+      "question_id": "0xd1c19e7c4e0ead023c37b3ea8d3e2f5988ba778a69b4fc692e44e73fa8bf0550",
+      "description": "In the upcoming NBA game, scheduled for November 16 at 10:00 PM ET:\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by November 23, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Warriors vs. Thunder",
+      "market_slug": "nba-gs-okc-2023-11-16",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-16T00:00:00Z",
+        "game_start_time": "2023-11-17T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "16137941776716598632099994674696312347937982600370861848519063316397460715799",
+          "outcome": "Warriors",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "37262519900899026025271999650496616637948746821841609085812562947852838771626",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x9ba9dd2f1ecf2b59266d680a8d70169547192f78b62f292896ac28874348cdde",
+      "question_id": "0x0dca0029d6a3590a56aaadd4f5e81e065d71ca6605432c41ba0b5956d52e6e1d",
+      "description": "In the upcoming NBA game, scheduled for November 10, 10:00 PM ET:\n\nIf the Sacramento Kings win, the market will resolve to \u201cKings\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by November 17, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Kings vs. Thunder",
+      "market_slug": "nba-sac-okc-2023-11-10",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-10T00:00:00Z",
+        "game_start_time": "2023-11-11T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "84364645358436568088007439841991134086358065098981763032075459943865921631851",
+          "outcome": "Kings",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "53286690698283209625319857162653284897172798882818450520068518707594743267410",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x1da81c134df0e15080ef30d85afaf40e28650156316e9e9603215c41d4148453",
+      "question_id": "0x3a3561ce604fdda953a47e840c8e1010066a614caedb9c4c20f2bd0677c3c943",
+      "description": "In the upcoming NBA game, scheduled for November 12, 8:00 PM ET:\n\nIf the Phoenix Suns win, the market will resolve to \u201cSuns\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\n If the game is not completed by November 19, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Suns vs. Thunder",
+      "market_slug": "nba-phx-okc-2023-11-12",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-12T00:00:00Z",
+        "game_start_time": "2023-11-13T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "56815873039007183467616501931653371589741318457493905917975288401273902252922",
+          "outcome": "Suns",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "64616628446378826726538898802731987060111966129035094289581180051397276913455",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x73ca5347d073078abed37840ed7bc0823a2bc08e6a740ab4a9d79f3f8d8d0988",
+      "question_id": "0xebb7a18fa87fad2318f835901a5aab91502f3ce5adbd5ef5f9474e0ccd5ab0b9",
+      "description": "In the upcoming NBA game, scheduled for November 8, 8:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Cleveland Cavaliers win, the market will resolve to \u201cCavaliers\u201d.\n\n If the game is not completed by November 15, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Cavaliers",
+      "market_slug": "nba-okc-cle-2023-11-08",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-08T00:00:00Z",
+        "game_start_time": "2023-11-09T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "35343467928097807365014236645006506532421204175205284987468257911631360451215",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "74588941765906956021689368093039164163551851554267182990302657898845340195716",
+          "outcome": "Cavaliers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x77b3133383e5e3590e5775b5f4420a7c951c2e29329269cc61f801b408a20e26",
+      "question_id": "0x6b7f2badd7fcce86937352d23ce7aac813f8bdc43eeebf744c4b9bd7cf5f8aec",
+      "description": "In the upcoming NBA game, scheduled for November 1, 7:30 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n\n If the game is not completed by November 8, 2023 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Pelicans",
+      "market_slug": "nba-okc-no-2023-11-01",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2023-11-01T00:00:00Z",
+        "game_start_time": "2023-11-01T23:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "19878439947906798171894373656077879135618649289157433614974353288898928514424",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "74872331518219962709079483444447541918491031170051722836546737559218067372050",
+          "outcome": "Pelicans",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 15,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x6c6a05747e2d7268fca1203cecaddb8ce9b72447e09de575f969ee05eb825ac0",
+      "question_id": "0x2f79ed1cd076448c78e88cf1947ac8cffc8595d9122a8668fb1a82c3b86141b8",
+      "description": "This market refers to Game 4 of the NBA Playoff series between the New Orleans Pelicans and Oklahoma City Thunder. \n\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the game is not completed by May 6, 2024 11:59 PM ET, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: New Orleans Pelicans vs. Oklahoma City Thunder 2024-04-29",
+      "market_slug": "nba-no-okc-2024-04-29",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": null,
+        "game_start_time": "2024-04-30T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "113456680580253684142533020657625371712973162601402020770161422657029396689339",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "39076738115860124962628139963957813150286816925951880522738088139338268702592",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xea7637e0c1495b5a8bcad8f5e73606775b8e204781b40be82f03c030817042f0",
+      "question_id": "0x5d2ecbca15f14ff9f5c732de2586a9dd5666015c0280c56e3b19f92cd5ba8d83",
+      "description": "In the upcoming NBA game, scheduled for April 21:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n      \nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n      \nIf the game is not completed by April 26, 2024 11:59 PM ET, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. New Orleans Pelicans 24-04-21",
+      "market_slug": "nba-okc-no-2024-04-21",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": null,
+        "game_start_time": null
+      },
+      "tokens": [
+        {
+          "token_id": "59814833520540655136819453907347830416334514511974946986991020896288643178773",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "46698072854471389861577704051027141773006356749124875783348254333476427829259",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xe6e5ca7cd84983cf1d0d4842d4bd5c5cec84fa70817e86a861f4972b51ba1b60",
+      "question_id": "0x72c2ff354b683650b3b47998f0bf37d2c775e0d20a65190144490b3d461af950",
+      "description": "This market refers to Game 4 of the NBA Playoff series between the New Orleans Pelicans and Oklahoma City Thunder.\n\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the game is not completed by May 2, 2024 11:59 PM ET, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: New Orleans Pelicans vs. Oklahoma City Thunder 2024-04-27",
+      "market_slug": "nba-no-okc-2024-04-27",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": null,
+        "game_start_time": "2024-04-27T19:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "94071646512657696280334015704544895414235212826222128337190634122918279903271",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "44970830824881684454280370575043910292499656801764097441649368335142596586055",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x55919eb049d90d88c8f57f653390592cfa03d23e9568fd2c45a5fc41ce592c6e",
+      "question_id": "0x95ecef37cde6e212ae63c40db445bbba0a49b7613b2234e51239d10388b0cb28",
+      "description": "This market refers to Game 2 of the NBA Playoff series between the Oklahoma City Thunder and New Orleans Pelicans. \n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n\nIf the game is not completed by April 30, 2024 11:59 PM ET, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "NBA: Oklahoma City Thunder vs. New Orleans Pelicans 2024-04-24",
+      "market_slug": "nba-okc-no-2024-04-24",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": null,
+        "game_start_time": "2024-04-25T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "64703355025509412878239474382475403619168929487741739079943461355162636489993",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "85453290454488359770260430949033440782234270992684118036787865824373256470221",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x9c3e047864deb2664eb793b897afc5d9af1b453db24d708d15423f8a845a332d",
+      "question_id": "0x59533dc57a9241e0724d5a50d6d496312f9413583afb46d58dc0be4fb5c7c346",
+      "description": "This market refers to Game 3 of the NBA Playoff series between the Dallas Mavericks and Oklahoma City Thunder.\n\nIf the Dallas Mavericks win, the market will resolve to \u201cMavericks\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the game is not completed by May 18, 2024 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Dallas Mavericks vs. Oklahoma City Thunder: Game 3",
+      "market_slug": "nba-dal-okc-2024-05-11",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": null,
+        "game_start_time": "2024-05-11T19:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "92364469556434498607339662623337093604196349232398120091940852813550180653563",
+          "outcome": "Mavericks",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "72364936401076324395086948213617262188345940120996377274940510637779465273295",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x5eef93f332c225694693a1536ca433847cffe982474e2e51c770a06777abbe65",
+      "question_id": "0x85a7d480812b5b02807fe6dcaf404d4ddcf7317517a810852d2f93828c437a12",
+      "description": "This market refers to Game 1 of the NBA Playoff series between the Oklahoma City Thunder and Dallas Mavericks.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Dallas Mavericks win, the market will resolve to \u201cMavericks\u201d.\n\nIf the game is not completed by May 13, 2024 (11:59 PM ET), the market will resolve 50-50.\n\n",
+      "category": "N/A",
+      "question": "Oklahoma City Thunder vs. Dallas Mavericks: Game 1",
+      "market_slug": "nba-okc-dal-2024-05-07",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": null,
+        "game_start_time": "2024-05-08T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "85986411109632989321508791038925515821342599517439899687921220401784308648472",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "857180712453721133808979795041723966265649737033737425109490263838248777021",
+          "outcome": "Mavericks",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x5f749a8e700f9abfca0789787b58ce926db98e076a410071baa4ace20f4e2d81",
+      "question_id": "0x5a0d15c9d402f28e32f58652a2214445269525b2693bef3922e52bf83a710cc7",
+      "description": "This market refers to Game 6 of the NBA Playoff series between the Dallas Mavericks and Oklahoma City Thunder.\n\nIf the Dallas Mavericks win, the market will resolve to \u201cMavericks\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the game is not completed by May 25, 2024 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Dallas Mavericks vs. Oklahoma City Thunder: Game 6",
+      "market_slug": "nba-dal-okc-2024-05-18",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-05-18T00:00:00Z",
+        "game_start_time": "2024-05-19T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "13437717011652138712088060155719734406678372352009452173660591600676043922622",
+          "outcome": "Mavericks",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "59455159465042443389634636884435604080854977361349466294325531815056540585372",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x6002b0855808afada7ec0a4d9bb2d2b7617b7ab44e2554246a320c9e1b0f7efd",
+      "question_id": "0xd91d4d63aa5678f96b03c813d2091022c397f57f75e527e30fd432480ce7f18f",
+      "description": "This market refers to Game 4 of the NBA Playoff series between the Dallas Mavericks and Oklahoma City Thunder.\n\nIf the Dallas Mavericks win, the market will resolve to \u201cMavericks\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the game is not completed by May 19, 2024 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Dallas Mavericks vs. Oklahoma City Thunder: Game 4",
+      "market_slug": "nba-dal-okc-2024-05-13",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-05-13T00:00:00Z",
+        "game_start_time": "2024-05-14T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "97895294568471642992893637109086536470612800551300122111522419240818726566649",
+          "outcome": "Mavericks",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "60105980175076892321397053595775152045212109381202573379417755259211224393938",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xd96fed7feabe762e0dd1c8ead3b1340777db5f996228150259d1399b0a04ac81",
+      "question_id": "0x40cad4646226e9b2cabc8ce806e7d54d81173658c82a4590143f01c9cd7d1734",
+      "description": "This market refers to Game 5 of the NBA Playoff series between the Oklahoma City Thunder and Dallas Mavericks.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Dallas Mavericks win, the market will resolve to \u201cMavericks\u201d.\n\nIf the game is not completed by May 22, 2024 (11:59 PM ET), the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Oklahoma City Thunder vs. Dallas Mavericks: Game 5",
+      "market_slug": "nba-okc-dal-2024-05-15",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-05-15T00:00:00Z",
+        "game_start_time": "2024-05-16T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "71337295515473505049836172018004896532282490066617759550866458710359225257547",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "47816540315984859089380198598841371824838727616885292740870538503185249237857",
+          "outcome": "Mavericks",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xe5fb97ef7d5ab593623b3837135fddf51f14a8384407b27518dff1ddd8f3a045",
+      "question_id": "0xc37d1fd70d01e976190d614c14893b8719d214575740840494c0d7521e98c1ed",
+      "description": "This market refers to Game 1 of the NBA Playoff series between the Oklahoma City Thunder and Dallas Mavericks.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Dallas Mavericks win, the market will resolve to \u201cMavericks\u201d.\n\nIf the game is not completed by May 16, 2024 (11:59 PM ET), the market will resolve 50-50.\n\n",
+      "category": "N/A",
+      "question": "Oklahoma City Thunder vs. Dallas Mavericks: Game 2",
+      "market_slug": "nba-okc-dal-2024-05-09",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": null,
+        "game_start_time": "2024-05-10T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "55286952460755387175830103289923729846619223540354729128596970612643903477005",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "87129519473066464456249028401731918909466638837730137198710511847154989327458",
+          "outcome": "Mavericks",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb84d4f39c72f7c60d9065942f7fc5810d87cfaf5068244ac1ff46cda98cf698f",
+      "question_id": "0xd82dfba7ccc2dcc624c94c13d823abcfefc1fa1b71728d2ca896cae48d078590",
+      "description": "In the upcoming NBA game, scheduled for October 24 at 10:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d..\n If the game is not completed by November 1, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Thunder vs. Nuggets",
+      "market_slug": "nba-okc-den-2024-10-24",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-10-25T00:00:00Z",
+        "game_start_time": "2024-10-25T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "77292047070575221687058980026700781993434976613896587532992498086201597600260",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "55326794029198488380872522366231755587891101773374887872721165607385931780471",
+          "outcome": "Nuggets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x207b495f40ed8947beb83869e75667699f477c1aa3fc9a413e41ae1819b1771c",
+      "question_id": "0xa45292b58baa982a8e00a1f2c781a5414e0342e9fbee8fb4f92c65774d839157",
+      "description": "In the upcoming NBA game, scheduled for October 27 at 7:00 PM ET:\n\nIf the Atlanta Hawks win, the market will resolve to \u201cHawks\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d..\n If the game is not completed by November 3, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Hawks vs. Thunder",
+      "market_slug": "nba-atl-okc-2024-10-27",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-10-27T00:00:00Z",
+        "game_start_time": "2024-10-27T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "1246959157517279412035275652231693317750640798225770944599164276852087437423",
+          "outcome": "Hawks",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "19153899403286676288961746954192863284917250612394199381328825821255516957284",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x7c44c250eaa852ae208fc52066e9759efaa8350ab98313449a5393b41c1e3dc0",
+      "question_id": "0x150b88b775e23a6a1d8e81f892e9868b145b81895f126f759262e717d51760f4",
+      "description": "In the upcoming NBA game, scheduled for October 26 at 8:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Chicago Bulls win, the market will resolve to \u201cBulls\u201d..\n If the game is not completed by November 3, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Thunder vs. Bulls",
+      "market_slug": "nba-okc-chi-2024-10-26",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-10-27T00:00:00Z",
+        "game_start_time": "2024-10-27T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "19173932423489320641988012002328087529491161972293780549345619521871925563648",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "12428352347113415334571992311781993805647908181810283272824399979734717506308",
+          "outcome": "Bulls",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x430a9d9fa9011b2d16e9e5656a9a70a372198ae41d224e8c775a7ab466866d72",
+      "question_id": "0xb9df073aa72c5f7f73a816c3a344f80ab704e1b35ec8abc2e4c48fc681b6c652",
+      "description": "In the upcoming NBA game, scheduled for October 30 at 9:30 PM ET:\n\nIf the San Antonio Spurs win, the market will resolve to \u201cSpurs\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d..\n If the game is not completed by November 7, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Spurs vs. Thunder",
+      "market_slug": "nba-sas-okc-2024-10-30",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-10-31T00:00:00Z",
+        "game_start_time": "2024-10-31T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "104328025847883760790138063240590741667309723685453766255696556430828631994008",
+          "outcome": "Spurs",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "3287016917608047258397303227916422016460836776755335804400845186129628631015",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xe78c10aaedb79d95ac13fe2738b1df335ca735471ce6c7c933c81c30753228bc",
+      "question_id": "0x3a50cd49a1b197031765bdae7f7825e7e0c4edfe586456eec83f1311c0d8e67f",
+      "description": "In the upcoming NBA game, scheduled for November 4 at 9:15 PM ET:\n\nIf the Orlando Magic win, the market will resolve to \u201cMagic\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d..\n If the game is not completed by November 12, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Magic vs. Thunder",
+      "market_slug": "nba-orl-okc-2024-11-04",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-05T00:00:00Z",
+        "game_start_time": "2024-11-05T02:15:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "102678804070850032674202458341838849400079546875516155186275738460155193158877",
+          "outcome": "Magic",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "47432100504415919240952738437594666027995368164985208690530752322033034984805",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xb13c955d17d3eabfce98e7264a667f333b3165458b51e1d9abd38ac5eac78609",
+      "question_id": "0xa16f760eb7504fa4d3056415736046726503ae48b8c1a43b6a2ff2f3f3fcd678",
+      "description": "In the upcoming NBA game, scheduled for November 1 at 10:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Portland Trail Blazers win, the market will resolve to \u201cTrail Blazers\u201d..\n If the game is not completed by November 9, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Thunder vs. Trail Blazers",
+      "market_slug": "nba-okc-por-2024-11-01",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-02T00:00:00Z",
+        "game_start_time": "2024-11-02T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "57065896692672921102223903167086886188245685500299745194324134820828618740287",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "61004547578772998959095890352669818679549678603321303885513583444857873177664",
+          "outcome": "Trail Blazers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xecbc3e7b096d21ac5c4a55c016797bcf2f1b932b97e4a673764513d70e44daba",
+      "question_id": "0x7220ae920fc8f1728dc2ebd6f7f7990c908ae949a04cb74c0919829b30a42a3d",
+      "description": "In the upcoming NBA game, scheduled for November 2 at 10:30 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the LA Clippers win, the market will resolve to \u201cClippers\u201d..\n If the game is not completed by November 10, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Thunder vs. Clippers",
+      "market_slug": "nba-okc-lac-2024-11-02",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-03T00:00:00Z",
+        "game_start_time": "2024-11-03T02:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "22054356702998021542711502750852672079226806445644311304394584317481855175388",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "34652294615238697643605478122541781740260146223988348373255200851848798499540",
+          "outcome": "Clippers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x5fc142065b6ae3ec8daaf72f044a2802eef26a374b051afc40f1a2a81a7342a7",
+      "question_id": "0xc6f9ab838675d022d6e3cd669a59040eec6d0a1d60e5e84c917ff024e75917ab",
+      "description": "In the upcoming NBA game, scheduled for November 8 at 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d..\n If the game is not completed by November 16, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Rockets vs. Thunder",
+      "market_slug": "nba-hou-okc-2024-11-08",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-09T00:00:00Z",
+        "game_start_time": "2024-11-09T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "87235671063233319968546633799891031825109439385645059550416641788253412563532",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "105466189714025765295359121477002394219870396999516228544635218365659069460333",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x78ef5ad262eb09709943d6857cfbee0dc1ea9e97bdb4377f6038e656e610470b",
+      "question_id": "0x5b1b5faed2ea30868025d26331acc4b81e567925ee0aabb59e5a5697ff5f98f8",
+      "description": "In the upcoming NBA game, scheduled for November 6 at 9:00 PM ET:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d..\n If the game is not completed by November 14, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Thunder vs. Nuggets",
+      "market_slug": "nba-okc-den-2024-11-06",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-07T00:00:00Z",
+        "game_start_time": "2024-11-07T02:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "94278163661047286401504827765285193202477041690481469318628566808747123325018",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "69803580541741259887980839610977665503100799442628356358423157059356240745233",
+          "outcome": "Nuggets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x3ac8f286e332c03ddfbb4c2fffc4bd88e1b91cda4f4afeee878f9753c191d8a7",
+      "question_id": "0x43ef17deda1b2131e976f730903a8c1d1969c2f5f0b586a1b9f6e856f0bfc854",
+      "description": "In the upcoming NBA game, scheduled for November 10 at 7:00 PM ET:\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d..\n If the game is not completed by November 18, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Warriors vs. Thunder",
+      "market_slug": "nba-gsw-okc-2024-11-10",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-11T00:00:00Z",
+        "game_start_time": "2024-11-11T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "49530649949447243174306333428814088036530858822828117397784417799275466992909",
+          "outcome": "Warriors",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "6617457729608329906492159819250668933313043519781275415991963481504850401029",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xab7cb860a35bca0fc66515173e72ab642ad4bda0b0e5bb193d463a9747fe62de",
+      "question_id": "0x84bc963fa8e6709ffa1870f5a09338410371633d823ba9b4383f14b3b805e26f",
+      "description": "In the upcoming NBA game, scheduled for November 15 at 8:00PM ET:\nIf the Phoenix Suns win, the market will resolve to \u201cSuns\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by November 22, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Suns vs. Thunder",
+      "market_slug": "nba-phx-okc-2024-11-15",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-23T00:00:00Z",
+        "game_start_time": "2024-11-16T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "38945376158911852037656550811968303359817939768361294350744573173159523592948",
+          "outcome": "Suns",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "82434185580392632143705737432990534121648500901911350401636327492483690738168",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x5ab027327c0054884651dcef6eedb5a6b684712ced457426e65e8f5c554c16d8",
+      "question_id": "0xdd29bb669648a2604a71869932d7ac27bef066c11e9f2d6f35cfdecc78c3ff67",
+      "description": "In the upcoming NBA game, scheduled for November 13 at 7:30PM ET:\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by November 20, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Pelicans vs. Thunder",
+      "market_slug": "nba-nop-okc-2024-11-13",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-21T00:00:00Z",
+        "game_start_time": "2024-11-14T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "41310195207383532825601523293778015589346759161865656898091072837299871931926",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "21702935025521985061320976939474930430698489420288782767273116044781988994472",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x15a9aa67f06b48eb3673516bf40266a94b47a7c403661f2a39ccd6d7b1f8fefd",
+      "question_id": "0x73293053a57fee0b714fe3e4a3381aef508e2c6a2925d253b0cf39f7eb49df56",
+      "description": "In the upcoming NBA game, scheduled for November 17 at 7:00PM ET:\nIf the Dallas Mavericks win, the market will resolve to \u201cMavericks\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by November 24, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Mavericks vs. Thunder",
+      "market_slug": "nba-dal-okc-2024-11-17",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-25T00:00:00Z",
+        "game_start_time": "2024-11-18T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "112194351721836467743701153089793230137055044062548100755146395962299701410659",
+          "outcome": "Mavericks",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "48106274131108474835783249844385891149885439014007693557312526451866521541002",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xc033fa202c1e969427288ca4e4bbe0b11821b4ac129463afc9457981e48c4b82",
+      "question_id": "0x630c0c470387cbcb3e23549649b3314f2221e8719daa2292df1f9dd4574d4b46",
+      "description": "In the upcoming NBA game, scheduled for November 11 at 8:00PM ET:\nIf the LA Clippers win, the market will resolve to \u201cClippers\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by November 18, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Clippers vs. Thunder",
+      "market_slug": "nba-lac-okc-2024-11-11",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-19T00:00:00Z",
+        "game_start_time": "2024-11-12T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "87504746342127703916076593636471745306532218065415592301591112191776444997100",
+          "outcome": "Clippers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "43416809160313379721050193405060184099224678977154484388868861315894829917491",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x412d5d61c5e860a6b9e96b374c8d501426bceddfcabd5073330a3f8ab7b5c14b",
+      "question_id": "0x463d10cef36b8610fdc4c8d4835edd4ed7c950ac427c4ef4e3a4a69b78076244",
+      "description": "In the upcoming NBA game, scheduled for November 19 at 9:30PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the San Antonio Spurs win, the market will resolve to \u201cSpurs\u201d.\nIf the game is not completed by November 26, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Thunder vs. Spurs",
+      "market_slug": "nba-okc-sas-2024-11-19",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-27T00:00:00Z",
+        "game_start_time": "2024-11-20T02:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "110685538338693127675099762198680817895095745572516312786309685622667687919292",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "82817336286241655331789444130831626151393468610661616518199748892487239851830",
+          "outcome": "Spurs",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x1569b8d16fe97e8cafbe19ae086dd20e6d4102c05f141a411a3bc07dff24049c",
+      "question_id": "0x9f7d30e7098ae1c82738b43f643308785eff41d49318a9ea3c7f99304c86a5e3",
+      "description": "In the upcoming NBA game, scheduled for November 20 at 8:00PM ET:\nIf the Portland Trail Blazers win, the market will resolve to \u201cTrail Blazers\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by November 27, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50",
+      "category": "N/A",
+      "question": "Trail Blazers vs. Thunder",
+      "market_slug": "nba-por-okc-2024-11-20",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-11-28T00:00:00Z",
+        "game_start_time": "2024-11-21T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "64743342347599861747063932698704067592843562479485993094857510425913168487388",
+          "outcome": "Trail Blazers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "32728708850020197214639179119876256572830893743580572778779434434436309363401",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x6fc88974e00246cf2cbb58b07ec851b200114146c39a4284bfffdb4495035e8c",
+      "question_id": "0xc1f35047189f9905d816b7da437a9db664cb5a5dbf70d5b0467b2d541631c8d3",
+      "description": "In the upcoming NBA game, scheduled for November 25 at 10:00PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Sacramento Kings win, the market will resolve to \u201cKings\u201d.\nIf the game is not completed by December 2, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Kings",
+      "market_slug": "nba-okc-sac-2024-11-25",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-03T00:00:00Z",
+        "game_start_time": "2024-11-26T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "5762354967357001883878889456787515169646990726843675503320700926161121979690",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "39774922064786482685156134275513813181522296252196123690566846865346426023886",
+          "outcome": "Kings",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xdec8b2b66b9463e5d186499a187245bc29c985d4daa072c7d13f89890c141a6e",
+      "question_id": "0x225ee773fd8bcc992e730d30ff5e56b336dbaeda0800bcd71f642f102eb27320",
+      "description": "In the upcoming NBA game, scheduled for November 29 at 10:00PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\nIf the game is not completed by December 6, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Lakers",
+      "market_slug": "nba-okc-lal-2024-11-29",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-07T00:00:00Z",
+        "game_start_time": "2024-11-30T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "69940340841712451518790977269333741681134394585881541889430652228321265643676",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "16841355580416693941334783901063179691663170758602800420845121975851012895077",
+          "outcome": "Lakers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x2fa1adc285e4dbdeff127b225efc1ec8b5d7435ad3fa49ce7258beff49b28096",
+      "question_id": "0xdaca6fd79d3c94cdabfdb0951f1455b42854c27938d39544c32e9422a9501d6e",
+      "description": "In the upcoming NBA game, scheduled for November 27 at 10:00PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\nIf the game is not completed by December 4, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Warriors",
+      "market_slug": "nba-okc-gsw-2024-11-27",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-05T00:00:00Z",
+        "game_start_time": "2024-11-28T03:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "96213396165331552547055731845563019334757489832410721862626757543244522333904",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "88199895277791793229420211092905887421954357240667347253482522599572617502016",
+          "outcome": "Warriors",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x5ab31de882066a59686b14f668477f8876373ea7787453e350d1104781966ff4",
+      "question_id": "0x72c21538bdc722ea81a8afaeb4c6985b59b695177341fc86dfd089f3e681608e",
+      "description": "In the upcoming NBA game, scheduled for December 3 at 8:00PM ET:\nIf the Utah Jazz win, the market will resolve to \u201cJazz\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by December 10, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Jazz vs. Thunder",
+      "market_slug": "nba-uta-okc-2024-12-03",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-11T00:00:00Z",
+        "game_start_time": "2024-12-04T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "45552287928784652630221210806521362300077495336275675799009693695229355992514",
+          "outcome": "Jazz",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "90341812292451458249366633731812830795518800966350262491515230645629471531670",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x35416ab95b1c1a951b85300d57d82faa2ef092d5fe701047319aca79c9f1205e",
+      "question_id": "0xcf0d58e06de36ebeda37d1ade91ef492879c2b3b8366e36efdb3f04a2d32fe5c",
+      "description": "In the upcoming NBA game, scheduled for December 1 at 7:00PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the game is not completed by December 8, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Rockets",
+      "market_slug": "nba-okc-hou-2024-12-01",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-09T00:00:00Z",
+        "game_start_time": "2024-12-02T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "33455645502312308131138097802012837076998604896109917507136395111117494245243",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "109006710352839025540881576592500772479474828527581564820089355568361111458561",
+          "outcome": "Rockets",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xabc79eeb9427842bd60fe8b25a8d7e10ae70f259ac2ac6ca572d961d626b2e63",
+      "question_id": "0xa2463010c96bcb0ffa21f3999a0bee99b3a736f92794fa5484bf1a2b5850e54d",
+      "description": "In the upcoming NBA game, scheduled for December 5 at 7:30PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Toronto Raptors win, the market will resolve to \u201cRaptors\u201d.\nIf the game is not completed by December 12, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Raptors",
+      "market_slug": "nba-okc-tor-2024-12-05",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-13T00:00:00Z",
+        "game_start_time": "2024-12-06T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "113288574539973594678551713096615396274375443448945238214421626029390488358343",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "89030513645860213426417775668754042665696361517526260135200129271623668998667",
+          "outcome": "Raptors",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xe49ff47d60b55bdfb87547a43bb98d2b0ea800c59d29d4776e7a5abb112407ee",
+      "question_id": "0x91498541c3691b63cda87d37c47346264d0fa94f0e330d0d99833896cd13dd19",
+      "description": "In the upcoming NBA game, scheduled for December 7 at 7:00PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\nIf the game is not completed by December 14, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Pelicans",
+      "market_slug": "nba-okc-nop-2024-12-07",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-15T00:00:00Z",
+        "game_start_time": "2024-12-08T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "12524665877676349089589777925304037202991202223103373160305245911069699523617",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "66981427733999967971254167217633150176069287052153833224977165837434917172163",
+          "outcome": "Pelicans",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xe0883150729211b0b08c47799fe2c5050eb05d5dde7a46028e651604eb090672",
+      "question_id": "0x212ed926123aa9153754f8488265ee74da661492931ee627c97076d60f125431",
+      "description": "In the upcoming NBA game, scheduled for December 10 at 9:30PM ET:\nIf the Dallas Mavericks win, the market will resolve to \u201cMavericks\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by December 17, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Mavericks vs. Thunder",
+      "market_slug": "nba-dal-okc-2024-12-10",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-18T00:00:00Z",
+        "game_start_time": "2024-12-11T02:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "114400553399121858545467916928881078846810180349773455579277806809849269672388",
+          "outcome": "Mavericks",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "107816812591769265877221347753917299072101673389693426883842825585440000960280",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x121e83099ec21dcdf2163b800ff3bea643185a8e616c829b00e0a4577940d7be",
+      "question_id": "0x1ea43b95f4808557e5fccd7a9ca17a8e7bc50034b18ac122fa00b3073a279d0d",
+      "description": "In the upcoming NBA game, scheduled for December 20 at 8:00PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Miami Heat win, the market will resolve to \u201cHeat\u201d.\nIf the game is not completed by December 27, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Heat",
+      "market_slug": "nba-okc-mia-2024-12-20",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-28T00:00:00Z",
+        "game_start_time": "2024-12-21T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "34119485115142771394906211506490691686079322791767248684490086533021360538474",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "42358034904924945933669032253438204349174863003506866292827704478917585426666",
+          "outcome": "Heat",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xbda57b7f7037334c5b53c1362d359c9a2c7bb57017077e7319c8984cbf4abc03",
+      "question_id": "0xd310cfcd2e5b48930c94279b5a271b094766d7c38dc632363606730b7d6dda68",
+      "description": "In the upcoming NBA game, scheduled for December 14 at 8:30PM ET:\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by December 21, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Rockets vs. Thunder",
+      "market_slug": "nba-hou-okc-2024-12-14",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-22T00:00:00Z",
+        "game_start_time": "2024-12-15T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "55508838746815517910876865347373024453301539495689050348492705668381241917181",
+          "outcome": "Rockets",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "26343292554833610898398727648281884407797552150514980427518567568455143485279",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xf842a02565edf8ec03a1235d6cfe9de7c9f3d64d1749b3c41f3d18850af64565",
+      "question_id": "0xff2096d42d8c28a32bb2052d97e9e66b494cce246b027875bb01856983204323",
+      "description": "In the upcoming NBA game, scheduled for December 19 at 7:00PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Orlando Magic win, the market will resolve to \u201cMagic\u201d.\nIf the game is not completed by December 26, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Magic",
+      "market_slug": "nba-okc-orl-2024-12-19",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-27T00:00:00Z",
+        "game_start_time": "2024-12-20T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "10494773183452766088553959779276157838010625181547939189945624986042555347131",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "76144431671668322550236174292680472057620392611453191801704929891154377221191",
+          "outcome": "Magic",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x1d30e18679afbede74322067495d38bf3f8446395dd9fc721b5ba019db9df825",
+      "question_id": "0x51720df6cb77a4f93301d9f7b56c35a9a16d92f9673d2d77fc13d3206209ddb7",
+      "description": "In the upcoming NBA game, scheduled for December 28 at 6:00PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Charlotte Hornets win, the market will resolve to \u201cHornets\u201d.\nIf the game is not completed by January 4, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Hornets",
+      "market_slug": "nba-okc-cha-2024-12-28",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-04T00:00:00Z",
+        "game_start_time": "2024-12-28T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "96407587027815656018539503632283271644766391075751694072187105791845243725318",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "97556461333242860539578736513690734799161986678489629236182345826046378692653",
+          "outcome": "Hornets",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x035a75b4147af460785f25a220b3452baad82abe5c21ee287b393017dcc7f5b2",
+      "question_id": "0x3f6ea223f17d8fc3dda5424b585716238cc8b20aba4a43401183291b9e10f7bb",
+      "description": "In the upcoming NBA game, scheduled for December 23 at 8:00PM ET:\nIf the Washington Wizards win, the market will resolve to \u201cWizards\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by December 30, 2024 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Wizards vs. Thunder",
+      "market_slug": "nba-was-okc-2024-12-23",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-31T00:00:00Z",
+        "game_start_time": "2024-12-24T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "92625067849320820485593018923066137229264428178829182523193466091320830100531",
+          "outcome": "Wizards",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "65578836772457714767665327089729567737948752547257235624084457771176261779420",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x01d2fefd1360e2e095ecaf0260c98c239e9b3bf358591818badffc3ef29387ec",
+      "question_id": "0x2d2e8ef8713d1b70a6e5079835a0463cae9f26c1670fa0305df94639fe1000da",
+      "description": "This market refers to 2024 NBA Cup Final between the Oklahoma City Thunder and the Milwaukee Bucks.\n\nThis market will resolve to \"OKC\" if the Oklahoma City Thunder win this game against the Milwaukee Bucks by 5 or more points. Otherwise, this market will resolve to \"MIL.\"\n\nIf the game is not completed by December 31, 2024 (11:59 PM ET), the market will resolve 50-50.\n\nThe primary resolution source for this market will be official information from the NBA; however, a consensus of credible reporting will also be used.\n",
+      "category": "N/A",
+      "question": "Will the Thunder beat the Bucks by 5 or more points?",
+      "market_slug": "will-the-thunder-beat-the-bucks-by-5-or-more-points",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2024-12-17T00:00:00Z",
+        "game_start_time": "2024-12-17T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "82437923905723142914369964000252020811748147049550252646126832288125306882955",
+          "outcome": "OKC",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "18791630749782839072407569328968418122009351912595567871789074267850450372004",
+          "outcome": "MIL",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x0401f2266d4838feeaf1516bfaf2ab231d98b14c531281b819beeebf90f8837a",
+      "question_id": "0xc79f333efd378005d52ea42de93e45fe435f90bb036354ec43df8c610241c4e9",
+      "description": "In the upcoming NBA game, scheduled for December 26 at 7:00PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Indiana Pacers win, the market will resolve to \u201cPacers\u201d.\nIf the game is not completed by January 2, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Pacers",
+      "market_slug": "nba-okc-ind-2024-12-26",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-03T00:00:00Z",
+        "game_start_time": "2024-12-27T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "12600249153353711680469960108634008529405238926033398748935610065745378350233",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "92273293503618034003449478070704681902846821249762075428770122241374086575061",
+          "outcome": "Pacers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x6348b4a38ca4135d749b73ef02d9617f3aa741994ccea69b366dd9c8542358e4",
+      "question_id": "0xb162a9d4e93fa9a0c8f4c0b92bc723ef597e685b0a491f7c508e03a6f68896ee",
+      "description": "In the upcoming NBA game, scheduled for January 2 at 8:00PM ET:\nIf the LA Clippers win, the market will resolve to \u201cClippers\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by January 9, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Clippers vs. Thunder",
+      "market_slug": "nba-lac-okc-2025-01-02",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-10T00:00:00Z",
+        "game_start_time": "2025-01-03T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "76118820981082774368538851275322882050677421456646828535402166369333359330162",
+          "outcome": "Clippers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "29633862222933023343436006592667446179219315699283656757134686578643175504112",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x4f5d6bcb65f13f179f6f5f1b94a3f88026f4f2f3bf81655de90b90f2c65ac751",
+      "question_id": "0x8e4172b6b336281eba34db4c42db072b787514915ab044cb1ded5e8d8e7e6190",
+      "description": "In the upcoming NBA game, scheduled for December 31 at 8:00PM ET:\nIf the Minnesota Timberwolves win, the market will resolve to \u201cTimberwolves\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by January 7, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Timberwolves vs. Thunder",
+      "market_slug": "nba-min-okc-2024-12-31",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-08T00:00:00Z",
+        "game_start_time": "2025-01-01T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "17095246320584621144327904510851865402826990168400977870123691203821189389340",
+          "outcome": "Timberwolves",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "36440018973103427567543650255120884546545646152692266835620489683603531821553",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x04c1ea92873de523f4759efb23743e3b92fff283efad1b527df756144763a9c8",
+      "question_id": "0x4aef573eb431b669e8c0658b33c3b8d1a27dc0e9b3d961f451533706c6bbce0e",
+      "description": "In the upcoming NBA game, scheduled for December 29 at 7:00PM ET:\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by January 5, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Grizzlies vs. Thunder",
+      "market_slug": "nba-mem-okc-2024-12-29",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-06T00:00:00Z",
+        "game_start_time": "2024-12-30T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "112177319236202650005115142987104947180507562409737258119496412438208855633768",
+          "outcome": "Grizzlies",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "63842718453849013284060203928304302029149998030928772707180412780206559004422",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xd0a73dd5338b9f4685758f1fdcd0a52f5916381505b1668893fbe9dbb91f00c0",
+      "question_id": "0x908207c977ba9e25ed9924e77e7d6fdb940ba54f74b37acba9733320eda833a8",
+      "description": "In the upcoming NBA game, scheduled for January 3 at 8:00PM ET:\nIf the New York Knicks win, the market will resolve to \u201cKnicks\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by January 10, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Knicks vs. Thunder",
+      "market_slug": "nba-nyk-okc-2025-01-03",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-11T00:00:00Z",
+        "game_start_time": "2025-01-04T01:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "18913150486154939917188142058762236022351904210780357464764984337819803056343",
+          "outcome": "Knicks",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "32830471357383082055096900926275589247083517833569685901495708397764664988351",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x239e6b99a9b73ad1194630ef0940eebc5833fa6c227c70537cb5f38ae6154ce9",
+      "question_id": "0xcc6d5280fcfe0ef6059e9077436fda4dcf273f7d6ed5b8a4fe2a786cbd859942",
+      "description": "In the upcoming NBA game, scheduled for January 5 at 3:30PM ET:\nIf the Boston Celtics win, the market will resolve to \u201cCeltics\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by January 12, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Celtics vs. Thunder",
+      "market_slug": "nba-bos-okc-2025-01-05",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-12T00:00:00Z",
+        "game_start_time": "2025-01-05T20:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "37368042233291599142357833881441120706807079659801212155092141347610106765563",
+          "outcome": "Celtics",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "106353905956839994773529080411490228657993992531367519728898902255308147727261",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xf8f5c8de07a2e65b30a0e2bdbf99c491ed9d4aaedf5df2e891ded925ac43077f",
+      "question_id": "0xab8f1e2d2daf329e526e2b2caf51d805d2b8f7e63188f835596ac5b7076b7c41",
+      "description": "In the upcoming NBA game, scheduled for January 10 at 7:30PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the New York Knicks win, the market will resolve to \u201cKnicks\u201d.\nIf the game is not completed by January 17, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Knicks",
+      "market_slug": "nba-okc-nyk-2025-01-10",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-18T00:00:00Z",
+        "game_start_time": "2025-01-11T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "39776337126280824759992443155082561344529983076922823452800313495636653784814",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "99106356822805629940276443911601058375688886467196819995670235230806585953559",
+          "outcome": "Knicks",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x4e8d64dfff476dd5d94f4c7d3da6799e46bcc267bf30773ed997e640cbf35bd2",
+      "question_id": "0x2ea5c88f05fdffb90a02589e4c7dae9f20f964b4a4bc9ba6f32a20beb3ea5547",
+      "description": "In the upcoming NBA game, scheduled for January 8 at 7:00PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Cleveland Cavaliers win, the market will resolve to \u201cCavaliers\u201d.\nIf the game is not completed by January 15, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Cavaliers",
+      "market_slug": "nba-okc-cle-2025-01-08",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-16T00:00:00Z",
+        "game_start_time": "2025-01-09T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "54012690821526607351741988382456376464766762904412819303286439791379161432501",
+          "outcome": "Thunder",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "16428285279090401806347856547278064198197422964400722822305382507011081106724",
+          "outcome": "Cavaliers",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x8e7e99516933db544632f400f29d6d054076f3967bc94f17ce8b598fd066e8e5",
+      "question_id": "0x3bd9e2fe8b08796065b634b3318d8a5e52cc29bc5d3edfd00fc5fdbb88cddc4b",
+      "description": "In the upcoming NBA game, scheduled for January 12 at 6:00PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Washington Wizards win, the market will resolve to \u201cWizards\u201d.\nIf the game is not completed by January 19, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Wizards",
+      "market_slug": "nba-okc-was-2025-01-12",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-19T00:00:00Z",
+        "game_start_time": "2025-01-12T23:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "18977756527765154490096703674629984548955977733972380781787574644543166306596",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "50235997970321669156571294356471975326695688266118456764862899245138778454173",
+          "outcome": "Wizards",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x606912bfb38d85b1c444cefec3ce461c239d24787cfabae4c9e9938393bb0a59",
+      "question_id": "0x6811f592eed2d2eb6f33e8a3010de75fca4b6314afbf5fd8019ae7ee9d169f7a",
+      "description": "In the upcoming NBA game, scheduled for January 14 at 7:00PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Philadelphia 76ers win, the market will resolve to \u201c76ers\u201d.\nIf the game is not completed by January 21, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. 76ers",
+      "market_slug": "nba-okc-phi-2025-01-14",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-22T00:00:00Z",
+        "game_start_time": "2025-01-15T00:00:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "62981756069973599262247662550201989261554517931528325525753761797654728056955",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        },
+        {
+          "token_id": "18310176739663027671513120682571439495982000357682107900723963612058545570346",
+          "outcome": "76ers",
+          "price": 0,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0x77d46a699774171c3e88104518397517da4e2b40997c787a416f8b73ed3aa069",
+      "question_id": "0x51353ca8f38a99b405353cbc4f289a249cb23ac772a05a19d50db624fd318449",
+      "description": "In the upcoming NBA game, scheduled for January 16 at 7:30PM ET:\nIf the Cleveland Cavaliers win, the market will resolve to \u201cCavaliers\u201d.\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the game is not completed by January 23, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Cavaliers vs. Thunder",
+      "market_slug": "nba-cle-okc-2025-01-16",
+      "status": {
+        "active": true,
+        "closed": true
+      },
+      "timing": {
+        "end_date": "2025-01-24T00:00:00Z",
+        "game_start_time": "2025-01-17T00:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "96591381311218281367419194175393548083601997998510332460544605351007388269974",
+          "outcome": "Cavaliers",
+          "price": 0,
+          "winner": false
+        },
+        {
+          "token_id": "8182158825877446917045791596967504029715476146711539865205768717164273664561",
+          "outcome": "Thunder",
+          "price": 1,
+          "winner": true
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.001,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    },
+    {
+      "condition_id": "0xbe170300c1735d3fec8784154cdfc92d17cdf73fc276998966873bea0481c127",
+      "question_id": "0x2460f4ce0de0fddecaac0404742809e6e3b59fc5f0c520bf48329f1264069b36",
+      "description": "In the upcoming NBA game, scheduled for January 17 at 8:30PM ET:\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\nIf the Dallas Mavericks win, the market will resolve to \u201cMavericks\u201d.\nIf the game is not completed by January 24, 2025 (11:59 PM ET) or it ends in a tie, the market will resolve 50-50.",
+      "category": "N/A",
+      "question": "Thunder vs. Mavericks",
+      "market_slug": "nba-okc-dal-2025-01-17",
+      "status": {
+        "active": true,
+        "closed": false
+      },
+      "timing": {
+        "end_date": "2025-01-25T00:00:00Z",
+        "game_start_time": "2025-01-18T01:30:00Z"
+      },
+      "tokens": [
+        {
+          "token_id": "113508548038349043408973888979580396994880408457237400795877850034473739152596",
+          "outcome": "Thunder",
+          "price": 0.745,
+          "winner": false
+        },
+        {
+          "token_id": "14724179266357971448234579629504598825059300202001135364884906574722277803317",
+          "outcome": "Mavericks",
+          "price": 0.255,
+          "winner": false
+        }
+      ],
+      "trading": {
+        "minimum_order_size": 5,
+        "minimum_tick_size": 0.01,
+        "min_incentive_size": "N/A",
+        "max_incentive_spread": "N/A"
+      }
+    }
+  ]
+}

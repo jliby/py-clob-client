@@ -1,0 +1,900 @@
+ is canceled or delayed beyond 2025-02-05 or it ends in a tie, the market will resolve to \u201cNo\u201d.",
+    "market_slug": "epl-ful-ips-2025-01-05-ips",
+    "end_date_iso": "2025-01-05T00:00:00Z",
+    "game_start_time": "2025-01-05T14:00:00Z",
+    "seconds_delay": 3,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": false,
+    "neg_risk": true,
+    "neg_risk_market_id": "0x1c44a942b457f94330fb10364d5b07804d074bcf97fa0942a0a5bb8acb61e000",
+    "neg_risk_request_id": "0x1be8baf18327406c1d7bac0dd0a177870e7a67de5d911372fd576430325a5757",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/epl_ipswich.png",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/epl_ipswich.png",
+    "rewards": {
+      "rates": null,
+      "min_size": 0,
+      "max_spread": 0
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "40479459601531459490174202401232398184242208243922179324824949670955251115906",
+        "outcome": "Yes",
+        "price": 0.165,
+        "winner": false
+      },
+      {
+        "token_id": "109790714329338565346438025280392685307585794104054437039500230983934200692048",
+        "outcome": "No",
+        "price": 0.835,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "Sports",
+      "Premier League",
+      "EPL",
+      "Games"
+    ]
+  },
+  {
+    "enable_order_book": true,
+    "active": true,
+    "closed": false,
+    "archived": false,
+    "accepting_orders": true,
+    "accepting_order_timestamp": "2024-12-30T17:59:36Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.001,
+    "condition_id": "0xfea20c1049a866219f5c1100e787873fe92b49562de91757654d28b6d69730b9",
+    "question_id": "0x766af2c47ead72f0237b4a448414ea14b5455cad6ace6fc6ed515e11e19b4f46",
+    "question": "Will Adrian Dittman prove he's not Elon Musk?",
+    "description": "During an X space discussing H-1B visas, it was pointed out that Adrian Dittman's voice (@AdrianDittman) sounded much like Elon Musk's put through a filter.\n\nThis market will resolve to \"Yes\" Adrian Dittman (https://x.com/AdrianDittmann) proves he is not Elon Musk by 11:59 PM ET, January 31, 2025. If he does not offer conclusive proof by then, this market will resolve to \"No\".\n\nThe resolution source for this market will be a preponderance of credible evidence from Adrian Dittman.",
+    "market_slug": "will-adrian-dittman-prove-hes-not-elon-musk",
+    "end_date_iso": "2025-01-31T00:00:00Z",
+    "game_start_time": null,
+    "seconds_delay": 0,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": false,
+    "neg_risk_market_id": "",
+    "neg_risk_request_id": "",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fact-check-is-adrian-dittman-an-elon-musk-alt-cbMpc3Yc7uJy.png",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fact-check-is-adrian-dittman-an-elon-musk-alt-cbMpc3Yc7uJy.png",
+    "rewards": {
+      "rates": [
+        {
+          "asset_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "rewards_daily_rate": 70
+        }
+      ],
+      "min_size": 20,
+      "max_spread": 3.5
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "93283645355199954197148659080971234758936472021425000728844086082624942938031",
+        "outcome": "Yes",
+        "price": 0.091,
+        "winner": false
+      },
+      {
+        "token_id": "8871535259692158708769468229136963197828043180418982553383093874812690754081",
+        "outcome": "No",
+        "price": 0.909,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "Twitter",
+      "Elon Musk",
+      "Pop Culture",
+      "Tech",
+      "X"
+    ]
+  },
+  {
+    "enable_order_book": false,
+    "active": false,
+    "closed": false,
+    "archived": false,
+    "accepting_orders": true,
+    "accepting_order_timestamp": "2024-12-30T15:55:50Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.01,
+    "condition_id": "0x634b881d33da253ffb974047c55798afe3e1370d0e96c58086176d6f45c676d4",
+    "question_id": "0x7aca5b6ac2f76095392567c96b1cd2a6592f1cbdb820702d55faa27bf5c39113",
+    "question": "Will Person H win the Democratic Primary for Mayor of New York City?",
+    "description": "The Democratic Primary for Mayor of New York City is scheduled for June 24, 2025.  \n\nThis market will resolve to \u201cYes\u201d if Person H wins the 2025 Democratic Primary for Mayor of New York City. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market may be updated in the future to replace Person H with one of the potential candidates.\n\nIf no 2025 Democratic Primary for the Mayor of New York City takes place this market will resolve to \u201cNo\u201d.\n\nThe resolution source for this market will be the first announcement of the results from the Democratic Primary, however an overwhelming consensus of credible reporting may suffice.",
+    "market_slug": "will-person-h-win-the-democratic-primary-for-mayor-of-new-york-city",
+    "end_date_iso": null,
+    "game_start_time": null,
+    "seconds_delay": 0,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": true,
+    "neg_risk_market_id": "0x7aca5b6ac2f76095392567c96b1cd2a6592f1cbdb820702d55faa27bf5c39100",
+    "neg_risk_request_id": "0x590d1094a5c4e0b7175429c0de78faa1d631e5d2d3ce0fee4997f94b30bee90d",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-andrew-yang-win-the-democratic-primary-for-mayor-of-new-york-city-_ZIta9xJkkGU.jpg",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-andrew-yang-win-the-democratic-primary-for-mayor-of-new-york-city-_ZIta9xJkkGU.jpg",
+    "rewards": {
+      "rates": null,
+      "min_size": 0,
+      "max_spread": 0
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "Politics",
+      "nyc",
+      "US Election",
+      "Global Elections",
+      "New York City",
+      "New York",
+      "NY",
+      "Alexandria Ocasio-Cortez",
+      "World Elections",
+      "Mayoral",
+      "2025 Predictions"
+    ]
+  },
+  {
+    "enable_order_book": true,
+    "active": true,
+    "closed": false,
+    "archived": false,
+    "accepting_orders": true,
+    "accepting_order_timestamp": "2024-12-30T05:05:39Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.01,
+    "condition_id": "0x4de75fae6de432cf807ca5003e712e397ef3f406b03ab9e44ba796a781a854a1",
+    "question_id": "0x75b165964fb6247cbca557a44970792814796bcb23e8792bfe9e8e41599d4200",
+    "question": "Will Aston Villa win on 2025-01-04?",
+    "description": "In the upcoming EPL game, scheduled for January 4 at 10:00AM ET,\nIf Aston Villa wins, this market will resolve to \u201cYes\u201d.\nIf Aston Villa loses, this market will resolve to \u201cNo\u201d.\nIf the game is canceled or delayed beyond 2025-02-04 or it ends in a tie, the market will resolve to \u201cNo\u201d.",
+    "market_slug": "epl-ast-lei-2025-01-04-ast",
+    "end_date_iso": "2025-01-04T00:00:00Z",
+    "game_start_time": "2025-01-04T15:00:00Z",
+    "seconds_delay": 3,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": false,
+    "neg_risk": true,
+    "neg_risk_market_id": "0x75b165964fb6247cbca557a44970792814796bcb23e8792bfe9e8e41599d4200",
+    "neg_risk_request_id": "0xc04711609c4574b838bd8123d13fbde282dfece35811abe6f49a938f9d09d7db",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/epl_aston_villa.png",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/epl_aston_villa.png",
+    "rewards": {
+      "rates": null,
+      "min_size": 0,
+      "max_spread": 0
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "12457442176701085180772980737356479137184605963360415839514078454387007412268",
+        "outcome": "Yes",
+        "price": 0.735,
+        "winner": false
+      },
+      {
+        "token_id": "83913899121033762240089131340116759376492410389433768644514569009935388319268",
+        "outcome": "No",
+        "price": 0.265,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "Sports",
+      "Premier League",
+      "EPL",
+      "Games"
+    ]
+  },
+  {
+    "enable_order_book": true,
+    "active": true,
+    "closed": false,
+    "archived": false,
+    "accepting_orders": true,
+    "accepting_order_timestamp": "2025-01-02T19:16:14Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.01,
+    "condition_id": "0x16100cf7b19e6ee904664c1fbde38e86773c5ea409b39709d5795211ff40fdd7",
+    "question_id": "0x634f5d00a00e6e8af3dc38079bb6bfb7fe06cfef0bb87de50a4db9dc03e3c365",
+    "question": "Will Ethereum hit $4,500 by January 31, 2025?",
+    "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Ethereum (ETHUSDT) between January 2, 2025, 12:00 and January 31, 2025, 23:59 in the ET timezone has a final \"High\" price of $4,500.00 or higher. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the ETHUSDT \"High\" prices available at https://www.binance.com/en/trade/ETH_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance ETHUSDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+    "market_slug": "will-ethereum-hit-4500-by-january-31-2025",
+    "end_date_iso": "2025-01-31T00:00:00Z",
+    "game_start_time": null,
+    "seconds_delay": 0,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": false,
+    "neg_risk_market_id": "",
+    "neg_risk_request_id": "",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ethereum+colors.jpeg",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ethereum+colors.jpeg",
+    "rewards": {
+      "rates": [
+        {
+          "asset_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "rewards_daily_rate": 20
+        }
+      ],
+      "min_size": 20,
+      "max_spread": 3.5
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "112208925304058028260608272749005993326698436197089727596474998984676495720303",
+        "outcome": "Yes",
+        "price": 0.19,
+        "winner": false
+      },
+      {
+        "token_id": "10883329869470313858727905891892016909050184276912046334811849183970534211715",
+        "outcome": "No",
+        "price": 0.81,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "Crypto",
+      "Ethereum",
+      "Crypto Prices"
+    ]
+  },
+  {
+    "enable_order_book": false,
+    "active": false,
+    "closed": false,
+    "archived": false,
+    "accepting_orders": true,
+    "accepting_order_timestamp": "2024-12-31T20:52:26Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.01,
+    "condition_id": "0x1c9325e71b30e9c62b77dd7e30a1bac60482d180626dd86e3981a699eaf10bd6",
+    "question_id": "0x8cd9827de9082148bf3e8c42949a614fc2853373310049cd32b2ffe41402f308",
+    "question": "Will Company C have the top AI model on June 30?",
+    "description": "This market will resolve to \"Yes\" if any model owned by Company C has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on June 30, 2025, 12:00 PM ET. Otherwise, this market will resolve to \"No\".\n\nThis market may be updated in the future to replace Company C with the name of another company.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+    "market_slug": "will-company-c-have-the-top-ai-model-on-june-30",
+    "end_date_iso": null,
+    "game_start_time": null,
+    "seconds_delay": 0,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": true,
+    "neg_risk_market_id": "0x8cd9827de9082148bf3e8c42949a614fc2853373310049cd32b2ffe41402f300",
+    "neg_risk_request_id": "0x3d717a88c138a0fe8c4b87edad755467f60fa8723f41bbad1a1af2d2420af910",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-june-30-Zd-l6erPOlqW.jpg",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-june-30-Zd-l6erPOlqW.jpg",
+    "rewards": {
+      "rates": null,
+      "min_size": 0,
+      "max_spread": 0
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "Business",
+      "AI",
+      "Economy"
+    ]
+  },
+  {
+    "enable_order_book": false,
+    "active": false,
+    "closed": false,
+    "archived": false,
+    "accepting_orders": true,
+    "accepting_order_timestamp": "2024-12-30T15:48:56Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.01,
+    "condition_id": "0xf68434beefdd138ad095e437ffc5826500f5017fe9ca2d854acb36ecc94912d9",
+    "question_id": "0x7aca5b6ac2f76095392567c96b1cd2a6592f1cbdb820702d55faa27bf5c3910e",
+    "question": "Will Person C win the Democratic Primary for Mayor of New York City?",
+    "description": "The Democratic Primary for Mayor of New York City is scheduled for June 24, 2025.  \n\nThis market will resolve to \u201cYes\u201d if Person C wins the 2025 Democratic Primary for Mayor of New York City. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThis market may be updated in the future to replace Person C with one of the potential candidates.\n\nIf no 2025 Democratic Primary for the Mayor of New York City takes place this market will resolve to \u201cNo\u201d.\n\nThe resolution source for this market will be the first announcement of the results from the Democratic Primary, however an overwhelming consensus of credible reporting may suffice.",
+    "market_slug": "will-person-c-win-the-democratic-primary-for-mayor-of-new-york-city",
+    "end_date_iso": null,
+    "game_start_time": null,
+    "seconds_delay": 0,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": true,
+    "neg_risk_market_id": "0x7aca5b6ac2f76095392567c96b1cd2a6592f1cbdb820702d55faa27bf5c39100",
+    "neg_risk_request_id": "0x4afc7ab659ac4c9abd2e649bfae39aec7e95b7a11a57011442dea54f104dbbb3",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-andrew-yang-win-the-democratic-primary-for-mayor-of-new-york-city-_ZIta9xJkkGU.jpg",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-andrew-yang-win-the-democratic-primary-for-mayor-of-new-york-city-_ZIta9xJkkGU.jpg",
+    "rewards": {
+      "rates": null,
+      "min_size": 0,
+      "max_spread": 0
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "Politics",
+      "nyc",
+      "US Election",
+      "Global Elections",
+      "New York City",
+      "New York",
+      "NY",
+      "Alexandria Ocasio-Cortez",
+      "World Elections",
+      "Mayoral",
+      "2025 Predictions"
+    ]
+  },
+  {
+    "enable_order_book": true,
+    "active": true,
+    "closed": false,
+    "archived": false,
+    "accepting_orders": true,
+    "accepting_order_timestamp": "2025-01-02T18:48:06Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.001,
+    "condition_id": "0x46fb01da8662e5eb2496b600bbe874d230f05f3e99b382f2791015ef55b464af",
+    "question_id": "0x91eb615013098c0480e1ade0bf538d2c08312b03f76e19da7f5a0d7d61c7a107",
+    "question": "Will Thunderbolts be the top grossing movie of 2025?",
+    "description": "This market will resolve to \"Yes\" if the \"Gross\" column on https://www.boxofficemojo.com/year/2025/?grossesOption=calendarGrosses shows 'Thunderbolts' (2025) as the film with the highest 2025 gross once data for December 31 is made available. Otherwise, this market will resolve to \"No\".\n\nNote: This market is about the movie's domestic calendar gross in 2025 - dates outside of 2025 will not count toward this movie's gross.\n\nIn the event of an exact tie the film that comes first alphabetically will be considered the winner.\n\nIf there is no final data available by January 7, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+    "market_slug": "will-thunderbolts-be-the-top-grossing-movie-of-2025",
+    "end_date_iso": "2025-12-31T00:00:00Z",
+    "game_start_time": null,
+    "seconds_delay": 0,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": true,
+    "neg_risk_market_id": "0x91eb615013098c0480e1ade0bf538d2c08312b03f76e19da7f5a0d7d61c7a100",
+    "neg_risk_request_id": "0x0c1cfe5865bcacd8d79e162aae7e2e4412eaf1a9dd5c2d3a780e60ced5fa74bc",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-thunderbolts-be-the-top-grossing-movie-of-2025-QO-qYJ93sINS.jpg",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-thunderbolts-be-the-top-grossing-movie-of-2025-QO-qYJ93sINS.jpg",
+    "rewards": {
+      "rates": [
+        {
+          "asset_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "rewards_daily_rate": 40
+        }
+      ],
+      "min_size": 20,
+      "max_spread": 3.5
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "35831181492141694980692915198174791166488782428631847611464512939858296812162",
+        "outcome": "Yes",
+        "price": 0.013,
+        "winner": false
+      },
+      {
+        "token_id": "18875137908356847066861167328115524289255817071366542058747152611928152172638",
+        "outcome": "No",
+        "price": 0.987,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "box office",
+      "Movies",
+      "Pop Culture",
+      "hollywood",
+      "2025 Predictions"
+    ]
+  },
+  {
+    "enable_order_book": true,
+    "active": true,
+    "closed": false,
+    "archived": false,
+    "accepting_orders": true,
+    "accepting_order_timestamp": "2025-01-01T15:48:32Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.01,
+    "condition_id": "0x46f6e9416701a14027d634794137ce01738c473a8aa84c0849cd0bdb998b61ad",
+    "question_id": "0x958157fa215e1522ccfbccaa8bdcf4d600f7a94cda1d02d676ac61f8f7a1d477",
+    "question": "Ukraine agrees to resume Russian natural gas transit in January?",
+    "description": "On January 1, 2025, Ukraine halted the flow of Russian natural gas through the Urengoy-Pomary-Uzhgorod pipeline by declining to renew its transit agreement (see: https://www.nytimes.com/2025/01/01/world/europe/russia-ukraine-natural-gas-europe.html)\n\nThis market will resolve to \"Yes\" if the Ukrainian government officially announces that it will allow the transit of Russian natural gas through its territory via any pipeline by January 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nAnnouncements indicating approval or agreements for resumption, even if the physical flow of gas has not yet commenced.\n\nThe primary resolution source for this market will be official statements from the Ukrainian government, however a consensus of credible reporting confirming that Ukraine is allowing the transit of Russian natural gas via pipeline through its territory will also qualify.",
+    "market_slug": "ukraine-agrees-to-resume-russian-natural-gas-transit-in-january",
+    "end_date_iso": "2025-01-31T00:00:00Z",
+    "game_start_time": null,
+    "seconds_delay": 0,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": false,
+    "neg_risk_market_id": "",
+    "neg_risk_request_id": "",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ukraine-agrees-to-resume-russian-natural-gas-transit-in-january-SsOKPNsBlcGy.jpg",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ukraine-agrees-to-resume-russian-natural-gas-transit-in-january-SsOKPNsBlcGy.jpg",
+    "rewards": {
+      "rates": [
+        {
+          "asset_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "rewards_daily_rate": 10
+        }
+      ],
+      "min_size": 50,
+      "max_spread": 3.5
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "31241368041354333197142236621445035834960668770033954411470693362566090621423",
+        "outcome": "Yes",
+        "price": 0.045,
+        "winner": false
+      },
+      {
+        "token_id": "42483888619364549730880974474643700885285095104121061412043408376723503636757",
+        "outcome": "No",
+        "price": 0.955,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "Ukraine",
+      "Geopolitics",
+      "gas",
+      "Commodities",
+      "pipe line",
+      "ppeline",
+      "Urengoy-Pomary-Uzhgorod"
+    ]
+  },
+  {
+    "enable_order_book": false,
+    "active": false,
+    "closed": false,
+    "archived": false,
+    "accepting_orders": true,
+    "accepting_order_timestamp": "2024-12-31T20:50:54Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.01,
+    "condition_id": "0x34a251849ea338eb9202a981bdf02f3fa99f73a818ec327673513340929345a2",
+    "question_id": "0x8cd9827de9082148bf3e8c42949a614fc2853373310049cd32b2ffe41402f307",
+    "question": "Will Company B have the top AI model on June 30?",
+    "description": "This market will resolve to \"Yes\" if any model owned by Company B has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on June 30, 2025, 12:00 PM ET. Otherwise, this market will resolve to \"No\".\n\nThis market may be updated in the future to replace Company B with the name of another company.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+    "market_slug": "will-company-b-have-the-top-ai-model-on-june-30",
+    "end_date_iso": null,
+    "game_start_time": null,
+    "seconds_delay": 0,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": true,
+    "neg_risk_market_id": "0x8cd9827de9082148bf3e8c42949a614fc2853373310049cd32b2ffe41402f300",
+    "neg_risk_request_id": "0x3ffcef1cbb5b94380706a0dae0d7fa0591cc15faa60d8cfca9e85553fbb6343d",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-june-30-Zd-l6erPOlqW.jpg",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-june-30-Zd-l6erPOlqW.jpg",
+    "rewards": {
+      "rates": null,
+      "min_size": 0,
+      "max_spread": 0
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "Business",
+      "AI",
+      "Economy"
+    ]
+  },
+  {
+    "enable_order_book": false,
+    "active": false,
+    "closed": false,
+    "archived": false,
+    "accepting_orders": true,
+    "accepting_order_timestamp": "2024-12-30T15:57:18Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.01,
+    "condition_id": "0xd9c5fa374fd4e7e561208f9a565124c169aef789c2ccf0bad355f6909a46c0c3",
+    "question_id": "0x7aca5b6ac2f76095392567c96b1cd2a6592f1cbdb820702d55faa27bf5c39116",
+    "question": "Will someone else win the Democratic Primary for Mayor of New York City?",
+    "description": "The Democratic Primary for Mayor of New York City is scheduled for June 24, 2025.  \n\nThis market will resolve to \u201cYes\u201d if if someone other than any of the named candidates wins the 2025 Democratic Primary for Mayor of New York City. Otherwise, this market will resolve to \u201cNo\u201d.\n\nIf no 2025 Democratic Primary for the Mayor of New York City takes place this market will resolve to \u201cYes\u201d.\n\nThe resolution source for this market will be the first announcement of the results from the Democratic Primary, however an overwhelming consensus of credible reporting may suffice.",
+    "market_slug": "will-someone-else-win-the-democratic-primary-for-mayor-of-new-york-city",
+    "end_date_iso": null,
+    "game_start_time": null,
+    "seconds_delay": 0,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": true,
+    "neg_risk_market_id": "0x7aca5b6ac2f76095392567c96b1cd2a6592f1cbdb820702d55faa27bf5c39100",
+    "neg_risk_request_id": "0x1a75af4a352b5b9c527639606f058a32c05f9a48ec576c688a24ab6832392966",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-andrew-yang-win-the-democratic-primary-for-mayor-of-new-york-city-_ZIta9xJkkGU.jpg",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-andrew-yang-win-the-democratic-primary-for-mayor-of-new-york-city-_ZIta9xJkkGU.jpg",
+    "rewards": {
+      "rates": null,
+      "min_size": 0,
+      "max_spread": 0
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "Politics",
+      "nyc",
+      "US Election",
+      "Global Elections",
+      "New York City",
+      "New York",
+      "NY",
+      "Alexandria Ocasio-Cortez",
+      "World Elections",
+      "Mayoral",
+      "2025 Predictions"
+    ]
+  },
+  {
+    "enable_order_book": false,
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "accepting_orders": false,
+    "accepting_order_timestamp": "2024-12-31T21:48:33Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.001,
+    "condition_id": "0xf643b8a1a6f851faa8a16ec025874149cf27f9c6a2b81130050a70773c339aa4",
+    "question_id": "0xc699d5e7bbe3312eb7da5baee99146d79b86c91cab9f947503dce4232c013c72",
+    "question": "Will Georgia beat Notre Dame by 2 or more points?",
+    "description": "This market refers to the \u201cSugar Bowl,\u201d the college football playoff game matchup between the Georgia Bulldogs and the Notre Dame Fighting Irish scheduled for January 1, 2025, at 8:45 PM ET.\n\nThis market will resolve to \u201cGeorgia\u201d if the Georgia Bulldogs win their game against the Notre Dame Fighting Irish by 2 or more points.\n\nOtherwise, this market will resolve to \u201cIrish\u201d.\n\nIf this game is postponed after January 8, 2025 (11:59 PM ET), or canceled, this market will resolve 50-50.",
+    "market_slug": "will-georgia-beat-notre-dame-by-2-or-more-points",
+    "end_date_iso": "2025-01-01T00:00:00Z",
+    "game_start_time": "2025-01-02T01:45:00Z",
+    "seconds_delay": 3,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": false,
+    "neg_risk_market_id": "",
+    "neg_risk_request_id": "",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cfp-georgia-vs-notre-dame-MureUQF06o1w.png",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cfp-georgia-vs-notre-dame-MureUQF06o1w.png",
+    "rewards": {
+      "rates": null,
+      "min_size": 0,
+      "max_spread": 0
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "34422718764764704161991279937474040667234944328625583507168216656371480335993",
+        "outcome": "Georgia",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "79321905678138578510368825128188303588099814489469386106379262658241017359503",
+        "outcome": "Irish",
+        "price": 1,
+        "winner": true
+      }
+    ],
+    "tags": [
+      "Sports",
+      "georgia",
+      "Games",
+      "Notre Dame",
+      "CFP",
+      "Bowl Games",
+      "Sugar Bowl"
+    ]
+  },
+  {
+    "enable_order_book": false,
+    "active": false,
+    "closed": false,
+    "archived": false,
+    "accepting_orders": true,
+    "accepting_order_timestamp": "2024-12-30T15:15:50Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.01,
+    "condition_id": "0x62f72744c112381278241723e0fc3238a4c0fadb37213625a7234a5860b8ac23",
+    "question_id": "0xbb93eb8d281f3e54c5419c53dbd79db51c549b16db909567982b59df85849f01",
+    "question": "Will Person C be the next Canadian Prime Minister?",
+    "description": "The next Canadian federal election will take place on or before October 20, 2025, to elect members of the House of Commons to the 45th Canadian Parliament.\n\nThis market will resolve to \"Yes\" if Person C is the next Prime Minister of Canada following the election. Otherwise, this market will resolve to \"No.\"\n\nThis market may be updated in the future to replace Person C with one of the potential candidates.\n\nAny interim/caretaker Prime Minister will not count toward the resolution of this market. If no next Prime Minister of Canada is instated by December 31, of 2025, 11:59 PM ET this market will resolve to \"No.\"\n\nThe primary resolution source for this market will be official information from the Government of Canada, however a consensus of credible reporting may also be used.",
+    "market_slug": "will-person-c-be-the-next-canadian-prime-minister",
+    "end_date_iso": null,
+    "game_start_time": null,
+    "seconds_delay": 0,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": true,
+    "neg_risk_market_id": "0xbb93eb8d281f3e54c5419c53dbd79db51c549b16db909567982b59df85849f00",
+    "neg_risk_request_id": "0xf8f9da3f3769d169e45a6413d3e5b04b6f5d0278890f6c086d7aae3c5a9a4a9a",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-chrystia-freeland-be-the-next-canadian-prime-minister-seYiluYKL5Za.jpg",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-chrystia-freeland-be-the-next-canadian-prime-minister-seYiluYKL5Za.jpg",
+    "rewards": {
+      "rates": null,
+      "min_size": 0,
+      "max_spread": 0
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "Politics",
+      "trudeau",
+      "Canada",
+      "Global Elections"
+    ]
+  },
+  {
+    "enable_order_book": true,
+    "active": true,
+    "closed": false,
+    "archived": false,
+    "accepting_orders": true,
+    "accepting_order_timestamp": "2025-01-02T19:52:12Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.01,
+    "condition_id": "0xe975f33a776ba1642efe33d70d38d2cbd7055ac2698165900b855b05002f13f8",
+    "question_id": "0xf246d7d985d4c1b26ef0dde79e0c66f54e61a66a8559e08b37d40c607e3fa801",
+    "question": "Will 2 QBs get taken in the first 3 picks of the 2025 NFL Draft?",
+    "description": "This market refers to the first 3 selections of the 2025 NFL Draft scheduled for April 24, 2025, in Green Bay, Wisconsin.\n\nIf there are exactly two quarterbacks selected in the first 3 picks of the first round of the draft, this market will resolve to \"Yes\". Otherwise, this market will resolve to \u201cNo\u201d.\n\nNote: If there are 3 QBs selected in the first 3 picks, this market will resolve to \"No\". \n\nThe resolution source will be the official live broadcast 2025 NFL Draft, however a consensus of credible reporting may also be used.",
+    "market_slug": "will-2-qbs-get-taken-in-the-first-3-picks-of-the-2025-nfl-draft",
+    "end_date_iso": "2025-04-24T00:00:00Z",
+    "game_start_time": null,
+    "seconds_delay": 0,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": true,
+    "neg_risk_market_id": "0xf246d7d985d4c1b26ef0dde79e0c66f54e61a66a8559e08b37d40c607e3fa800",
+    "neg_risk_request_id": "0x4be16d8923d5156a08b7a682030c2c2d56dd5277effee52bb29b27c55aed9daf",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/how-many-qbs-will-be-taken-in-first-3-picks-of-2025-nfl-draft-QR0H2mI2t35z.png",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/how-many-qbs-will-be-taken-in-first-3-picks-of-2025-nfl-draft-QR0H2mI2t35z.png",
+    "rewards": {
+      "rates": [
+        {
+          "asset_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "rewards_daily_rate": 20
+        }
+      ],
+      "min_size": 20,
+      "max_spread": 3.5
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "115769178829268720061454850341938019724777509801185264263349542255099554683401",
+        "outcome": "Yes",
+        "price": 0.47,
+        "winner": false
+      },
+      {
+        "token_id": "23344212149319697575925680931408839926915226402336623025182145344069419031626",
+        "outcome": "No",
+        "price": 0.53,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "Sports",
+      "football",
+      "NFL",
+      "NFL draft",
+      "draft",
+      "Fantasy Football",
+      "CFB"
+    ]
+  },
+  {
+    "enable_order_book": false,
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "accepting_orders": false,
+    "accepting_order_timestamp": "2024-12-30T23:04:50Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.01,
+    "condition_id": "0x5eb090f166b1bdae766c599e7b67dec2d13a63d9a0272cce25f86e2c42c0e148",
+    "question_id": "0x7b3dbb882cb88e9cd2e395f0360a5ff9586dbbf6fd6740e90fda80c55f5a1b5b",
+    "question": "Will Penn State and Boise State combine for 54 or more points?",
+    "description": "This market refers to the \u201cFiesta Bowl,\u201d the college football playoff game matchup between the Penn State Nittany Lions and the Boise State Broncos scheduled for December 31, 2024, at 7:30 PM ET.\n\nIf the combined total points scored by the Penn State Nittany Lions and the Boise State Broncos in their game is 54 or more, this market will resolve to \u201cOver\u201d. If it is less than 54, this market will resolve to \u201cUnder\u201d.\n\nIf this game is postponed after January 7, 2025 (11:59 PM ET), or canceled, this market will resolve 50-50.",
+    "market_slug": "will-penn-state-and-boise-state-combine-for-54-or-more-points",
+    "end_date_iso": "2024-12-31T00:00:00Z",
+    "game_start_time": "2025-01-01T00:30:00Z",
+    "seconds_delay": 3,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": false,
+    "neg_risk_market_id": "",
+    "neg_risk_request_id": "",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cfp-penn-state-vs-boise-state-o7PGIrQvZKU4.png",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cfp-penn-state-vs-boise-state-o7PGIrQvZKU4.png",
+    "rewards": {
+      "rates": null,
+      "min_size": 0,
+      "max_spread": 0
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "69576809663625960896478530480363848740187791650327564135812822210283996327314",
+        "outcome": "Over",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "64707658832540844880303614409932778136981178580308580980241420085933928884074",
+        "outcome": "Under",
+        "price": 1,
+        "winner": true
+      }
+    ],
+    "tags": [
+      "Sports",
+      "CFB",
+      "Games",
+      "Boise State",
+      "Penn State",
+      "Bowl Games"
+    ]
+  },
+  {
+    "enable_order_book": true,
+    "active": true,
+    "closed": false,
+    "archived": false,
+    "accepting_orders": true,
+    "accepting_order_timestamp": "2025-01-03T03:34:38Z",
+    "minimum_order_size": 5,
+    "minimum_tick_size": 0.001,
+    "condition_id": "0x1b7e15068c91251138f4d0b1b847c2852e1de1396ad3508b5b895e94c4cf555c",
+    "question_id": "0x4d4a4779f2c8124abd6b8006887b966651b5556239980f0f2f34ee20955b0108",
+    "question": "Will the Giants get the ninth pick or later?",
+    "description": "This market will resolve to \u201cYes\u201d if the New York Giants are awarded the ninth pick or any pick later in the 2025 NFL Draft, as determined by the 2024-25 NFL regular season standings.\n\nOtherwise, this market will resolve to \u201cNo.\u201d\n\nNote: this market refers to the pick the Giants are awarded regardless of if they trade this pick at any point. \n\nThe resolution source will be the official 2024-25 NFL draft order.",
+    "market_slug": "will-the-giants-get-the-ninth-pick-or-later",
+    "end_date_iso": "2025-01-05T00:00:00Z",
+    "game_start_time": null,
+    "seconds_delay": 0,
+    "fpmm": "",
+    "maker_base_fee": 0,
+    "taker_base_fee": 0,
+    "notifications_enabled": true,
+    "neg_risk": true,
+    "neg_risk_market_id": "0x4d4a4779f2c8124abd6b8006887b966651b5556239980f0f2f34ee20955b0100",
+    "neg_risk_request_id": "0xea511a6ed378d07f1a85480a8c8ba8abb01868be0e5909e2fe494b7472ee5989",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-pick-will-the-new-york-giants-earn-qfppNmGL__p3.png",
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-pick-will-the-new-york-giants-earn-qfppNmGL__p3.png",
+    "rewards": {
+      "rates": [
+        {
+          "asset_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+          "rewards_daily_rate": 20
+        }
+      ],
+      "min_size": 20,
+      "max_spread": 3.5
+    },
+    "is_50_50_outcome": false,
+    "tokens": [
+      {
+        "token_id": "21593672840640131584442820575549659393261439345079674420146013650288648503296",
+        "outcome": "Yes",
+        "price": 0.0025,
+        "winner": false
+      },
+      {
+        "token_id": "58218956452878890701054734318474907822277067300640641885998549273833751756295",
+        "outcome": "No",
+        "price": 0.9975,
+        "winner": false
+      }
+    ],
+    "tags": [
+      "Sports",
+      "giants",
+      "NFL draft",
+      "New York"
+    ]
+  }
+]
+Data has been written to markets_data.csv successfully.
+(venv) jliby@jlibys-MacBook-Air py-clob-client % 

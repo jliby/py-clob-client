@@ -1,0 +1,95 @@
+{
+  "timestamp": "2025-01-13T04:47:26.225141",
+  "filter_keyword": "Hawks",
+  "filtered_markets": [],
+  "simplified_markets": [
+    {
+      "market_id": "data",
+      "name": "N/A",
+      "condition_id": "N/A",
+      "status": "N/A",
+      "raw_data": "data"
+    },
+    {
+      "market_id": "next_cursor",
+      "name": "N/A",
+      "condition_id": "N/A",
+      "status": "N/A",
+      "raw_data": "next_cursor"
+    },
+    {
+      "market_id": "limit",
+      "name": "N/A",
+      "condition_id": "N/A",
+      "status": "N/A",
+      "raw_data": "limit"
+    },
+    {
+      "market_id": "count",
+      "name": "N/A",
+      "condition_id": "N/A",
+      "status": "N/A",
+      "raw_data": "count"
+    }
+  ],
+  "sampling_markets": [
+    {
+      "market_id": "data",
+      "name": "N/A",
+      "condition_id": "N/A",
+      "status": "N/A",
+      "raw_data": "data"
+    },
+    {
+      "market_id": "next_cursor",
+      "name": "N/A",
+      "condition_id": "N/A",
+      "status": "N/A",
+      "raw_data": "next_cursor"
+    },
+    {
+      "market_id": "limit",
+      "name": "N/A",
+      "condition_id": "N/A",
+      "status": "N/A",
+      "raw_data": "limit"
+    },
+    {
+      "market_id": "count",
+      "name": "N/A",
+      "condition_id": "N/A",
+      "status": "N/A",
+      "raw_data": "count"
+    }
+  ],
+  "sampling_simplified_markets": [
+    {
+      "market_id": "data",
+      "name": "N/A",
+      "condition_id": "N/A",
+      "status": "N/A",
+      "raw_data": "data"
+    },
+    {
+      "market_id": "next_cursor",
+      "name": "N/A",
+      "condition_id": "N/A",
+      "status": "N/A",
+      "raw_data": "next_cursor"
+    },
+    {
+      "market_id": "limit",
+      "name": "N/A",
+      "condition_id": "N/A",
+      "status": "N/A",
+      "raw_data": "limit"
+    },
+    {
+      "market_id": "count",
+      "name": "N/A",
+      "condition_id": "N/A",
+      "status": "N/A",
+      "raw_data": "count"
+    }
+  ]
+}

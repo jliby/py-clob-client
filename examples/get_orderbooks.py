@@ -3,13 +3,13 @@ from py_clob_client.clob_types import BookParams
 
 
 def main():
-    host = "http://localhost:8080"
+    host = "https://clob.polymarket.com"
     client = ClobClient(host)
 
     resp = client.get_order_books(
         params=[
             BookParams(
-                token_id="71321045679252212594626385532706912750332728571942532289631379312455583992563"
+                token_id="0xc4964e9c6574bb0c03c7b0ab4fc35f161729f5bc55bc3352dede68940c24807c"
             ),
             BookParams(
                 token_id="52114319501245915516055106046884209969926127482827954674443846427813813222426"

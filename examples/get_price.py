@@ -1,13 +1,18 @@
 from py_clob_client.client import ClobClient
 from py_clob_client.clob_types import BookParams
+import os
+from dotenv import load_dotenv
+
+
+load_dotenv("keys.env")
 
 
 def main():
-    host = "http://localhost:8080"
+    host = os.getenv("CLOB_API_URL")
     client = ClobClient(host)
 
     resp = client.get_price(
-        "71321045679252212594626385532706912750332728571942532289631379312455583992563",
+        "28397052708178212184258094822366549211381214753486289708451835102566429260760",
         "BUY",
     )
     print(resp)

@@ -7,24 +7,24 @@ from pprint import pprint
 
 from py_clob_client.constants import AMOY
 
-load_dotenv()
+load_dotenv("keys.env")
 
 
 def main():
-    host = "http://localhost:8080"
+    host = os.getenv("HOST")
     key = os.getenv("PK")
     creds = ApiCreds(
         api_key=os.getenv("CLOB_API_KEY"),
         api_secret=os.getenv("CLOB_SECRET"),
         api_passphrase=os.getenv("CLOB_PASS_PHRASE"),
     )
-    chain_id = AMOY
+    chain_id = os.getenv("CHAIN_ID")
     client = ClobClient(host, key=key, chain_id=chain_id, creds=creds)
 
     resp = client.get_trades(
         TradeParams(
             maker_address=client.get_address(),
-            market="0x5f65177b394277fd294cd75650044e32ba009a95022d88a0c1d565897d72f8f1",
+            market="0xc4964e9c6574bb0c03c7b0ab4fc35f161729f5bc55bc3352dede68940c24807c",
         )
     )
     pprint(resp)
